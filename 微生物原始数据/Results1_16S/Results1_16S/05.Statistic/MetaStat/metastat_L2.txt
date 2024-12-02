@@ -1,0 +1,49 @@
+OTU	Test.Statistic	P	FDR.P	Bonferroni.P	CK.mean	RW37.mean	JXBR16.mean	R37J16.mean
+k__Bacteria;p__JL-ETNP-Z39	10.7349	0.0132	0.1469	0.636	0	0	9e-04	0
+k__Bacteria;p__Gemmatimonadetes	10.3846	0.0156	0.1469	0.7471	0.026	0.0626	0.052	0.0451
+k__Bacteria;p__Verrucomicrobia	9.9744	0.0188	0.1469	0.9017	0.0051	0.0021	0.017	0.0027
+k__Bacteria;p__Planctomycetes	9.4615	0.0237	0.1469	1	0.0026	0.0018	0.0079	0.0017
+k__Bacteria;p__Fibrobacteres	9.2564	0.0261	0.1469	1	4e-04	1e-04	5e-04	1e-04
+k__Bacteria;p__Spirochaetae	9.0757	0.0283	0.1469	1	2e-04	0	1e-04	0
+k__Bacteria;p__Aerophobetes	9.0513	0.0286	0.1469	1	3e-04	1e-04	6e-04	1e-04
+k__Archaea;p__Euryarchaeota	8.8974	0.0307	0.1469	1	0.0028	3e-04	0.0014	0.0011
+k__Bacteria;p__TM6	8.8974	0.0307	0.1469	1	0.0013	7e-04	2e-04	5e-04
+k__Bacteria;p__SM2F11	8.6923	0.0337	0.1469	1	0.0024	0.001	2e-04	0.001
+k__Bacteria;p__WCHB1-60	8.6923	0.0337	0.1469	1	0.0055	0.004	0.0013	0.0043
+k__Bacteria;p__Candidate division WS6	7.9314	0.0475	0.171	1	1e-04	3e-04	0	0.0016
+k__Bacteria;p__WD272	7.9314	0.0475	0.171	1	0.0038	0.0055	0	0.0053
+k__Bacteria;p__Chloroflexi	7.7179	0.0522	0.171	1	0.1778	0.1299	0.0989	0.1701
+k__Bacteria;p__Acidobacteria	7.6667	0.0534	0.171	1	0.1652	0.1152	0.1912	0.1223
+k__Bacteria;p__Armatimonadetes	7.4615	0.0586	0.1757	1	0.0132	0.0084	0.013	0.0091
+k__Bacteria;p__Nitrospirae	7.2051	0.0656	0.1834	1	0.0064	0.0057	0.0242	0.0063
+k__Bacteria;p__Bacteroidetes	6.8974	0.0752	0.1834	1	0.0746	0.0715	0.0642	0.0477
+k__Bacteria;p__Chlorobi	6.8974	0.0752	0.1834	1	0.0018	0.0014	0.0042	0.0018
+k__Bacteria;p__Cyanobacteria	6.6923	0.0824	0.1834	1	0.0129	0.0107	0.0021	0.0156
+k__Bacteria;p__Latescibacteria	6.6923	0.0824	0.1834	1	6e-04	2e-04	0.004	2e-04
+k__Bacteria;p__SHA-109	6.5897	0.0862	0.1834	1	5e-04	4e-04	0.0024	6e-04
+k__Bacteria;p__Candidate division SR1	6.5455	0.0879	0.1834	1	0	0	1e-04	0
+k__Bacteria;p__Hydrogenedentes	6.2821	0.0987	0.1973	1	1e-04	1e-04	0.0011	1e-04
+k__Bacteria;p__Saccharibacteria	6.1795	0.1032	0.1981	1	0.0317	0.06	0.0402	0.0601
+k__Bacteria;p__Gracilibacteria	5.9744	0.1129	0.2084	1	2e-04	3e-04	0.0011	2e-04
+k__Archaea;p__Woesearchaeota (DHVEG-6)	5.695	0.1274	0.2261	1	0	0	1e-04	0
+k__Bacteria;p__Proteobacteria	5.6154	0.1319	0.2261	1	0.2732	0.3607	0.3039	0.3322
+k__Bacteria;p__Deinococcus-Thermus	5.4421	0.1421	0.2353	1	0	0	1e-04	0
+k__Bacteria;p__Elusimicrobia	5.2564	0.154	0.2463	1	0.0025	0.0012	0.0018	0.0013
+k__Bacteria;p__Parcubacteria	5	0.1718	0.266	1	5e-04	4e-04	6e-04	3e-04
+k__Bacteria;p__Candidate division OP3	4.3735	0.2239	0.3358	1	0	0	0	0
+k__Bacteria;p__Fusobacteria	3.4674	0.325	0.4585	1	0	0	0	0
+k__Bacteria;p__Microgenomates	3.359	0.3395	0.4585	1	4e-04	5e-04	7e-04	3e-04
+k__Bacteria;p__Chlamydiae	3.3077	0.3466	0.4585	1	2e-04	1e-04	1e-04	2e-04
+k__Archaea;p__Thaumarchaeota	3	0.3916	0.4585	1	0.0077	0.002	0.0032	0.0027
+k__Bacteria;p__Deferribacteres	3	0.3916	0.4585	1	0	0	0	0
+k__Bacteria;p__Lentisphaerae	3	0.3916	0.4585	1	0	0	0	0
+k__Bacteria;p__Synergistetes	3	0.3916	0.4585	1	0	0	0	0
+k__Bacteria;p__Tenericutes	3	0.3916	0.4585	1	0	0	0	0
+k__Bacteria;p__Thermotogae	3	0.3916	0.4585	1	0.0044	0.0035	0.0082	0.0053
+k__Archaea;p__Miscellaneous Crenarchaeotic Group	2.7772	0.4273	0.4883	1	0	0	0	0
+k__Bacteria;p__Omnitrophica	2.3053	0.5115	0.571	1	0	0	0	0
+k__Bacteria;p__GAL08	2.2121	0.5296	0.5777	1	0	0	0	0
+k__Bacteria;Other	1.9744	0.5777	0.6029	1	2e-04	2e-04	5e-04	2e-04
+k__Bacteria;p__Firmicutes	1.9744	0.5777	0.6029	1	0.0043	0.004	0.004	0.0053
+Unassigned;Other	1.7692	0.6217	0.6349	1	0.0277	0.019	0.0256	0.0231
+k__Bacteria;p__Actinobacteria	0.7436	0.8629	0.8629	1	0.1431	0.1259	0.1224	0.1313

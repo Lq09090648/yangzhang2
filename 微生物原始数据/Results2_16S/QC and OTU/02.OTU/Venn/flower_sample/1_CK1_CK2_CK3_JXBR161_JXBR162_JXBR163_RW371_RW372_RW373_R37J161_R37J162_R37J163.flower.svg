@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="650" width="800" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<g transform="rotate(0 330,300)">
+		<ellipse cx="330" cy="200" fill="blue" fill-opacity="0.5" rx="31.4" ry="100" />
+	</g>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="330" y="100">CK1</text>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="330" y="160">1,948</text>
+	<g transform="rotate(30 330,300)">
+		<ellipse cx="330" cy="200" fill="lightseagreen" fill-opacity="0.5" rx="31.4" ry="100" />
+	</g>
+	<text font-family="Arial" font-size="15" text-anchor="start" x="429.999999896372" y="126.794919183282">CK2</text>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="399.99999992746" y="178.756443428298">2,636</text>
+	<g transform="rotate(60 330,300)">
+		<ellipse cx="330" cy="200" fill="orange" fill-opacity="0.5" rx="31.4" ry="100" />
+	</g>
+	<text font-family="Arial" font-size="15" text-anchor="start" x="503.205080637228" y="199.999999792743">CK3</text>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="451.24355644606" y="229.99999985492">1,168</text>
+	<g transform="rotate(90 330,300)">
+		<ellipse cx="330" cy="200" fill="mediumpurple" fill-opacity="0.5" rx="31.4" ry="100" />
+	</g>
+	<text font-family="Arial" font-size="15" text-anchor="start" x="530" y="299.999999641021">JXBR161</text>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="470" y="299.999999748714">6,096</text>
+	<g transform="rotate(120 330,300)">
+		<ellipse cx="330" cy="200" fill="palegreen" fill-opacity="0.5" rx="31.4" ry="100" />
+	</g>
+	<text font-family="Arial" font-size="15" text-anchor="start" x="503.205080996207" y="414.999999585486">JXBR162</text>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="451.243556697345" y="369.99999970984">2,805</text>
+	<g transform="rotate(150 330,300)">
+		<ellipse cx="330" cy="200" fill="lightcoral" fill-opacity="0.5" rx="31.4" ry="100" />
+	</g>
+	<text font-family="Arial" font-size="15" text-anchor="start" x="430.000000518142" y="488.205080457738">JXBR163</text>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="400.000000362699" y="421.243556320417">4,991</text>
+	<g transform="rotate(180 330,300)">
+		<ellipse cx="330" cy="200" fill="dodgerblue" fill-opacity="0.5" rx="31.4" ry="100" />
+	</g>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="330.000000717959" y="515">RW371</text>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="330.000000502571" y="440">1,216</text>
+	<g transform="rotate(210 330,300)">
+		<ellipse cx="330" cy="200" fill="lawngreen" fill-opacity="0.5" rx="31.4" ry="100" />
+	</g>
+	<text font-family="Arial" font-size="15" text-anchor="end" x="230.000000725399" y="488.205081175697">RW372</text>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="260.000000507779" y="421.243556822988">1,361</text>
+	<g transform="rotate(240 330,300)">
+		<ellipse cx="330" cy="200" fill="olive" fill-opacity="0.5" rx="31.4" ry="100" />
+	</g>
+	<text font-family="Arial" font-size="15" text-anchor="end" x="156.794919721751" y="415.000000829027">RW373</text>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="208.756443805226" y="370.000000580319">3,089</text>
+	<g transform="rotate(270 330,300)">
+		<ellipse cx="330" cy="200" fill="yellow" fill-opacity="0.5" rx="31.4" ry="100" />
+	</g>
+	<text font-family="Arial" font-size="15" text-anchor="end" x="130" y="300.000001076938">R37J161</text>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="190" y="300.000000753857">1,891</text>
+	<g transform="rotate(300 330,300)">
+		<ellipse cx="330" cy="200" fill="fuchsia" fill-opacity="0.5" rx="31.4" ry="100" />
+	</g>
+	<text font-family="Arial" font-size="15" text-anchor="end" x="156.794918644813" y="200.000001036284">R37J162</text>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="208.756443051369" y="230.000000725399">1,902</text>
+	<g transform="rotate(330 330,300)">
+		<ellipse cx="330" cy="200" fill="salmon" fill-opacity="0.5" rx="31.4" ry="100" />
+	</g>
+	<text font-family="Arial" font-size="15" text-anchor="end" x="229.999998860087" y="126.794919901241">R37J163</text>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="259.999999202061" y="178.756443930869">1,389</text>
+	<circle cx="330" cy="300" fill="white" r="35" />
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="330" y="300">core</text>
+	<text font-family="Arial" font-size="15" text-anchor="middle" x="330" y="315">636</text>
+	<rect fill="salmon" fill-opacity="0.5" height="20" stroke="black" width="50" x="650" y="450" />
+	<text font-family="Arial" font-size="15" text-anchor="start" x="707.5" y="467.5">R37J163</text>
+	<rect fill="fuchsia" fill-opacity="0.5" height="20" stroke="black" width="50" x="650" y="430" />
+	<text font-family="Arial" font-size="15" text-anchor="start" x="707.5" y="447.5">R37J162</text>
+	<rect fill="yellow" fill-opacity="0.5" height="20" stroke="black" width="50" x="650" y="410" />
+	<text font-family="Arial" font-size="15" text-anchor="start" x="707.5" y="427.5">R37J161</text>
+	<rect fill="olive" fill-opacity="0.5" height="20" stroke="black" width="50" x="650" y="390" />
+	<text font-family="Arial" font-size="15" text-anchor="start" x="707.5" y="407.5">RW373</text>
+	<rect fill="lawngreen" fill-opacity="0.5" height="20" stroke="black" width="50" x="650" y="370" />
+	<text font-family="Arial" font-size="15" text-anchor="start" x="707.5" y="387.5">RW372</text>
+	<rect fill="dodgerblue" fill-opacity="0.5" height="20" stroke="black" width="50" x="650" y="350" />
+	<text font-family="Arial" font-size="15" text-anchor="start" x="707.5" y="367.5">RW371</text>
+	<rect fill="lightcoral" fill-opacity="0.5" height="20" stroke="black" width="50" x="650" y="330" />
+	<text font-family="Arial" font-size="15" text-anchor="start" x="707.5" y="347.5">JXBR163</text>
+	<rect fill="palegreen" fill-opacity="0.5" height="20" stroke="black" width="50" x="650" y="310" />
+	<text font-family="Arial" font-size="15" text-anchor="start" x="707.5" y="327.5">JXBR162</text>
+	<rect fill="mediumpurple" fill-opacity="0.5" height="20" stroke="black" width="50" x="650" y="290" />
+	<text font-family="Arial" font-size="15" text-anchor="start" x="707.5" y="307.5">JXBR161</text>
+	<rect fill="orange" fill-opacity="0.5" height="20" stroke="black" width="50" x="650" y="270" />
+	<text font-family="Arial" font-size="15" text-anchor="start" x="707.5" y="287.5">CK3</text>
+	<rect fill="lightseagreen" fill-opacity="0.5" height="20" stroke="black" width="50" x="650" y="250" />
+	<text font-family="Arial" font-size="15" text-anchor="start" x="707.5" y="267.5">CK2</text>
+	<rect fill="blue" fill-opacity="0.5" height="20" stroke="black" width="50" x="650" y="230" />
+	<text font-family="Arial" font-size="15" text-anchor="start" x="707.5" y="247.5">CK1</text>
+	<!-- 
+	Generated using the Perl SVG Module V2.64
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+ -->
+</svg>

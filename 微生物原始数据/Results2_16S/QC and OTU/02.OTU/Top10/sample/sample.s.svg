@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="450" width="748" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="end" x="92.5" y="355">0</text>
+	<line stroke="black" stroke-width="2" x1="100" x2="95" y1="350" y2="350" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="end" x="92.5" y="280">0.25</text>
+	<line stroke="black" stroke-width="2" x1="100" x2="95" y1="275" y2="275" />
+	<line stroke="black" stroke-dasharray="3 2" stroke-width="0.5" x1="100" x2="550" y1="275" y2="275" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="end" x="92.5" y="205">0.5</text>
+	<line stroke="black" stroke-width="2" x1="100" x2="95" y1="200" y2="200" />
+	<line stroke="black" stroke-dasharray="3 2" stroke-width="0.5" x1="100" x2="550" y1="200" y2="200" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="end" x="92.5" y="130">0.75</text>
+	<line stroke="black" stroke-width="2" x1="100" x2="95" y1="125" y2="125" />
+	<line stroke="black" stroke-dasharray="3 2" stroke-width="0.5" x1="100" x2="550" y1="125" y2="125" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="end" x="92.5" y="55">1</text>
+	<line stroke="black" stroke-width="2" x1="100" x2="95" y1="50" y2="50" />
+	<line stroke="black" stroke-width="1" x1="100" x2="100" y1="50" y2="350" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="325" y="415.920090359058">Sample Name</text>
+	<g transform="rotate(-90,47.5,200)">
+		<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="47.5" y="200">Relative Abundance</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="137.5" x2="137.5" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,118.75,359)">
+		<text x="118.75" y="363.5">CK1</text>
+	</g>
+	<rect fill="crimson" height="0.120926117091874" stroke="crimson" width="18.75" x="109.375" y="349.879073882908" />
+	<rect fill="blue" height="0.0471906798407316" stroke="blue" width="18.75" x="109.375" y="349.831883203067" />
+	<rect fill="lightseagreen" height="0.353930098805487" stroke="lightseagreen" width="18.75" x="109.375" y="349.477953104262" />
+	<rect fill="orange" height="0.0176965049402743" stroke="orange" width="18.75" x="109.375" y="349.460256599322" />
+	<rect fill="palegreen" height="0.218256894263383" stroke="palegreen" width="18.75" x="109.375" y="349.241999705058" />
+	<rect fill="lightcoral" height="0.174015631912697" stroke="lightcoral" width="18.75" x="109.375" y="349.067984073146" />
+	<rect fill="dodgerblue" height="0.0176965049402743" stroke="dodgerblue" width="18.75" x="109.375" y="349.050287568205" />
+	<rect fill="lawngreen" height="0.0442412623506858" stroke="lawngreen" width="18.75" x="109.375" y="349.006046305855" />
+	<rect fill="olive" height="0.283144079044389" stroke="olive" width="18.75" x="109.375" y="348.72290222681" />
+	<rect fill="yellow" height="298.72290222681" stroke="yellow" width="18.75" x="109.375" y="49.9999999999998" />
+	<line stroke="black" stroke-width="2" x1="175" x2="175" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,156.25,359)">
+		<text x="156.25" y="363.5">CK2</text>
+	</g>
+	<rect fill="crimson" height="0.138926774805407" stroke="crimson" width="18.75" x="146.875" y="349.861073225195" />
+	<rect fill="blue" height="0.0875428991924484" stroke="blue" width="18.75" x="146.875" y="349.773530326002" />
+	<rect fill="lightseagreen" height="0.618509613859689" stroke="lightseagreen" width="18.75" x="146.875" y="349.155020712142" />
+	<rect fill="orange" height="0.0304497040669386" stroke="orange" width="18.75" x="146.875" y="349.124571008076" />
+	<rect fill="palegreen" height="0.19221375692255" stroke="palegreen" width="18.75" x="146.875" y="348.932357251153" />
+	<rect fill="lightcoral" height="0.144636094317958" stroke="lightcoral" width="18.75" x="146.875" y="348.787721156835" />
+	<rect fill="dodgerblue" height="0.00570931951255098" stroke="dodgerblue" width="18.75" x="146.875" y="348.782011837322" />
+	<rect fill="lawngreen" height="0.011418639025102" stroke="lawngreen" width="18.75" x="146.875" y="348.770593198297" />
+	<rect fill="yellow" height="298.770593198297" stroke="yellow" width="18.75" x="146.875" y="49.9999999999999" />
+	<line stroke="black" stroke-width="2" x1="212.5" x2="212.5" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,193.75,359)">
+		<text x="193.75" y="363.5">CK3</text>
+	</g>
+	<rect fill="crimson" height="0.0164212600580218" stroke="crimson" width="18.75" x="184.375" y="349.983578739942" />
+	<rect fill="blue" height="0.337808778336447" stroke="blue" width="18.75" x="184.375" y="349.645769961606" />
+	<rect fill="lightseagreen" height="0.201746909284268" stroke="lightseagreen" width="18.75" x="184.375" y="349.444023052321" />
+	<rect fill="orange" height="0.021113048646028" stroke="orange" width="18.75" x="184.375" y="349.422910003675" />
+	<rect fill="palegreen" height="0.548939264796729" stroke="palegreen" width="18.75" x="184.375" y="348.873970738878" />
+	<rect fill="lightcoral" height="0.319041623984424" stroke="lightcoral" width="18.75" x="184.375" y="348.554929114894" />
+	<rect fill="dodgerblue" height="0.039880202998053" stroke="dodgerblue" width="18.75" x="184.375" y="348.515048911896" />
+	<rect fill="lawngreen" height="0.422260972920561" stroke="lawngreen" width="18.75" x="184.375" y="348.092787938975" />
+	<rect fill="yellow" height="298.092787938976" stroke="yellow" width="18.75" x="184.375" y="49.9999999999998" />
+	<line stroke="black" stroke-width="2" x1="250" x2="250" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,231.25,359)">
+		<text x="231.25" y="363.5">JXBR161</text>
+	</g>
+	<rect fill="crimson" height="3.00060050752572" stroke="crimson" width="18.75" x="221.875" y="346.999399492474" />
+	<rect fill="blue" height="0.383549968037502" stroke="blue" width="18.75" x="221.875" y="346.615849524437" />
+	<rect fill="orange" height="1.15064990411251" stroke="orange" width="18.75" x="221.875" y="345.465199620324" />
+	<rect fill="palegreen" height="0.0484280262673614" stroke="palegreen" width="18.75" x="221.875" y="345.416771594057" />
+	<rect fill="lightcoral" height="0.0910446893826396" stroke="lightcoral" width="18.75" x="221.875" y="345.325726904674" />
+	<rect fill="dodgerblue" height="0.0794219630784729" stroke="dodgerblue" width="18.75" x="221.875" y="345.246304941596" />
+	<rect fill="yellow" height="295.246304941596" stroke="yellow" width="18.75" x="221.875" y="50.0000000000001" />
+	<line stroke="black" stroke-width="2" x1="287.5" x2="287.5" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,268.75,359)">
+		<text x="268.75" y="363.5">JXBR162</text>
+	</g>
+	<rect fill="crimson" height="0.93146548298841" stroke="crimson" width="18.75" x="259.375" y="349.068534517012" />
+	<rect fill="blue" height="1.50873568176916" stroke="blue" width="18.75" x="259.375" y="347.559798835242" />
+	<rect fill="orange" height="0.340572388661211" stroke="orange" width="18.75" x="259.375" y="347.219226446581" />
+	<rect fill="palegreen" height="0.0510858582991815" stroke="palegreen" width="18.75" x="259.375" y="347.168140588282" />
+	<rect fill="lightcoral" height="0.132823231577872" stroke="lightcoral" width="18.75" x="259.375" y="347.035317356704" />
+	<rect fill="dodgerblue" height="0.114091750201505" stroke="dodgerblue" width="18.75" x="259.375" y="346.921225606503" />
+	<rect fill="yellow" height="296.921225606503" stroke="yellow" width="18.75" x="259.375" y="50.0000000000001" />
+	<line stroke="black" stroke-width="2" x1="325" x2="325" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,306.25,359)">
+		<text x="306.25" y="363.5">JXBR163</text>
+	</g>
+	<rect fill="crimson" height="0.10608816142721" stroke="crimson" width="18.75" x="296.875" y="349.893911838573" />
+	<rect fill="blue" height="1.93556767991686" stroke="blue" width="18.75" x="296.875" y="347.958344158656" />
+	<rect fill="orange" height="0.116913484021824" stroke="orange" width="18.75" x="296.875" y="347.841430674634" />
+	<rect fill="palegreen" height="0.0281458387459946" stroke="palegreen" width="18.75" x="296.875" y="347.813284835888" />
+	<rect fill="lightcoral" height="0.077942322681216" stroke="lightcoral" width="18.75" x="296.875" y="347.735342513207" />
+	<rect fill="dodgerblue" height="0.0346410323027625" stroke="dodgerblue" width="18.75" x="296.875" y="347.700701480904" />
+	<rect fill="lawngreen" height="0.00649519355676798" stroke="lawngreen" width="18.75" x="296.875" y="347.694206287347" />
+	<rect fill="yellow" height="297.694206287347" stroke="yellow" width="18.75" x="296.875" y="49.9999999999998" />
+	<line stroke="black" stroke-width="2" x1="362.5" x2="362.5" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,343.75,359)">
+		<text x="343.75" y="363.5">RW371</text>
+	</g>
+	<rect fill="crimson" height="0.0030811893390849" stroke="crimson" width="18.75" x="334.375" y="349.996918810661" />
+	<rect fill="blue" height="0.0554614081035279" stroke="blue" width="18.75" x="334.375" y="349.941457402557" />
+	<rect fill="lightseagreen" height="0.328146664612539" stroke="lightseagreen" width="18.75" x="334.375" y="349.613310737945" />
+	<rect fill="orange" height="0.00616237867816977" stroke="orange" width="18.75" x="334.375" y="349.607148359267" />
+	<rect fill="mediumpurple" height="0.0030811893390849" stroke="mediumpurple" width="18.75" x="334.375" y="349.604067169928" />
+	<rect fill="palegreen" height="0.197196117701433" stroke="palegreen" width="18.75" x="334.375" y="349.406871052226" />
+	<rect fill="lightcoral" height="0.52380218764443" stroke="lightcoral" width="18.75" x="334.375" y="348.883068864582" />
+	<rect fill="dodgerblue" height="0.030811893390849" stroke="dodgerblue" width="18.75" x="334.375" y="348.852256971191" />
+	<rect fill="lawngreen" height="0.00924356801725467" stroke="lawngreen" width="18.75" x="334.375" y="348.843013403174" />
+	<rect fill="yellow" height="298.843013403174" stroke="yellow" width="18.75" x="334.375" y="49.9999999999999" />
+	<line stroke="black" stroke-width="2" x1="400" x2="400" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,381.25,359)">
+		<text x="381.25" y="363.5">RW372</text>
+	</g>
+	<rect fill="crimson" height="0.0219617864915048" stroke="crimson" width="18.75" x="371.875" y="349.978038213509" />
+	<rect fill="blue" height="0.109808932457524" stroke="blue" width="18.75" x="371.875" y="349.868229281051" />
+	<rect fill="lightseagreen" height="0.475173198634377" stroke="lightseagreen" width="18.75" x="371.875" y="349.393056082417" />
+	<rect fill="orange" height="0.0119791562680935" stroke="orange" width="18.75" x="371.875" y="349.381076926149" />
+	<rect fill="mediumpurple" height="1.13402679337952" stroke="mediumpurple" width="18.75" x="371.875" y="348.247050132769" />
+	<rect fill="palegreen" height="0.183680396110767" stroke="palegreen" width="18.75" x="371.875" y="348.063369736658" />
+	<rect fill="lightcoral" height="0.515103719528022" stroke="lightcoral" width="18.75" x="371.875" y="347.54826601713" />
+	<rect fill="dodgerblue" height="0.107812406412842" stroke="dodgerblue" width="18.75" x="371.875" y="347.440453610717" />
+	<rect fill="lawngreen" height="0.0758679896979255" stroke="lawngreen" width="18.75" x="371.875" y="347.364585621019" />
+	<rect fill="yellow" height="297.364585621019" stroke="yellow" width="18.75" x="371.875" y="50.0000000000001" />
+	<line stroke="black" stroke-width="2" x1="437.5" x2="437.5" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,418.75,359)">
+		<text x="418.75" y="363.5">RW373</text>
+	</g>
+	<rect fill="crimson" height="0.0206353176588294" stroke="crimson" width="18.75" x="409.375" y="349.979364682341" />
+	<rect fill="blue" height="0.0825412706353176" stroke="blue" width="18.75" x="409.375" y="349.896823411706" />
+	<rect fill="lightseagreen" height="0.189469734867434" stroke="lightseagreen" width="18.75" x="409.375" y="349.707353676838" />
+	<rect fill="orange" height="0.0187593796898449" stroke="orange" width="18.75" x="409.375" y="349.688594297149" />
+	<rect fill="palegreen" height="0.0994247123561781" stroke="palegreen" width="18.75" x="409.375" y="349.589169584792" />
+	<rect fill="lightcoral" height="0.318909454727364" stroke="lightcoral" width="18.75" x="409.375" y="349.270260130065" />
+	<rect fill="dodgerblue" height="0.140695347673837" stroke="dodgerblue" width="18.75" x="409.375" y="349.129564782391" />
+	<rect fill="lawngreen" height="0.0356428214107053" stroke="lawngreen" width="18.75" x="409.375" y="349.09392196098" />
+	<rect fill="yellow" height="299.093921960981" stroke="yellow" width="18.75" x="409.375" y="49.9999999999999" />
+	<line stroke="black" stroke-width="2" x1="475" x2="475" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,456.25,359)">
+		<text x="456.25" y="363.5">R37J161</text>
+	</g>
+	<rect fill="crimson" height="0.104018643778776" stroke="crimson" width="18.75" x="446.875" y="349.895981356221" />
+	<rect fill="blue" height="0.226794747911101" stroke="blue" width="18.75" x="446.875" y="349.66918660831" />
+	<rect fill="lightseagreen" height="0.315466378673337" stroke="lightseagreen" width="18.75" x="446.875" y="349.353720229637" />
+	<rect fill="orange" height="0.0460410390496221" stroke="orange" width="18.75" x="446.875" y="349.307679190587" />
+	<rect fill="mediumpurple" height="0.00682089467401806" stroke="mediumpurple" width="18.75" x="446.875" y="349.300858295913" />
+	<rect fill="palegreen" height="0.219973853237083" stroke="palegreen" width="18.75" x="446.875" y="349.080884442676" />
+	<rect fill="lightcoral" height="0.46382083783323" stroke="lightcoral" width="18.75" x="446.875" y="348.617063604843" />
+	<rect fill="dodgerblue" height="0.0238731313590633" stroke="dodgerblue" width="18.75" x="446.875" y="348.593190473484" />
+	<rect fill="lawngreen" height="0.0937873017677484" stroke="lawngreen" width="18.75" x="446.875" y="348.499403171716" />
+	<rect fill="yellow" height="298.499403171716" stroke="yellow" width="18.75" x="446.875" y="49.9999999999999" />
+	<line stroke="black" stroke-width="2" x1="512.5" x2="512.5" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,493.75,359)">
+		<text x="493.75" y="363.5">R37J162</text>
+	</g>
+	<rect fill="crimson" height="0.0324153778552545" stroke="crimson" width="18.75" x="484.375" y="349.967584622145" />
+	<rect fill="blue" height="0.0886020328043625" stroke="blue" width="18.75" x="484.375" y="349.87898258934" />
+	<rect fill="lightseagreen" height="0.676400884579644" stroke="lightseagreen" width="18.75" x="484.375" y="349.202581704761" />
+	<rect fill="orange" height="0.0108051259517515" stroke="orange" width="18.75" x="484.375" y="349.191776578809" />
+	<rect fill="mediumpurple" height="0.00432205038070059" stroke="mediumpurple" width="18.75" x="484.375" y="349.187454528428" />
+	<rect fill="palegreen" height="0.0907630579947126" stroke="palegreen" width="18.75" x="484.375" y="349.096691470433" />
+	<rect fill="lightcoral" height="0.522968096064774" stroke="lightcoral" width="18.75" x="484.375" y="348.573723374369" />
+	<rect fill="dodgerblue" height="0.471103491496365" stroke="dodgerblue" width="18.75" x="484.375" y="348.102619882872" />
+	<rect fill="lawngreen" height="0.14046663737277" stroke="lawngreen" width="18.75" x="484.375" y="347.9621532455" />
+	<rect fill="yellow" height="297.9621532455" stroke="yellow" width="18.75" x="484.375" y="49.9999999999999" />
+	<line stroke="black" stroke-width="2" x1="550" x2="550" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,531.25,359)">
+		<text x="531.25" y="363.5">R37J163</text>
+	</g>
+	<rect fill="crimson" height="0.0207625228772243" stroke="crimson" width="18.75" x="521.875" y="349.979237477123" />
+	<rect fill="blue" height="0.216853016717676" stroke="blue" width="18.75" x="521.875" y="349.762384460405" />
+	<rect fill="lightseagreen" height="1.23652358468802" stroke="lightseagreen" width="18.75" x="521.875" y="348.525860875717" />
+	<rect fill="orange" height="0.0392180987680902" stroke="orange" width="18.75" x="521.875" y="348.486642776949" />
+	<rect fill="palegreen" height="0.156872395072361" stroke="palegreen" width="18.75" x="521.875" y="348.329770381877" />
+	<rect fill="lightcoral" height="0.445240768367142" stroke="lightcoral" width="18.75" x="521.875" y="347.884529613509" />
+	<rect fill="dodgerblue" height="0.170714076990511" stroke="dodgerblue" width="18.75" x="521.875" y="347.713815536519" />
+	<rect fill="lawngreen" height="0.209932175758601" stroke="lawngreen" width="18.75" x="521.875" y="347.50388336076" />
+	<rect fill="yellow" height="297.50388336076" stroke="yellow" width="18.75" x="521.875" y="49.9999999999999" />
+	<line stroke="black" stroke-width="2" x1="100" x2="550" y1="350" y2="350" />
+	<line stroke="black" stroke-width="2" x1="100" x2="100" y1="50" y2="352.7" />
+	<rect fill="yellow" height="7" stroke="yellow" width="7" x="562" y="97" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" x="572.5" y="104">Others</text>
+	<rect fill="olive" height="7" stroke="olive" width="7" x="562" y="109" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" x="572.5" y="116">Flavobacterium sp. EM1308</text>
+	<rect fill="lawngreen" height="7" stroke="lawngreen" width="7" x="562" y="121" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" x="572.5" y="128">Rhizobium mesosinicum</text>
+	<rect fill="dodgerblue" height="7" stroke="dodgerblue" width="7" x="562" y="133" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" x="572.5" y="140">Ensifer adhaerens</text>
+	<rect fill="lightcoral" height="7" stroke="lightcoral" width="7" x="562" y="145" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" x="572.5" y="152">Mesorhizobium amorphae</text>
+	<rect fill="palegreen" height="7" stroke="palegreen" width="7" x="562" y="157" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" x="572.5" y="164">Streptomyces flavidovirens</text>
+	<rect fill="mediumpurple" height="7" stroke="mediumpurple" width="7" x="562" y="169" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" x="572.5" y="176">Candidatus Brownia rhizoecola</text>
+	<rect fill="orange" height="7" stroke="orange" width="7" x="562" y="181" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" x="572.5" y="188">Pseudomonas monteilii</text>
+	<rect fill="lightseagreen" height="7" stroke="lightseagreen" width="7" x="562" y="193" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" x="572.5" y="200">Cupriavidus basilensis</text>
+	<rect fill="blue" height="7" stroke="blue" width="7" x="562" y="205" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" x="572.5" y="212">Lentzea flaviverrucosa</text>
+	<rect fill="crimson" height="7" stroke="crimson" width="7" x="562" y="217" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" x="572.5" y="224">Pseudomonas putida</text>
+	<!-- 
+	Generated using the Perl SVG Module V2.64
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+ -->
+</svg>

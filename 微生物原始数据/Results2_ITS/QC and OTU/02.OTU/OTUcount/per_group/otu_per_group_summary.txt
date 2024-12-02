@@ -1,0 +1,17 @@
+Num samples: 4
+Num observations: 17285
+
+Observations/sample summary:
+ Min: 6104
+ Max: 8622
+ Median: 7209.000
+ Mean: 7286.000
+ Std. dev.: 894.113
+ Sample Metadata Categories: collapsed_ids
+ Observation Metadata Categories: taxonomy
+
+Observations/sample detail:
+RW37: 6104
+JXBR16: 7165
+CK: 7253
+R37J16: 8622

@@ -1,0 +1,25 @@
+Num samples: 12
+Num observations: 97757
+
+Observations/sample summary:
+ Min: 17305
+ Max: 27035
+ Median: 20297.000
+ Mean: 21021.750
+ Std. dev.: 2895.168
+ Sample Metadata Categories: None provided
+ Observation Metadata Categories: taxonomy
+
+Observations/sample detail:
+R37J163: 17305
+JXBR162: 17346
+CK3: 18464
+RW371: 19270
+RW372: 19602
+CK1: 19638
+JXBR163: 20956
+R37J162: 21622
+JXBR161: 23037
+CK2: 23134
+R37J161: 24852
+RW373: 27035

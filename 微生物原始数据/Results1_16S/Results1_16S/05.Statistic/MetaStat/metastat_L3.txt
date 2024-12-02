@@ -1,0 +1,131 @@
+OTU	Test.Statistic	P	FDR.P	Bonferroni.P	CK.mean	RW37.mean	JXBR16.mean	R37J16.mean
+k__Bacteria;p__Actinobacteria;c__Rubrobacteria	10.7349	0.0132	0.1448	1	0	0	8e-04	0
+k__Bacteria;p__Chloroflexi;c__SAR202 clade	10.7349	0.0132	0.1448	1	0	0	2e-04	0
+k__Bacteria;p__JL-ETNP-Z39;c__	10.7349	0.0132	0.1448	1	0	0	9e-04	0
+k__Bacteria;p__Planctomycetes;c__Pla3 lineage	10.7349	0.0132	0.1448	1	0	0	2e-04	0
+k__Bacteria;p__Gemmatimonadetes;c__Gemmatimonadetes	10.3846	0.0156	0.1448	1	0.026	0.0626	0.052	0.0451
+k__Bacteria;p__Verrucomicrobia;c__OPB35 soil group	10.3846	0.0156	0.1448	1	0.0028	0.001	0.0089	0.0015
+k__Bacteria;p__Bacteroidetes;c__Cytophagia	9.6667	0.0216	0.1448	1	0.0145	0.004	0.0186	0.0075
+k__Bacteria;p__Chloroflexi;c__Gitt-GS-136	9.5128	0.0232	0.1448	1	6e-04	3e-04	0.0071	4e-04
+k__Bacteria;p__Chloroflexi;c__S085	9.4615	0.0237	0.1448	1	0.0031	0.0016	0.0137	0.0017
+k__Bacteria;p__Verrucomicrobia;c__Opitutae	9.4615	0.0237	0.1448	1	5e-04	3e-04	0.0014	2e-04
+k__Archaea;p__Thaumarchaeota;c__Soil Crenarchaeotic Group(SCG)	9.359	0.0249	0.1448	1	3e-04	0.0012	0.0032	0.0012
+k__Bacteria;p__Actinobacteria;c__Nitriliruptoria	9.3119	0.0254	0.1448	1	0	0	1e-04	0
+k__Bacteria;p__Fibrobacteres;c__Fibrobacteria	9.2564	0.0261	0.1448	1	4e-04	1e-04	5e-04	1e-04
+k__Bacteria;p__Spirochaetae;c__Spirochaetes	9.0757	0.0283	0.1448	1	2e-04	0	1e-04	0
+k__Bacteria;p__Planctomycetes;c__OM190	9.0604	0.0285	0.1448	1	0	0	3e-04	0
+k__Bacteria;p__Aerophobetes;c__	9.0513	0.0286	0.1448	1	3e-04	1e-04	6e-04	1e-04
+k__Bacteria;p__Armatimonadetes;c__Armatimonadia	8.9487	0.03	0.1448	1	0.0018	0.0013	7e-04	9e-04
+k__Archaea;p__Euryarchaeota;c__Thermoplasmata	8.8974	0.0307	0.1448	1	0.0028	3e-04	0.0014	0.0011
+k__Bacteria;p__Armatimonadetes;c__	8.8974	0.0307	0.1448	1	0.0026	0.0016	0.0039	0.0023
+k__Bacteria;p__TM6;c__	8.8974	0.0307	0.1448	1	0.0013	7e-04	2e-04	5e-04
+k__Bacteria;p__Actinobacteria;c__MB-A2-108	8.7436	0.0329	0.1448	1	0.0111	0.002	0.0153	0.003
+k__Bacteria;p__Chloroflexi;c__JG30-KF-CM66	8.7436	0.0329	0.1448	1	0.0017	9e-04	0.0032	9e-04
+k__Bacteria;p__Chloroflexi;c__TK10	8.7436	0.0329	0.1448	1	0.0161	0.0109	0.0074	0.0116
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria	8.7436	0.0329	0.1448	1	0.1052	0.1611	0.085	0.1412
+k__Bacteria;p__Verrucomicrobia;c__Spartobacteria	8.7436	0.0329	0.1448	1	0.0016	8e-04	0.0026	9e-04
+k__Bacteria;p__SM2F11;c__	8.6923	0.0337	0.1448	1	0.0024	0.001	2e-04	0.001
+k__Bacteria;p__WCHB1-60;c__	8.6923	0.0337	0.1448	1	0.0055	0.004	0.0013	0.0043
+k__Bacteria;p__Bacteroidetes;Other	8.6042	0.035	0.1448	1	0	0	1e-04	0
+k__Archaea;p__Thaumarchaeota;c__South African Gold Mine Gp 1(SAGMCG-1)	8.5556	0.0358	0.1448	1	0.0073	8e-04	0	0.0015
+k__Bacteria;p__Planctomycetes;c__Phycisphaerae	8.4359	0.0378	0.1448	1	0.002	0.0016	0.0071	0.0014
+k__Bacteria;p__Verrucomicrobia;c__Verrucomicrobia Incertae Sedis	8.4085	0.0383	0.1448	1	1e-04	0	0	0
+k__Bacteria;p__Cyanobacteria;c__ML635J-21	8.3333	0.0396	0.1448	1	0.0012	0.0021	8e-04	0.0037
+k__Bacteria;p__Firmicutes;c__OPB54	8.2596	0.0409	0.1448	1	1e-04	0	0	0
+k__Bacteria;p__Acidobacteria;c__Subgroup 26	8.2435	0.0412	0.1448	1	0	0	2e-04	0
+k__Bacteria;p__Chloroflexi;c__SHA-26	8.2308	0.0415	0.1448	1	3e-04	3e-04	0	2e-04
+k__Bacteria;p__Saccharibacteria;Other	8.2308	0.0415	0.1448	1	4e-04	0.001	0	7e-04
+k__Bacteria;p__Bacteroidetes;c__Sphingobacteriia	8.1282	0.0434	0.1448	1	0.0475	0.0657	0.043	0.0398
+k__Bacteria;p__Chloroflexi;c__KD4-96	8.1282	0.0434	0.1448	1	0.0067	0.0063	0.0224	0.01
+k__Bacteria;p__Cyanobacteria;c__Cyanobacteria	8.1282	0.0434	0.1448	1	0.0074	0.0036	4e-04	0.0037
+k__Bacteria;p__Candidate division WS6;c__	7.9314	0.0475	0.145	1	1e-04	3e-04	0	0.0016
+k__Bacteria;p__WD272;c__	7.9314	0.0475	0.145	1	0.0038	0.0055	0	0.0053
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria	7.9231	0.0476	0.145	1	0.0936	0.1304	0.0972	0.1229
+k__Bacteria;p__Firmicutes;c__Erysipelotrichia	7.8718	0.0487	0.145	1	3e-04	1e-04	9e-04	0
+k__Bacteria;p__Acidobacteria;Other	7.8205	0.0499	0.145	1	0	0	1e-04	0
+k__Bacteria;p__Verrucomicrobia;c__S-BQ2-57 soil group	7.7478	0.0515	0.145	1	0	0	0	0
+k__Bacteria;p__Planctomycetes;c__Pla4 lineage	7.7469	0.0515	0.145	1	0	0	1e-04	0
+k__Bacteria;p__Acidobacteria;c__Acidobacteria	7.6667	0.0534	0.145	1	0.1427	0.096	0.1701	0.1009
+k__Bacteria;p__Chloroflexi;c__Anaerolineae	7.6154	0.0547	0.145	1	0.0312	0.0103	0.0186	0.0178
+k__Bacteria;p__Planctomycetes;c__BD7-11	7.6154	0.0547	0.145	1	1e-04	0	1e-04	0
+k__Bacteria;p__Verrucomicrobia;c__Verrucomicrobiae	7.5128	0.0572	0.1471	1	1e-04	0	0.004	1e-04
+k__Archaea;p__Thaumarchaeota;Other	7.4241	0.0595	0.1471	1	0	0	0	0
+k__Bacteria;p__Chloroflexi;c__Elev-1554	7.4113	0.0599	0.1471	1	1e-04	0	0	0
+k__Bacteria;p__Chloroflexi;c__P2-11E	7.3077	0.0627	0.1471	1	1e-04	1e-04	0.0014	1e-04
+k__Archaea;p__Thaumarchaeota;c__terrestrial group	7.3073	0.0627	0.1471	1	1e-04	0	0	0
+k__Bacteria;p__Proteobacteria;c__SPOTSOCT00m83	7.3073	0.0627	0.1471	1	0	0	0	0
+k__Bacteria;p__Chloroflexi;c__JG37-AG-4	7.2051	0.0656	0.1471	1	0.0667	0.0506	0	0.0727
+k__Bacteria;p__Chloroflexi;c__Ktedonobacteria	7.2051	0.0656	0.1471	1	0.0367	0.0374	0.0018	0.042
+k__Bacteria;p__Nitrospirae;c__Nitrospira	7.2051	0.0656	0.1471	1	0.0064	0.0057	0.0242	0.0063
+k__Bacteria;p__Chloroflexi;Other	7.0852	0.0692	0.1496	1	0	0	1e-04	0
+k__Bacteria;p__Actinobacteria;c__TakashiAC-B11	7.0513	0.0703	0.1496	1	0	1e-04	0.0085	1e-04
+k__Bacteria;p__Planctomycetes;c__Planctomycetacia	7.0513	0.0703	0.1496	1	5e-04	2e-04	2e-04	3e-04
+k__Bacteria;p__Bacteroidetes;c__Bacteroidetes VC2.1 Bac22	6.986	0.0723	0.1496	1	0	0	4e-04	1e-04
+k__Bacteria;p__Cyanobacteria;c__Chloroplast	6.8974	0.0752	0.1496	1	0.0026	0.0031	6e-04	0.0065
+k__Bacteria;p__Chloroflexi;c__Thermomicrobia	6.8462	0.077	0.1496	1	0.0026	0.0033	0.0086	0.0032
+k__Bacteria;p__Chlorobi;c__Chlorobia	6.6923	0.0824	0.1496	1	0.0018	0.0014	0.0042	0.0018
+k__Bacteria;p__Cyanobacteria;c__Melainabacteria	6.6923	0.0824	0.1496	1	0.0017	0.002	2e-04	0.0017
+k__Bacteria;p__Latescibacteria;c__	6.6923	0.0824	0.1496	1	6e-04	2e-04	0.004	2e-04
+k__Bacteria;p__Actinobacteria;c__Thermoleophilia	6.5897	0.0862	0.1496	1	0.0315	0.0292	0.017	0.0306
+k__Bacteria;p__SHA-109;c__	6.5897	0.0862	0.1496	1	5e-04	4e-04	0.0024	6e-04
+k__Bacteria;p__Candidate division SR1;c__	6.5455	0.0879	0.1496	1	0	0	1e-04	0
+k__Bacteria;p__Planctomycetes;c__C47	6.5455	0.0879	0.1496	1	0	0	0	0
+k__Bacteria;p__Planctomycetes;c__SPG12-401-411-B72	6.5455	0.0879	0.1496	1	0	0	0	0
+k__Bacteria;p__Proteobacteria;c__SC3-20	6.5455	0.0879	0.1496	1	0	0	0	0
+k__Bacteria;p__Saccharibacteria;c__candidate division TM7 bacterium LY2	6.5455	0.0879	0.1496	1	0	0	0	0
+k__Bacteria;p__Verrucomicrobia;Other	6.5455	0.0879	0.1496	1	0	0	0	0
+k__Bacteria;p__Actinobacteria;Other	6.5272	0.0886	0.1496	1	0	0	0	0
+k__Bacteria;p__Chloroflexi;c__Ardenticatenia	6.5272	0.0886	0.1496	1	0	0	0.001	0
+k__Bacteria;p__Chlorobi;c__Ignavibacteria	6.413	0.0932	0.1552	1	0	0	0	0
+k__Bacteria;p__Chloroflexi;c__Caldilineae	6.3846	0.0943	0.1552	1	0.0012	9e-04	0.0043	0.001
+k__Bacteria;p__Actinobacteria;c__Acidimicrobiia	6.2821	0.0987	0.1584	1	0.0354	0.0177	0.0255	0.0221
+k__Bacteria;p__Hydrogenedentes;c__	6.2821	0.0987	0.1584	1	1e-04	1e-04	0.0011	1e-04
+k__Bacteria;p__Acidobacteria;c__Subgroup 22	6.1795	0.1032	0.1636	1	2e-04	0	6e-04	0
+k__Bacteria;p__Chloroflexi;c__	6.0769	0.1079	0.169	1	7e-04	4e-04	0.0012	4e-04
+k__Bacteria;p__Gracilibacteria;c__	5.9744	0.1129	0.1747	1	2e-04	3e-04	0.0011	2e-04
+k__Archaea;p__Woesearchaeota (DHVEG-6);c__	5.695	0.1274	0.1949	1	0	0	1e-04	0
+k__Bacteria;p__Deinococcus-Thermus;c__Deinococci	5.4421	0.1421	0.2149	1	0	0	1e-04	0
+k__Bacteria;p__Armatimonadetes;c__Chthonomonadetes	5.359	0.1473	0.2176	1	0.0089	0.0056	0.0084	0.0059
+k__Bacteria;p__Saccharibacteria;c__	5.359	0.1473	0.2176	1	0.0311	0.059	0.0401	0.0594
+k__Bacteria;p__Elusimicrobia;c__Elusimicrobia	5.2564	0.154	0.2249	1	0.0025	0.0012	0.0018	0.0013
+k__Bacteria;p__Parcubacteria;c__	5	0.1718	0.2463	1	5e-04	4e-04	6e-04	3e-04
+k__Bacteria;p__Proteobacteria;c__SK259	4.992	0.1724	0.2463	1	0	0	0	0
+k__Bacteria;p__Verrucomicrobia;c__UA11	4.8783	0.1809	0.2557	1	0	0	0	0
+k__Bacteria;p__Bacteroidetes;c__Flavobacteriia	4.8462	0.1834	0.2564	1	0.0121	0.0017	0.0019	1e-04
+k__Bacteria;p__Firmicutes;c__Negativicutes	4.641	0.2001	0.2767	1	1e-04	0	1e-04	3e-04
+k__Bacteria;p__Proteobacteria;c__TA18	4.5897	0.2044	0.2797	1	3e-04	1e-04	3e-04	1e-04
+k__Bacteria;p__Firmicutes;c__Bacilli	4.4359	0.2181	0.2953	1	0.003	0.0035	0.0025	0.0043
+k__Bacteria;p__Candidate division OP3;c__	4.3735	0.2239	0.3	1	0	0	0	0
+k__Bacteria;p__Saccharibacteria;c__Unknown Class	4.0652	0.2545	0.3376	1	2e-04	0	1e-04	0
+k__Bacteria;p__Fusobacteria;c__Fusobacteriia	3.4674	0.325	0.4268	1	0	0	0	0
+k__Bacteria;p__Microgenomates;c__	3.359	0.3395	0.4315	1	4e-04	5e-04	7e-04	3e-04
+k__Bacteria;p__Proteobacteria;Other	3.359	0.3395	0.4315	1	2e-04	3e-04	5e-04	3e-04
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia	3.3077	0.3466	0.4315	1	5e-04	1e-04	3e-04	1e-04
+k__Bacteria;p__Chlamydiae;c__Chlamydiae	3.3077	0.3466	0.4315	1	2e-04	1e-04	1e-04	2e-04
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia	3.2138	0.3598	0.4315	1	0	0	0	0
+k__Bacteria;p__Planctomycetes;c__vadinHA49	3.2051	0.3611	0.4315	1	0	1e-04	0	0
+k__Archaea;p__Euryarchaeota;c__Methanomicrobia	3	0.3916	0.4315	1	0	0	0	0
+k__Bacteria;p__Bacteroidetes;c__BSV13	3	0.3916	0.4315	1	0	0	0	0
+k__Bacteria;p__Bacteroidetes;c__SB-5	3	0.3916	0.4315	1	0	0	0	0
+k__Bacteria;p__Bacteroidetes;c__WCHB1-32	3	0.3916	0.4315	1	0	0	0	0
+k__Bacteria;p__Chloroflexi;c__Dehalococcoidia	3	0.3916	0.4315	1	0	0	0	0
+k__Bacteria;p__Cyanobacteria;Other	3	0.3916	0.4315	1	0	0	0	0
+k__Bacteria;p__Deferribacteres;c__Deferribacteres	3	0.3916	0.4315	1	0	0	0	0
+k__Bacteria;p__Lentisphaerae;c__Oligosphaeria	3	0.3916	0.4315	1	0	0	0	0
+k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria	3	0.3916	0.4315	1	0.0316	0.0288	0.0343	0.0256
+k__Bacteria;p__Proteobacteria;c__Epsilonproteobacteria	3	0.3916	0.4315	1	0	0	0	0
+k__Bacteria;p__Synergistetes;c__Synergistia	3	0.3916	0.4315	1	0	0	0	0
+k__Bacteria;p__Tenericutes;c__Mollicutes	3	0.3916	0.4315	1	0	0	0	0
+k__Bacteria;p__Thermotogae;c__Thermotogae	3	0.3916	0.4315	1	0.0044	0.0035	0.0082	0.0053
+k__Archaea;p__Miscellaneous Crenarchaeotic Group;c__	2.7772	0.4273	0.4668	1	0	0	0	0
+k__Bacteria;p__Omnitrophica;c__NPL-UPA2	2.3053	0.5115	0.5498	1	0	0	0	0
+k__Bacteria;p__Chloroflexi;c__Chloroflexia	2.2821	0.516	0.5498	1	0.0102	0.0065	0.0078	0.0082
+k__Bacteria;p__Proteobacteria;c__ARKICE-90	2.2821	0.516	0.5498	1	0	0	0	0
+k__Bacteria;p__GAL08;c__	2.2121	0.5296	0.5597	1	0	0	0	0
+k__Bacteria;p__Proteobacteria;c__JTB23	1.9785	0.5769	0.5961	1	0	0	0	0
+k__Bacteria;Other;Other	1.9744	0.5777	0.5961	1	2e-04	2e-04	5e-04	2e-04
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria	1.9744	0.5777	0.5961	1	0.0422	0.0399	0.0866	0.042
+Unassigned;Other;Other	1.7692	0.6217	0.6314	1	0.0277	0.019	0.0256	0.0231
+k__Bacteria;p__Actinobacteria;c__Actinobacteria	1.7692	0.6217	0.6314	1	0.065	0.0769	0.0552	0.0756
+k__Bacteria;p__Firmicutes;c__Clostridia	1.2564	0.7395	0.7452	1	8e-04	4e-04	5e-04	6e-04
+k__Bacteria;p__Acidobacteria;c__Holophagae	0.4872	0.9217	0.9217	1	0.0223	0.0191	0.0201	0.0213

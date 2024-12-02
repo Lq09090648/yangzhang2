@@ -1,0 +1,1 @@
+SampleID	Raw PE	Raw Tags	Clean Tags	Effective Tags	Effective Rate(%)	Effective Bases(nt)	Avg Length(nt)	Q20 content(%)	Q30 content(%)	GC content(%)

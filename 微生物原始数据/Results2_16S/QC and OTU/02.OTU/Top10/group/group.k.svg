@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="450" width="650" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="end" x="92.5" y="355">0</text>
+	<line stroke="black" stroke-width="2" x1="100" x2="95" y1="350" y2="350" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="end" x="92.5" y="280">0.25</text>
+	<line stroke="black" stroke-width="2" x1="100" x2="95" y1="275" y2="275" />
+	<line stroke="black" stroke-dasharray="3 2" stroke-width="0.5" x1="100" x2="550" y1="275" y2="275" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="end" x="92.5" y="205">0.5</text>
+	<line stroke="black" stroke-width="2" x1="100" x2="95" y1="200" y2="200" />
+	<line stroke="black" stroke-dasharray="3 2" stroke-width="0.5" x1="100" x2="550" y1="200" y2="200" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="end" x="92.5" y="130">0.75</text>
+	<line stroke="black" stroke-width="2" x1="100" x2="95" y1="125" y2="125" />
+	<line stroke="black" stroke-dasharray="3 2" stroke-width="0.5" x1="100" x2="550" y1="125" y2="125" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="end" x="92.5" y="55">1</text>
+	<line stroke="black" stroke-width="2" x1="100" x2="95" y1="50" y2="50" />
+	<line stroke="black" stroke-width="1" x1="100" x2="100" y1="50" y2="350" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="325" y="410.574363164907">Group Name</text>
+	<g transform="rotate(-90,47.5,200)">
+		<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="47.5" y="200">Relative Abundance</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="212.5" x2="212.5" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,156.25,359)">
+		<text x="156.25" y="363.5">CK</text>
+	</g>
+	<rect fill="crimson" height="288.548814027535" stroke="crimson" width="56.25" x="128.125" y="61.4511859724654" />
+	<rect fill="blue" height="3.24764032176843" stroke="blue" width="56.25" x="128.125" y="58.203545650697" />
+	<rect fill="lightseagreen" height="8.20354565069688" stroke="lightseagreen" width="56.25" x="128.125" y="50.0000000000001" />
+	<line stroke="black" stroke-width="2" x1="325" x2="325" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,268.75,359)">
+		<text x="268.75" y="363.5">JXBR16</text>
+	</g>
+	<rect fill="crimson" height="291.050601886131" stroke="crimson" width="56.25" x="240.625" y="58.9493981138693" />
+	<rect fill="blue" height="1.41756830711638" stroke="blue" width="56.25" x="240.625" y="57.531829806753" />
+	<rect fill="lightseagreen" height="7.53182980675302" stroke="lightseagreen" width="56.25" x="240.625" y="49.9999999999999" />
+	<line stroke="black" stroke-width="2" x1="437.5" x2="437.5" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,381.25,359)">
+		<text x="381.25" y="363.5">RW37</text>
+	</g>
+	<rect fill="crimson" height="293.701266163825" stroke="crimson" width="56.25" x="353.125" y="56.2987338361748" />
+	<rect fill="blue" height="0.699331169255571" stroke="blue" width="56.25" x="353.125" y="55.5994026669192" />
+	<rect fill="lightseagreen" height="5.59940266691913" stroke="lightseagreen" width="56.25" x="353.125" y="50.0000000000001" />
+	<line stroke="black" stroke-width="2" x1="550" x2="550" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,493.75,359)">
+		<text x="493.75" y="363.5">R37J16</text>
+	</g>
+	<rect fill="crimson" height="291.872660438919" stroke="crimson" width="56.25" x="465.625" y="58.1273395610807" />
+	<rect fill="blue" height="1.15131689879607" stroke="blue" width="56.25" x="465.625" y="56.9760226622846" />
+	<rect fill="lightseagreen" height="6.97602266228475" stroke="lightseagreen" width="56.25" x="465.625" y="49.9999999999999" />
+	<line stroke="black" stroke-width="2" x1="100" x2="550" y1="350" y2="350" />
+	<line stroke="black" stroke-width="2" x1="100" x2="100" y1="50" y2="352.7" />
+	<rect fill="lightseagreen" height="10.2083333333333" stroke="lightseagreen" width="10.2083333333333" x="567.5" y="119.166666666667" />
+	<text fill="black" font-family="Arial" font-size="14.5833333333333" stroke="none" x="582.8125" y="129.375">Others</text>
+	<rect fill="blue" height="10.2083333333333" stroke="blue" width="10.2083333333333" x="567.5" y="136.666666666667" />
+	<text fill="black" font-family="Arial" font-size="14.5833333333333" stroke="none" x="582.8125" y="146.875">Archaea</text>
+	<rect fill="crimson" height="10.2083333333333" stroke="crimson" width="10.2083333333333" x="567.5" y="154.166666666667" />
+	<text fill="black" font-family="Arial" font-size="14.5833333333333" stroke="none" x="582.8125" y="164.375">Bacteria</text>
+	<!-- 
+	Generated using the Perl SVG Module V2.64
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+ -->
+</svg>

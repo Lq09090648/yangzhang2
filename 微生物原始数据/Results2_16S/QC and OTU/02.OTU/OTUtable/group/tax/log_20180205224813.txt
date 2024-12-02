@@ -1,0 +1,57 @@
+Logging started at 22:48:14 on 05 Feb 2018
+QIIME version: 1.9.1
+
+qiime_config values:
+pick_otus_reference_seqs_fp	/lustre/00.tools/Environment/Python279/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+sc_queue	all.q
+pynast_template_alignment_fp	/lustre/00.tools/Environment/Python279/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set_aligned/85_otus.pynast.fasta
+cluster_jobs_fp	start_parallel_jobs.py
+assign_taxonomy_reference_seqs_fp	/lustre/00.tools/Environment/Python279/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+torque_queue	friendlyq
+jobs_to_start	1
+denoiser_min_per_core	50
+assign_taxonomy_id_to_taxonomy_fp	/lustre/00.tools/Environment/Python279/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+temp_dir	/tmp/
+blastall_fp	blastall
+seconds_to_sleep	1
+
+parameter file values:
+
+Input file md5 sums:
+/Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/output/02.OTU/OTU_Pick/otu_table_mc2_w_tax_no_pynast_failures.biom: 0705b919dd06604bd342e655b9a01a81
+/Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/map.txt: 151f3abfccc9fc0e297371e7c80b6506
+
+Executing commands.
+
+# Collapse samples in OTU table by categories command 
+collapse_samples.py -m /Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/map.txt -b /Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/output/02.OTU/OTU_Pick/otu_table_mc2_w_tax_no_pynast_failures.biom --output_biom_fp /Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/output/02.OTU/OTUtable/group/tax/SampleType_otu_table.biom --output_mapping_fp /Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/output/02.OTU/OTUtable/group/tax/SampleType_map.txt --collapse_fields 'SampleType' 
+
+Stdout:
+
+Stderr:
+
+# Sort OTU Table command 
+sort_otu_table.py -i /Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/output/02.OTU/OTUtable/group/tax/SampleType_otu_table.biom -o /Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/output/02.OTU/OTUtable/group/tax/SampleType_otu_table_sorted.biom
+
+Stdout:
+
+Stderr:
+
+# Summarize Taxonomy command 
+summarize_taxa.py -i /Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/output/02.OTU/OTUtable/group/tax/SampleType_otu_table_sorted.biom -o /Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/output/02.OTU/OTUtable/group/tax 
+
+Stdout:
+
+Stderr:
+
+# Plot Taxonomy Summary command 
+plot_taxa_summary.py -i /Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/output/02.OTU/OTUtable/group/tax/SampleType_otu_table_sorted_L2.txt,/Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/output/02.OTU/OTUtable/group/tax/SampleType_otu_table_sorted_L3.txt,/Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/output/02.OTU/OTUtable/group/tax/SampleType_otu_table_sorted_L4.txt,/Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/output/02.OTU/OTUtable/group/tax/SampleType_otu_table_sorted_L5.txt,/Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/output/02.OTU/OTUtable/group/tax/SampleType_otu_table_sorted_L6.txt -o /Mega/bioinfo/sci/Project/Mic/16sRNA/C10117100230/Project/project1/output/02.OTU/OTUtable/group/tax/taxa_summary_plots/ 
+
+Stdout:
+
+Stderr:
+/lustre/00.tools/Environment/Python279/lib/python2.7/site-packages/matplotlib-1.4.3-py2.7-linux-x86_64.egg/matplotlib/collections.py:590: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if self._edgecolors == str('face'):
+
+
+Logging stopped at 22:53:55 on 05 Feb 2018

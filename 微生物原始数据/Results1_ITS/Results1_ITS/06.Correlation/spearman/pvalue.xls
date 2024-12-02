@@ -1,0 +1,11 @@
+	Aspergillus	Penicillium	Fusarium	Stachybotrys	Mortierella	Sphaerobolus	Cordyceps	Cryptococcus	Clonostachys	Trichocladium	Lecythophora	Pseudogymnoascus	Gongronella	Arnium	Oliveonia	Talaromyces	Ciliophora	Acremonium	Trichoderma	Cladophialophora	Ascochyta	Staphylotrichum	Chalara	Massariosphaeria	Paludomyces	Exophiala	Pyrenochaetopsis	Guehomyces	Arrhenia	Aphanoascus	Chaetomium	Boothiomyces	Serendipita	Subplenodomus	Purpureocillium
+pH	0.070249575663528	1	1	1	1	1	1	0.558710069180198	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+TP	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+TN	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0.0818683726478215	1	1	1	1	0.403152806445195	1	1	1	1	1	1	1
+AP	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SOM	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+ACP	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+ALP	1	1	1	1	1	0.262340209231432	1	1	1	1	1	1	1	1	1	1	1	1	0.766981716446924	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+UE	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+NH4N	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+NO3N	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1

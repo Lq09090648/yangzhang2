@@ -1,0 +1,100 @@
+﻿@charset "utf-8";
+
+/*联系框*/
+
+.wrap-box {
+    height: 2500px;
+}
+
+
+/* fixed-bar */
+
+.fixed-bar .icon {
+    background: url("JS_02.png") no-repeat;
+}
+
+.fixed-bar .icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 23px;
+    height: 12px;
+    overflow: hidden;
+    margin: -18px 0 0 -12px;
+    background-position: right -220px;
+    text-indent: -999em;
+}
+
+.fixed-bar {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    z-index: 50;
+    _position: absolute;
+    _bottom: auto;
+    /*_top: expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop, 10)||0)-(parseInt(this.currentStyle.marginBottom, 10)||0))-30);*/
+}
+
+.fixed-bar .gotop {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 68px;
+    height: 36px;
+    overflow: hidden;
+    margin: -1px 0 0;
+    padding: 0 0;
+    border: 1px solid #e6e6e6;
+    border-top: 1px dashed #eaeaea;
+    background-color: #fff;
+    color: #666;
+    font: normal 14px/36px "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1";
+    text-align: center;
+}
+
+.fixed-bar .share {
+    height: 68px;
+    overflow: hidden;
+    margin: -1px 0 0;
+    border: 1px solid #e6e6e6;
+}
+
+.fixed-bar .gotop:hover {
+    z-index: 10;
+    border-color: #205794;
+    background-color: #205794;
+    color: #fff;
+    text-decoration: none;
+}
+
+.fixed-bar .gotop:hover .icon {
+    background-position: right -251px;
+}
+
+.fixed-bar .wide-bar {
+    width: 134px;
+    background: #fff;
+}
+
+.fixed-bar .wide-bar .gotop {
+    width: 132px;
+}
+.head{
+    text-align:center;
+    color:#205794;
+    padding:10px;
+    height:900px;
+    letter-spacing:0.1em;
+    background:url("../img/beij.png")no-repeat;
+}
+.head-txt{
+    /*width:450px;*/
+    text-align: left;
+    margin:0 auto;
+    font-size: 22px;
+    padding:30px 0;
+    letter-spacing:0.1em;
+	display:inline-block;
+}
+

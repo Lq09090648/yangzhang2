@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="450" width="650" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="end" x="92.5" y="355">0</text>
+	<line stroke="black" stroke-width="2" x1="100" x2="95" y1="350" y2="350" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="end" x="92.5" y="255">2000</text>
+	<line stroke="black" stroke-width="2" x1="100" x2="95" y1="250" y2="250" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="end" x="92.5" y="155">4000</text>
+	<line stroke="black" stroke-width="2" x1="100" x2="95" y1="150" y2="150" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="end" x="92.5" y="55">6000</text>
+	<line stroke="black" stroke-width="2" x1="100" x2="95" y1="50" y2="50" />
+	<line stroke="black" stroke-width="1" x1="100" x2="100" y1="50" y2="350" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="325" y="415.920090359058">Sample Name</text>
+	<g transform="rotate(-90,47.5,200)">
+		<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="47.5" y="200">OTU Number</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="137.5" x2="137.5" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,118.75,359)">
+		<text x="118.75" y="363.5">CK1</text>
+	</g>
+	<rect fill="crimson" height="184.95" stroke="crimson" width="18.75" x="109.375" y="165.05" />
+	<g fill="black" font-family="Arial" font-size="8.1" stroke="none" text-anchor="middle">
+		<text x="118.75" y="163.7">3699</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="175" x2="175" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,156.25,359)">
+		<text x="156.25" y="363.5">CK2</text>
+	</g>
+	<rect fill="crimson" height="138.75" stroke="crimson" width="18.75" x="146.875" y="211.25" />
+	<g fill="black" font-family="Arial" font-size="8.1" stroke="none" text-anchor="middle">
+		<text x="156.25" y="209.9">2775</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="212.5" x2="212.5" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,193.75,359)">
+		<text x="193.75" y="363.5">CK3</text>
+	</g>
+	<rect fill="crimson" height="168.85" stroke="crimson" width="18.75" x="184.375" y="181.15" />
+	<g fill="black" font-family="Arial" font-size="8.1" stroke="none" text-anchor="middle">
+		<text x="193.75" y="179.8">3377</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="250" x2="250" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,231.25,359)">
+		<text x="231.25" y="363.5">JXBR161</text>
+	</g>
+	<rect fill="crimson" height="158.05" stroke="crimson" width="18.75" x="221.875" y="191.95" />
+	<g fill="black" font-family="Arial" font-size="8.1" stroke="none" text-anchor="middle">
+		<text x="231.25" y="190.6">3161</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="287.5" x2="287.5" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,268.75,359)">
+		<text x="268.75" y="363.5">JXBR162</text>
+	</g>
+	<rect fill="crimson" height="188" stroke="crimson" width="18.75" x="259.375" y="162" />
+	<g fill="black" font-family="Arial" font-size="8.1" stroke="none" text-anchor="middle">
+		<text x="268.75" y="160.65">3760</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="325" x2="325" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,306.25,359)">
+		<text x="306.25" y="363.5">JXBR163</text>
+	</g>
+	<rect fill="crimson" height="142.8" stroke="crimson" width="18.75" x="296.875" y="207.2" />
+	<g fill="black" font-family="Arial" font-size="8.1" stroke="none" text-anchor="middle">
+		<text x="306.25" y="205.85">2856</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="362.5" x2="362.5" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,343.75,359)">
+		<text x="343.75" y="363.5">RW371</text>
+	</g>
+	<rect fill="crimson" height="154.35" stroke="crimson" width="18.75" x="334.375" y="195.65" />
+	<g fill="black" font-family="Arial" font-size="8.1" stroke="none" text-anchor="middle">
+		<text x="343.75" y="194.3">3087</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="400" x2="400" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,381.25,359)">
+		<text x="381.25" y="363.5">RW372</text>
+	</g>
+	<rect fill="crimson" height="180.35" stroke="crimson" width="18.75" x="371.875" y="169.65" />
+	<g fill="black" font-family="Arial" font-size="8.1" stroke="none" text-anchor="middle">
+		<text x="381.25" y="168.3">3607</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="437.5" x2="437.5" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,418.75,359)">
+		<text x="418.75" y="363.5">RW373</text>
+	</g>
+	<rect fill="crimson" height="31.7" stroke="crimson" width="18.75" x="409.375" y="318.3" />
+	<g fill="black" font-family="Arial" font-size="8.1" stroke="none" text-anchor="middle">
+		<text x="418.75" y="316.95">634</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="475" x2="475" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,456.25,359)">
+		<text x="456.25" y="363.5">R37J161</text>
+	</g>
+	<rect fill="crimson" height="257.75" stroke="crimson" width="18.75" x="446.875" y="92.25" />
+	<g fill="black" font-family="Arial" font-size="8.1" stroke="none" text-anchor="middle">
+		<text x="456.25" y="90.9">5155</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="512.5" x2="512.5" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,493.75,359)">
+		<text x="493.75" y="363.5">R37J162</text>
+	</g>
+	<rect fill="crimson" height="171.15" stroke="crimson" width="18.75" x="484.375" y="178.85" />
+	<g fill="black" font-family="Arial" font-size="8.1" stroke="none" text-anchor="middle">
+		<text x="493.75" y="177.5">3423</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="550" x2="550" y1="350" y2="352.7" />
+	<g fill="black" font-family="Arial" font-size="13.5" stroke="none" text-anchor="end" transform="rotate(-45,531.25,359)">
+		<text x="531.25" y="363.5">R37J163</text>
+	</g>
+	<rect fill="crimson" height="156.1" stroke="crimson" width="18.75" x="521.875" y="193.9" />
+	<g fill="black" font-family="Arial" font-size="8.1" stroke="none" text-anchor="middle">
+		<text x="531.25" y="192.55">3122</text>
+	</g>
+	<line stroke="black" stroke-width="2" x1="100" x2="550" y1="350" y2="350" />
+	<line stroke="black" stroke-width="2" x1="100" x2="100" y1="50" y2="352.7" />
+	<!-- 
+	Generated using the Perl SVG Module V2.64
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+ -->
+</svg>

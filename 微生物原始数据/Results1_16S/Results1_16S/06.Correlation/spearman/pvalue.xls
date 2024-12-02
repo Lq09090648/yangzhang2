@@ -1,0 +1,11 @@
+	Sphingomonas	Pseudomonas	Massilia	Gemmatimonas	Arthrobacter	Flavisolibacter	Flavobacterium	Burkholderia	Bryobacter	Candidatus.Solibacter	Blastocatella	Nitrospira	GAL15	Bradyrhizobium	Rhodanobacter	Lysobacter	Rhizomicrobium	Streptomyces	Polycyclovorans	Roseiflexus	Haliangium	Aquicella	Cupriavidus	Devosia	Acidibacter	Mucilaginibacter	Lentzea	Mesorhizobium	Microcoleus	Alkanindiges	Reyranella	Terrimonas	Mycobacterium	Arenimonas	Gaiella
+pH	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0.180833394066873	1	1	1	1	1	1	1	1	1
+TP	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+TN	1	1	1	1	1	1	0.840731653428191	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+AP	0.4935506872582	1	1	1	1	1	0.147941149347904	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+SOM	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0.333608292755726	1	1	1	1	1	1	1	1	1	1	1	1	1
+ACP	0.222417792065201	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+ALP	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+UE	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0.115752250355249	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+NH4N	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0.00137454137835169	1	1	1	1	0.553865762221988	1	1	1
+NO3N	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1

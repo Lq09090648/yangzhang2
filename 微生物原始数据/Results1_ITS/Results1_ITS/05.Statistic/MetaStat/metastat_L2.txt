@@ -1,0 +1,18 @@
+OTU	Test.Statistic	P	FDR.P	Bonferroni.P	CK.mean	RW37.mean	JXBR16.mean	R37J16.mean
+k__Fungi;p__Chytridiomycota	9.4615	0.0237	0.2988	0.4036	0.0043	0.0149	0.001	0.0053
+k__Plantae;p__	8.4359	0.0378	0.2988	0.6428	0.0239	0.0131	4e-04	3e-04
+k__;p__	6.8462	0.077	0.2988	1	7e-04	0.0017	2e-04	0.0011
+k__Fungi;p__Rozellomycota	6.5897	0.0862	0.2988	1	8e-04	6e-04	6e-04	0.0063
+k__Fungi;p__Neocallimastigomycota	6.5455	0.0879	0.2988	1	0	0	0	0
+k__Fungi;p__Glomeromycota	5.6667	0.129	0.3203	1	0.005	0.0018	8e-04	9e-04
+k__Fungi;p__	5.6154	0.1319	0.3203	1	0.0403	0.0312	0.0181	0.0495
+k__Protista;p__	4.992	0.1724	0.3465	1	0	2e-04	0	0
+k__Plantae;p__Chlorophyta	4.8462	0.1834	0.3465	1	0.0027	0.0033	5e-04	0.002
+k__Protozoa;p__	2.8377	0.4173	0.6507	1	0	0	0	0
+No blast hit;Other	2.7949	0.4243	0.6507	1	0.0028	0.0018	0.0014	0.0022
+k__Protista;p__Cercozoa	2.5897	0.4593	0.6507	1	3e-04	5e-04	3e-04	3e-04
+k__Protista;p__Ciliophora	1.359	0.7152	0.9297	1	0.0122	0.0356	0.0152	0.0188
+k__Fungi;p__Basidiomycota	0.8974	0.826	0.9297	1	0.1246	0.1039	0.116	0.095
+k__Fungi;p__Ascomycota	0.7436	0.8629	0.9297	1	0.754	0.7244	0.7962	0.7624
+k__Fungi;p__Zygomycota	0.6923	0.875	0.9297	1	0.0283	0.067	0.0493	0.056
+k__Animalia;p__Arthropoda	0.1815	0.9805	0.9805	1	0	0	0	0

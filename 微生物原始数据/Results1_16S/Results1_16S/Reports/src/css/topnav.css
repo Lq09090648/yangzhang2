@@ -1,0 +1,33 @@
+@charset "utf-8";
+.nav {
+    color: #4169E1;
+    font: 18px "微软雅黑";
+    /*align: middle;*/
+    text-align: left;
+    padding-left: 15px;
+    border-top: 1px solid #ede;
+}
+
+.table_top {
+    /*background: #F0FFFF;*/
+    /*border-bottom: 1px solid #eee;*/
+    /*background-image: -moz-linear-gradient(top, #DDDFDD, #F7F7F7);
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DDDFDD), color-stop(1, #F7F7F7));
+            filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#DDDFDD', endColorstr='#F7F7F7', GradientType='0')*/
+}
+
+.top_font_left {
+    text-decoration: none;
+    font: 16px '微软雅黑';
+    letter-spacing:0.1em;
+    color:#205794;
+}
+
+.top_font_right {
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+    font: 16px '微软雅黑' ;
+    color:#205794;
+    letter-spacing:0.3em;
+}

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="502.123106012294" width="803.033008588991" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<polygon fill="rgb(249,95,98)" points="390.909902576697, 52.1231060122937, 360.909902576697, 82.1231060122937, 390.909902576697, 112.123106012294, 420.909902576697, 82.1231060122937" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="390.909902576697" y="85.4564393456271">0.058</text>
+	<polygon fill="rgb(250,88,90)" points="360.909902576697, 82.1231060122937, 330.909902576697, 112.123106012294, 360.909902576697, 142.123106012294, 390.909902576697, 112.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="360.909902576697" y="115.456439345627">0.053</text>
+	<polygon fill="rgb(249,94,97)" points="330.909902576697, 112.123106012294, 300.909902576697, 142.123106012294, 330.909902576697, 172.123106012294, 360.909902576697, 142.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="330.909902576697" y="145.456439345627">0.057</text>
+	<polygon fill="rgb(249,101,104)" points="300.909902576697, 142.123106012294, 270.909902576697, 172.123106012294, 300.909902576697, 202.123106012294, 330.909902576697, 172.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="300.909902576697" y="175.456439345627">0.061</text>
+	<polygon fill="rgb(249,99,102)" points="270.909902576697, 172.123106012294, 240.909902576697, 202.123106012294, 270.909902576697, 232.123106012294, 300.909902576697, 202.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="270.909902576697" y="205.456439345627">0.060</text>
+	<polygon fill="rgb(248,109,112)" points="240.909902576697, 202.123106012294, 210.909902576697, 232.123106012294, 240.909902576697, 262.123106012294, 270.909902576697, 232.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="240.909902576697" y="235.456439345627">0.066</text>
+	<polygon fill="rgb(243,195,201)" points="210.909902576697, 232.123106012294, 180.909902576697, 262.123106012294, 210.909902576697, 292.123106012294, 240.909902576697, 262.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="210.909902576697" y="265.456439345627">0.118</text>
+	<polygon fill="rgb(246,156,160)" points="180.909902576697, 262.123106012294, 150.909902576697, 292.123106012294, 180.909902576697, 322.123106012294, 210.909902576697, 292.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="180.909902576697" y="295.456439345627">0.094</text>
+	<polygon fill="rgb(244,187,192)" points="150.909902576697, 292.123106012294, 120.909902576697, 322.123106012294, 150.909902576697, 352.123106012294, 180.909902576697, 322.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="150.909902576697" y="325.456439345627">0.113</text>
+	<polygon fill="rgb(250,81,83)" points="120.909902576697, 322.123106012294, 90.9099025766973, 352.123106012294, 120.909902576697, 382.123106012294, 150.909902576697, 352.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="120.909902576697" y="355.456439345627">0.049</text>
+	<polygon fill="rgb(251,74,76)" points="90.9099025766973, 352.123106012294, 60.9099025766973, 382.123106012294, 90.9099025766973, 412.123106012294, 120.909902576697, 382.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="90.9099025766973" y="385.456439345627">0.045</text>
+	<polygon fill="rgb(255,0,0)" points="60.9099025766973, 382.123106012294, 30.9099025766973, 412.123106012294, 60.9099025766973, 442.123106012294, 90.9099025766973, 412.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="60.9099025766973" y="415.456439345627">0.0</text>
+	<polygon fill="rgb(248,114,117)" points="420.909902576697, 82.1231060122937, 390.909902576697, 112.123106012294, 420.909902576697, 142.123106012294, 450.909902576697, 112.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="420.909902576697" y="115.456439345627">0.069</text>
+	<polygon fill="rgb(248,111,114)" points="390.909902576697, 112.123106012294, 360.909902576697, 142.123106012294, 390.909902576697, 172.123106012294, 420.909902576697, 142.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="390.909902576697" y="145.456439345627">0.067</text>
+	<polygon fill="rgb(248,113,116)" points="360.909902576697, 142.123106012294, 330.909902576697, 172.123106012294, 360.909902576697, 202.123106012294, 390.909902576697, 172.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="360.909902576697" y="175.456439345627">0.068</text>
+	<polygon fill="rgb(248,123,126)" points="330.909902576697, 172.123106012294, 300.909902576697, 202.123106012294, 330.909902576697, 232.123106012294, 360.909902576697, 202.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="330.909902576697" y="205.456439345627">0.074</text>
+	<polygon fill="rgb(248,121,124)" points="300.909902576697, 202.123106012294, 270.909902576697, 232.123106012294, 300.909902576697, 262.123106012294, 330.909902576697, 232.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="300.909902576697" y="235.456439345627">0.073</text>
+	<polygon fill="rgb(247,134,138)" points="270.909902576697, 232.123106012294, 240.909902576697, 262.123106012294, 270.909902576697, 292.123106012294, 300.909902576697, 262.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="270.909902576697" y="265.456439345627">0.081</text>
+	<polygon fill="rgb(244,181,186)" points="240.909902576697, 262.123106012294, 210.909902576697, 292.123106012294, 240.909902576697, 322.123106012294, 270.909902576697, 292.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="240.909902576697" y="295.456439345627">0.109</text>
+	<polygon fill="rgb(247,139,143)" points="210.909902576697, 292.123106012294, 180.909902576697, 322.123106012294, 210.909902576697, 352.123106012294, 240.909902576697, 322.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="210.909902576697" y="325.456439345627">0.084</text>
+	<polygon fill="rgb(245,172,177)" points="180.909902576697, 322.123106012294, 150.909902576697, 352.123106012294, 180.909902576697, 382.123106012294, 210.909902576697, 352.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="180.909902576697" y="355.456439345627">0.104</text>
+	<polygon fill="rgb(249,92,95)" points="150.909902576697, 352.123106012294, 120.909902576697, 382.123106012294, 150.909902576697, 412.123106012294, 180.909902576697, 382.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="150.909902576697" y="385.456439345627">0.056</text>
+	<polygon fill="rgb(255,0,0)" points="120.909902576697, 382.123106012294, 90.9099025766973, 412.123106012294, 120.909902576697, 442.123106012294, 150.909902576697, 412.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="120.909902576697" y="415.456439345627">0.0</text>
+	<polygon fill="rgb(251,61,63)" points="450.909902576697, 112.123106012294, 420.909902576697, 142.123106012294, 450.909902576697, 172.123106012294, 480.909902576697, 142.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="450.909902576697" y="145.456439345627">0.037</text>
+	<polygon fill="rgb(251,64,66)" points="420.909902576697, 142.123106012294, 390.909902576697, 172.123106012294, 420.909902576697, 202.123106012294, 450.909902576697, 172.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="420.909902576697" y="175.456439345627">0.039</text>
+	<polygon fill="rgb(251,61,63)" points="390.909902576697, 172.123106012294, 360.909902576697, 202.123106012294, 390.909902576697, 232.123106012294, 420.909902576697, 202.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="390.909902576697" y="205.456439345627">0.037</text>
+	<polygon fill="rgb(250,78,80)" points="360.909902576697, 202.123106012294, 330.909902576697, 232.123106012294, 360.909902576697, 262.123106012294, 390.909902576697, 232.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="360.909902576697" y="235.456439345627">0.047</text>
+	<polygon fill="rgb(251,71,73)" points="330.909902576697, 232.123106012294, 300.909902576697, 262.123106012294, 330.909902576697, 292.123106012294, 360.909902576697, 262.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="330.909902576697" y="265.456439345627">0.043</text>
+	<polygon fill="rgb(250,83,85)" points="300.909902576697, 262.123106012294, 270.909902576697, 292.123106012294, 300.909902576697, 322.123106012294, 330.909902576697, 292.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="300.909902576697" y="295.456439345627">0.050</text>
+	<polygon fill="rgb(245,169,174)" points="270.909902576697, 292.123106012294, 240.909902576697, 322.123106012294, 270.909902576697, 352.123106012294, 300.909902576697, 322.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="270.909902576697" y="325.456439345627">0.102</text>
+	<polygon fill="rgb(247,125,129)" points="240.909902576697, 322.123106012294, 210.909902576697, 352.123106012294, 240.909902576697, 382.123106012294, 270.909902576697, 352.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="240.909902576697" y="355.456439345627">0.076</text>
+	<polygon fill="rgb(245,162,167)" points="210.909902576697, 352.123106012294, 180.909902576697, 382.123106012294, 210.909902576697, 412.123106012294, 240.909902576697, 382.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="210.909902576697" y="385.456439345627">0.098</text>
+	<polygon fill="rgb(255,0,0)" points="180.909902576697, 382.123106012294, 150.909902576697, 412.123106012294, 180.909902576697, 442.123106012294, 210.909902576697, 412.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="180.909902576697" y="415.456439345627">0.0</text>
+	<polygon fill="rgb(245,170,175)" points="480.909902576697, 142.123106012294, 450.909902576697, 172.123106012294, 480.909902576697, 202.123106012294, 510.909902576697, 172.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="480.909902576697" y="175.456439345627">0.103</text>
+	<polygon fill="rgb(245,163,168)" points="450.909902576697, 172.123106012294, 420.909902576697, 202.123106012294, 450.909902576697, 232.123106012294, 480.909902576697, 202.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="450.909902576697" y="205.456439345627">0.099</text>
+	<polygon fill="rgb(245,159,163)" points="420.909902576697, 202.123106012294, 390.909902576697, 232.123106012294, 420.909902576697, 262.123106012294, 450.909902576697, 232.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="420.909902576697" y="235.456439345627">0.096</text>
+	<polygon fill="rgb(245,162,167)" points="390.909902576697, 232.123106012294, 360.909902576697, 262.123106012294, 390.909902576697, 292.123106012294, 420.909902576697, 262.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="390.909902576697" y="265.456439345627">0.098</text>
+	<polygon fill="rgb(244,175,180)" points="360.909902576697, 262.123106012294, 330.909902576697, 292.123106012294, 360.909902576697, 322.123106012294, 390.909902576697, 292.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="360.909902576697" y="295.456439345627">0.106</text>
+	<polygon fill="rgb(244,179,184)" points="330.909902576697, 292.123106012294, 300.909902576697, 322.123106012294, 330.909902576697, 352.123106012294, 360.909902576697, 322.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="330.909902576697" y="325.456439345627">0.108</text>
+	<polygon fill="rgb(250,83,85)" points="300.909902576697, 322.123106012294, 270.909902576697, 352.123106012294, 300.909902576697, 382.123106012294, 330.909902576697, 352.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="300.909902576697" y="355.456439345627">0.050</text>
+	<polygon fill="rgb(251,74,76)" points="270.909902576697, 352.123106012294, 240.909902576697, 382.123106012294, 270.909902576697, 412.123106012294, 300.909902576697, 382.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="270.909902576697" y="385.456439345627">0.045</text>
+	<polygon fill="rgb(255,0,0)" points="240.909902576697, 382.123106012294, 210.909902576697, 412.123106012294, 240.909902576697, 442.123106012294, 270.909902576697, 412.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="240.909902576697" y="415.456439345627">0.0</text>
+	<polygon fill="rgb(247,137,141)" points="510.909902576697, 172.123106012294, 480.909902576697, 202.123106012294, 510.909902576697, 232.123106012294, 540.909902576697, 202.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="510.909902576697" y="205.456439345627">0.083</text>
+	<polygon fill="rgb(247,139,143)" points="480.909902576697, 202.123106012294, 450.909902576697, 232.123106012294, 480.909902576697, 262.123106012294, 510.909902576697, 232.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="480.909902576697" y="235.456439345627">0.084</text>
+	<polygon fill="rgb(246,142,146)" points="450.909902576697, 232.123106012294, 420.909902576697, 262.123106012294, 450.909902576697, 292.123106012294, 480.909902576697, 262.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="450.909902576697" y="265.456439345627">0.086</text>
+	<polygon fill="rgb(246,144,148)" points="420.909902576697, 262.123106012294, 390.909902576697, 292.123106012294, 420.909902576697, 322.123106012294, 450.909902576697, 292.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="420.909902576697" y="295.456439345627">0.087</text>
+	<polygon fill="rgb(246,142,146)" points="390.909902576697, 292.123106012294, 360.909902576697, 322.123106012294, 390.909902576697, 352.123106012294, 420.909902576697, 322.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="390.909902576697" y="325.456439345627">0.086</text>
+	<polygon fill="rgb(245,163,168)" points="360.909902576697, 322.123106012294, 330.909902576697, 352.123106012294, 360.909902576697, 382.123106012294, 390.909902576697, 352.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="360.909902576697" y="355.456439345627">0.099</text>
+	<polygon fill="rgb(249,92,95)" points="330.909902576697, 352.123106012294, 300.909902576697, 382.123106012294, 330.909902576697, 412.123106012294, 360.909902576697, 382.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="330.909902576697" y="385.456439345627">0.056</text>
+	<polygon fill="rgb(255,0,0)" points="300.909902576697, 382.123106012294, 270.909902576697, 412.123106012294, 300.909902576697, 442.123106012294, 330.909902576697, 412.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="300.909902576697" y="415.456439345627">0.0</text>
+	<polygon fill="rgb(244,174,179)" points="540.909902576697, 202.123106012294, 510.909902576697, 232.123106012294, 540.909902576697, 262.123106012294, 570.909902576697, 232.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="540.909902576697" y="235.456439345627">0.105</text>
+	<polygon fill="rgb(245,169,174)" points="510.909902576697, 232.123106012294, 480.909902576697, 262.123106012294, 510.909902576697, 292.123106012294, 540.909902576697, 262.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="510.909902576697" y="265.456439345627">0.102</text>
+	<polygon fill="rgb(246,156,160)" points="480.909902576697, 262.123106012294, 450.909902576697, 292.123106012294, 480.909902576697, 322.123106012294, 510.909902576697, 292.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="480.909902576697" y="295.456439345627">0.094</text>
+	<polygon fill="rgb(245,163,168)" points="450.909902576697, 292.123106012294, 420.909902576697, 322.123106012294, 450.909902576697, 352.123106012294, 480.909902576697, 322.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="450.909902576697" y="325.456439345627">0.099</text>
+	<polygon fill="rgb(244,175,180)" points="420.909902576697, 322.123106012294, 390.909902576697, 352.123106012294, 420.909902576697, 382.123106012294, 450.909902576697, 352.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="420.909902576697" y="355.456439345627">0.106</text>
+	<polygon fill="rgb(244,175,180)" points="390.909902576697, 352.123106012294, 360.909902576697, 382.123106012294, 390.909902576697, 412.123106012294, 420.909902576697, 382.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="390.909902576697" y="385.456439345627">0.106</text>
+	<polygon fill="rgb(255,0,0)" points="360.909902576697, 382.123106012294, 330.909902576697, 412.123106012294, 360.909902576697, 442.123106012294, 390.909902576697, 412.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="360.909902576697" y="415.456439345627">0.0</text>
+	<polygon fill="rgb(251,64,66)" points="570.909902576697, 232.123106012294, 540.909902576697, 262.123106012294, 570.909902576697, 292.123106012294, 600.909902576697, 262.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="570.909902576697" y="265.456439345627">0.039</text>
+	<polygon fill="rgb(252,57,59)" points="540.909902576697, 262.123106012294, 510.909902576697, 292.123106012294, 540.909902576697, 322.123106012294, 570.909902576697, 292.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="540.909902576697" y="295.456439345627">0.035</text>
+	<polygon fill="rgb(252,50,51)" points="510.909902576697, 292.123106012294, 480.909902576697, 322.123106012294, 510.909902576697, 352.123106012294, 540.909902576697, 322.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="510.909902576697" y="325.456439345627">0.030</text>
+	<polygon fill="rgb(252,50,51)" points="480.909902576697, 322.123106012294, 450.909902576697, 352.123106012294, 480.909902576697, 382.123106012294, 510.909902576697, 352.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="480.909902576697" y="355.456439345627">0.030</text>
+	<polygon fill="rgb(252,56,58)" points="450.909902576697, 352.123106012294, 420.909902576697, 382.123106012294, 450.909902576697, 412.123106012294, 480.909902576697, 382.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="450.909902576697" y="385.456439345627">0.034</text>
+	<polygon fill="rgb(255,0,0)" points="420.909902576697, 382.123106012294, 390.909902576697, 412.123106012294, 420.909902576697, 442.123106012294, 450.909902576697, 412.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="420.909902576697" y="415.456439345627">0.0</text>
+	<polygon fill="rgb(252,46,47)" points="600.909902576697, 262.123106012294, 570.909902576697, 292.123106012294, 600.909902576697, 322.123106012294, 630.909902576697, 292.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="600.909902576697" y="295.456439345627">0.028</text>
+	<polygon fill="rgb(252,53,54)" points="570.909902576697, 292.123106012294, 540.909902576697, 322.123106012294, 570.909902576697, 352.123106012294, 600.909902576697, 322.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="570.909902576697" y="325.456439345627">0.032</text>
+	<polygon fill="rgb(252,57,59)" points="540.909902576697, 322.123106012294, 510.909902576697, 352.123106012294, 540.909902576697, 382.123106012294, 570.909902576697, 352.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="540.909902576697" y="355.456439345627">0.035</text>
+	<polygon fill="rgb(252,56,58)" points="510.909902576697, 352.123106012294, 480.909902576697, 382.123106012294, 510.909902576697, 412.123106012294, 540.909902576697, 382.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="510.909902576697" y="385.456439345627">0.034</text>
+	<polygon fill="rgb(255,0,0)" points="480.909902576697, 382.123106012294, 450.909902576697, 412.123106012294, 480.909902576697, 442.123106012294, 510.909902576697, 412.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="480.909902576697" y="415.456439345627">0.0</text>
+	<polygon fill="rgb(251,61,63)" points="630.909902576697, 292.123106012294, 600.909902576697, 322.123106012294, 630.909902576697, 352.123106012294, 660.909902576697, 322.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="630.909902576697" y="325.456439345627">0.037</text>
+	<polygon fill="rgb(252,56,58)" points="600.909902576697, 322.123106012294, 570.909902576697, 352.123106012294, 600.909902576697, 382.123106012294, 630.909902576697, 352.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="600.909902576697" y="355.456439345627">0.034</text>
+	<polygon fill="rgb(252,43,44)" points="570.909902576697, 352.123106012294, 540.909902576697, 382.123106012294, 570.909902576697, 412.123106012294, 600.909902576697, 382.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="570.909902576697" y="385.456439345627">0.026</text>
+	<polygon fill="rgb(255,0,0)" points="540.909902576697, 382.123106012294, 510.909902576697, 412.123106012294, 540.909902576697, 442.123106012294, 570.909902576697, 412.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="540.909902576697" y="415.456439345627">0.0</text>
+	<polygon fill="rgb(252,54,56)" points="660.909902576697, 322.123106012294, 630.909902576697, 352.123106012294, 660.909902576697, 382.123106012294, 690.909902576697, 352.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="660.909902576697" y="355.456439345627">0.033</text>
+	<polygon fill="rgb(252,45,46)" points="630.909902576697, 352.123106012294, 600.909902576697, 382.123106012294, 630.909902576697, 412.123106012294, 660.909902576697, 382.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="630.909902576697" y="385.456439345627">0.027</text>
+	<polygon fill="rgb(255,0,0)" points="600.909902576697, 382.123106012294, 570.909902576697, 412.123106012294, 600.909902576697, 442.123106012294, 630.909902576697, 412.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="600.909902576697" y="415.456439345627">0.0</text>
+	<polygon fill="rgb(252,50,51)" points="690.909902576697, 352.123106012294, 660.909902576697, 382.123106012294, 690.909902576697, 412.123106012294, 720.909902576697, 382.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="690.909902576697" y="385.456439345627">0.030</text>
+	<polygon fill="rgb(255,0,0)" points="660.909902576697, 382.123106012294, 630.909902576697, 412.123106012294, 660.909902576697, 442.123106012294, 690.909902576697, 412.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="660.909902576697" y="415.456439345627">0.0</text>
+	<polygon fill="rgb(255,0,0)" points="720.909902576697, 382.123106012294, 690.909902576697, 412.123106012294, 720.909902576697, 442.123106012294, 750.909902576697, 412.123106012294" stroke="none" />
+	<text fill="black" font-family="Arial" font-size="10.00" stroke="none" text-anchor="middle" x="720.909902576697" y="415.456439345627">0.0</text>
+	<line stroke="black" stroke-width="1" x1="30.9099025766973" x2="390.909902576697" y1="412.123106012294" y2="52.1231060122937" />
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(-45,413.409902576697,59.6231060122937)">
+		<text x="413.409902576697" y="64.6231060122937">CK1</text>
+	</g>
+	<line stroke="black" stroke-width="1" x1="420.909902576697" x2="60.9099025766973" y1="82.1231060122937" y2="442.123106012294" />
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(-45,443.409902576697,89.6231060122937)">
+		<text x="443.409902576697" y="94.6231060122937">CK2</text>
+	</g>
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(45,38.4099025766973,389.623106012294)">
+		<text text-anchor="end" x="38.4099025766973" y="394.623106012294">CK1</text>
+	</g>
+	<line stroke="black" stroke-width="1" x1="30.9099025766973" x2="60.9099025766973" y1="412.123106012294" y2="442.123106012294" />
+	<line stroke="black" stroke-width="1" x1="450.909902576697" x2="120.909902576697" y1="112.123106012294" y2="442.123106012294" />
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(-45,473.409902576697,119.623106012294)">
+		<text x="473.409902576697" y="124.623106012294">CK3</text>
+	</g>
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(45,68.4099025766973,359.623106012294)">
+		<text text-anchor="end" x="68.4099025766973" y="364.623106012294">CK2</text>
+	</g>
+	<line stroke="black" stroke-width="1" x1="60.9099025766973" x2="120.909902576697" y1="382.123106012294" y2="442.123106012294" />
+	<line stroke="black" stroke-width="1" x1="480.909902576697" x2="180.909902576697" y1="142.123106012294" y2="442.123106012294" />
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(-45,503.409902576697,149.623106012294)">
+		<text x="503.409902576697" y="154.623106012294">JXBR161</text>
+	</g>
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(45,98.4099025766973,329.623106012294)">
+		<text text-anchor="end" x="98.4099025766973" y="334.623106012294">CK3</text>
+	</g>
+	<line stroke="black" stroke-width="1" x1="90.9099025766973" x2="180.909902576697" y1="352.123106012294" y2="442.123106012294" />
+	<line stroke="black" stroke-width="1" x1="510.909902576697" x2="240.909902576697" y1="172.123106012294" y2="442.123106012294" />
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(-45,533.409902576697,179.623106012294)">
+		<text x="533.409902576697" y="184.623106012294">JXBR162</text>
+	</g>
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(45,128.409902576697,299.623106012294)">
+		<text text-anchor="end" x="128.409902576697" y="304.623106012294">JXBR161</text>
+	</g>
+	<line stroke="black" stroke-width="1" x1="120.909902576697" x2="240.909902576697" y1="322.123106012294" y2="442.123106012294" />
+	<line stroke="black" stroke-width="1" x1="540.909902576697" x2="300.909902576697" y1="202.123106012294" y2="442.123106012294" />
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(-45,563.409902576697,209.623106012294)">
+		<text x="563.409902576697" y="214.623106012294">JXBR163</text>
+	</g>
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(45,158.409902576697,269.623106012294)">
+		<text text-anchor="end" x="158.409902576697" y="274.623106012294">JXBR162</text>
+	</g>
+	<line stroke="black" stroke-width="1" x1="150.909902576697" x2="300.909902576697" y1="292.123106012294" y2="442.123106012294" />
+	<line stroke="black" stroke-width="1" x1="570.909902576697" x2="360.909902576697" y1="232.123106012294" y2="442.123106012294" />
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(-45,593.409902576697,239.623106012294)">
+		<text x="593.409902576697" y="244.623106012294">RW371</text>
+	</g>
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(45,188.409902576697,239.623106012294)">
+		<text text-anchor="end" x="188.409902576697" y="244.623106012294">JXBR163</text>
+	</g>
+	<line stroke="black" stroke-width="1" x1="180.909902576697" x2="360.909902576697" y1="262.123106012294" y2="442.123106012294" />
+	<line stroke="black" stroke-width="1" x1="600.909902576697" x2="420.909902576697" y1="262.123106012294" y2="442.123106012294" />
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(-45,623.409902576697,269.623106012294)">
+		<text x="623.409902576697" y="274.623106012294">RW372</text>
+	</g>
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(45,218.409902576697,209.623106012294)">
+		<text text-anchor="end" x="218.409902576697" y="214.623106012294">RW371</text>
+	</g>
+	<line stroke="black" stroke-width="1" x1="210.909902576697" x2="420.909902576697" y1="232.123106012294" y2="442.123106012294" />
+	<line stroke="black" stroke-width="1" x1="630.909902576697" x2="480.909902576697" y1="292.123106012294" y2="442.123106012294" />
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(-45,653.409902576697,299.623106012294)">
+		<text x="653.409902576697" y="304.623106012294">RW373</text>
+	</g>
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(45,248.409902576697,179.623106012294)">
+		<text text-anchor="end" x="248.409902576697" y="184.623106012294">RW372</text>
+	</g>
+	<line stroke="black" stroke-width="1" x1="240.909902576697" x2="480.909902576697" y1="202.123106012294" y2="442.123106012294" />
+	<line stroke="black" stroke-width="1" x1="660.909902576697" x2="540.909902576697" y1="322.123106012294" y2="442.123106012294" />
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(-45,683.409902576697,329.623106012294)">
+		<text x="683.409902576697" y="334.623106012294">R37J161</text>
+	</g>
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(45,278.409902576697,149.623106012294)">
+		<text text-anchor="end" x="278.409902576697" y="154.623106012294">RW373</text>
+	</g>
+	<line stroke="black" stroke-width="1" x1="270.909902576697" x2="540.909902576697" y1="172.123106012294" y2="442.123106012294" />
+	<line stroke="black" stroke-width="1" x1="690.909902576697" x2="600.909902576697" y1="352.123106012294" y2="442.123106012294" />
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(-45,713.409902576697,359.623106012294)">
+		<text x="713.409902576697" y="364.623106012294">R37J162</text>
+	</g>
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(45,308.409902576697,119.623106012294)">
+		<text text-anchor="end" x="308.409902576697" y="124.623106012294">R37J161</text>
+	</g>
+	<line stroke="black" stroke-width="1" x1="300.909902576697" x2="600.909902576697" y1="142.123106012294" y2="442.123106012294" />
+	<line stroke="black" stroke-width="1" x1="720.909902576697" x2="660.909902576697" y1="382.123106012294" y2="442.123106012294" />
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(-45,743.409902576697,389.623106012294)">
+		<text x="743.409902576697" y="394.623106012294">R37J163</text>
+	</g>
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(45,338.409902576697,89.6231060122938)">
+		<text text-anchor="end" x="338.409902576697" y="94.6231060122938">R37J162</text>
+	</g>
+	<line stroke="black" stroke-width="1" x1="330.909902576697" x2="660.909902576697" y1="112.123106012294" y2="442.123106012294" />
+	<line stroke="black" stroke-width="1" x1="750.909902576697" x2="720.909902576697" y1="412.123106012294" y2="442.123106012294" />
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(-45,773.409902576697,419.623106012294)">
+		<text x="773.409902576697" y="424.623106012294" />
+	</g>
+	<g fill="black" font-family="Arial" font-size="15" stroke="none" transform="rotate(45,368.409902576697,59.6231060122938)">
+		<text text-anchor="end" x="368.409902576697" y="64.6231060122938">R37J163</text>
+	</g>
+	<line stroke="black" stroke-width="1" x1="360.909902576697" x2="720.909902576697" y1="82.1231060122938" y2="442.123106012294" />
+	<line stroke="black" stroke-width="1" x1="390.909902576697" x2="750.909902576697" y1="52.1231060122938" y2="412.123106012294" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="middle" x="165.909902576697" y="495.453106012294">Beta Diversity</text>
+	<line stroke="black" stroke-width="0.5" x1="45.9099025766973" x2="285.909902576697" y1="472.123106012294" y2="472.123106012294" />
+	<line stroke="black" stroke-width="0.5" x1="45.9099025766973" x2="45.9099025766973" y1="472.123106012294" y2="475.123106012294" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="middle" x="45.9099025766973" y="484.123106012294">0</text>
+	<line stroke="black" stroke-width="0.5" x1="165.909902576697" x2="165.909902576697" y1="472.123106012294" y2="475.123106012294" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="middle" x="165.909902576697" y="484.123106012294">0.075</text>
+	<line stroke="black" stroke-width="0.5" x1="285.909902576697" x2="285.909902576697" y1="472.123106012294" y2="475.123106012294" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="middle" x="285.909902576697" y="484.123106012294">0.15</text>
+	<linearGradient gradientUnits="userSpaceOnUse" id="gradient_1" x1="45.9099025766973" x2="285.909902576697" y1="0" y2="0">
+		<stop offset="0" stop-opacity="1" style="stop-color:rgb(255,0,0)" />
+		<stop offset="100%" stop-opacity="1" style="stop-color:rgb(240,249,256)" />
+	</linearGradient>
+	<rect fill="url(#gradient_1)" height="20" width="240" x="45.9099025766973" y="452.123106012294" />
+	<!-- 
+	Generated using the Perl SVG Module V2.50
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+ -->
+</svg>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="377" width="861" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<path d="M 40 123.13 L 40 68.44 A 10.94 10.94 0 0 1 50.94,57.5 L 240 57.5" style="fill: none; stroke: black; stroke-width: 1.5" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="start" x="247.5" y="62.5">JXBR16</text>
+	<path d="M 40 123.13 L 40 178.76 A 9.99 9.99 0 0 0 49.99,188.75 L 99.96 188.75" style="fill: none; stroke: black; stroke-width: 1.5" />
+	<path d="M 99.96 188.75 L 99.96 141.88 A 9.38 9.38 0 0 1 109.34,132.5 L 240 132.5" style="fill: none; stroke: black; stroke-width: 1.5" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="start" x="247.5" y="137.5">CK</text>
+	<path d="M 99.96 188.75 L 99.96 243.12 A 1.88 1.88 0 0 0 101.84,245 L 111.22 245" style="fill: none; stroke: black; stroke-width: 1.5" />
+	<path d="M 111.22 245 L 111.22 213.75 A 6.25 6.25 0 0 1 117.47,207.5 L 240.01 207.5" style="fill: none; stroke: black; stroke-width: 1.5" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="start" x="247.51" y="212.5">R37J16</text>
+	<path d="M 111.22 245 L 111.22 276.25 A 6.25 6.25 0 0 0 117.47,282.5 L 240.01 282.5" style="fill: none; stroke: black; stroke-width: 1.5" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="start" x="247.51" y="287.5">RW37</text>
+	<text fill="black" font-family="Arial" font-size="11.1111111111111" stroke="none" text-anchor="start" x="40" y="340">UnWeighted Unifrac Distance</text>
+	<line stroke="black" stroke-width="1.5" x1="40" x2="240" y1="355" y2="355" />
+	<line stroke="black" stroke-width="1.5" x1="40" x2="40" y1="355" y2="347.5" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="40" y="370">0</text>
+	<line stroke="black" stroke-width="1.5" x1="44.6199272747595" x2="44.6199272747595" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="49.239854549519" x2="49.239854549519" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="53.8597818242785" x2="53.8597818242785" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="58.479709099038" x2="58.479709099038" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="63.0996363737976" x2="63.0996363737976" y1="355" y2="347.5" />
+	<line stroke="black" stroke-width="1.5" x1="67.7195636485571" x2="67.7195636485571" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="72.3394909233166" x2="72.3394909233166" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="76.9594181980761" x2="76.9594181980761" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="81.5793454728356" x2="81.5793454728356" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="86.1992727475951" x2="86.1992727475951" y1="355" y2="347.5" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="86.1992727475951" y="370">0.05</text>
+	<line stroke="black" stroke-width="1.5" x1="90.8192000223547" x2="90.8192000223547" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="95.4391272971142" x2="95.4391272971142" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="100.059054571874" x2="100.059054571874" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="104.678981846633" x2="104.678981846633" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="109.298909121393" x2="109.298909121393" y1="355" y2="347.5" />
+	<line stroke="black" stroke-width="1.5" x1="113.918836396152" x2="113.918836396152" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="118.538763670912" x2="118.538763670912" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="123.158690945671" x2="123.158690945671" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="127.778618220431" x2="127.778618220431" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="132.39854549519" x2="132.39854549519" y1="355" y2="347.5" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="132.39854549519" y="370">0.1</text>
+	<line stroke="black" stroke-width="1.5" x1="137.01847276995" x2="137.01847276995" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="141.638400044709" x2="141.638400044709" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="146.258327319469" x2="146.258327319469" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="150.878254594228" x2="150.878254594228" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="155.498181868988" x2="155.498181868988" y1="355" y2="347.5" />
+	<line stroke="black" stroke-width="1.5" x1="160.118109143747" x2="160.118109143747" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="164.738036418507" x2="164.738036418507" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="169.357963693266" x2="169.357963693266" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="173.977890968026" x2="173.977890968026" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="178.597818242785" x2="178.597818242785" y1="355" y2="347.5" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="178.597818242785" y="370">0.15</text>
+	<line stroke="black" stroke-width="1.5" x1="183.217745517545" x2="183.217745517545" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="187.837672792304" x2="187.837672792304" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="192.457600067064" x2="192.457600067064" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="197.077527341823" x2="197.077527341823" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="201.697454616583" x2="201.697454616583" y1="355" y2="347.5" />
+	<line stroke="black" stroke-width="1.5" x1="206.317381891342" x2="206.317381891342" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="210.937309166102" x2="210.937309166102" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="215.557236440861" x2="215.557236440861" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="220.177163715621" x2="220.177163715621" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="224.79709099038" x2="224.79709099038" y1="355" y2="347.5" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="224.79709099038" y="370">0.2</text>
+	<line stroke="black" stroke-width="1.5" x1="229.41701826514" x2="229.41701826514" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="234.036945539899" x2="234.036945539899" y1="355" y2="351.25" />
+	<line stroke="black" stroke-width="1.5" x1="238.656872814659" x2="238.656872814659" y1="355" y2="351.25" />
+	<rect fill="crimson" height="60" stroke="black" width="124.08" x="321" y="27.5" />
+	<rect fill="blue" height="60" stroke="black" width="76.08" x="445.08" y="27.5" />
+	<rect fill="lightseagreen" height="60" stroke="black" width="39" x="521.16" y="27.5" />
+	<rect fill="orange" height="60" stroke="black" width="48.05" x="560.16" y="27.5" />
+	<rect fill="mediumpurple" height="60" stroke="black" width="25.87" x="608.21" y="27.5" />
+	<rect fill="palegreen" height="60" stroke="black" width="20.85" x="634.08" y="27.5" />
+	<rect fill="lightcoral" height="60" stroke="black" width="15.36" x="654.93" y="27.5" />
+	<rect fill="dodgerblue" height="60" stroke="black" width="9.78" x="670.29" y="27.5" />
+	<rect fill="lawngreen" height="60" stroke="black" width="6.96" x="680.07" y="27.5" />
+	<rect fill="olive" height="60" stroke="black" width="0.81" x="687.03" y="27.5" />
+	<rect fill="yellow" height="60" stroke="black" width="33.16" x="687.84" y="27.5" />
+	<rect fill="crimson" height="60" stroke="black" width="109.99" x="321" y="102.5" />
+	<line stroke="black" stroke-width="1" x1="445.08" x2="430.99" y1="87.5" y2="102.5" />
+	<rect fill="blue" height="60" stroke="black" width="65.74" x="430.99" y="102.5" />
+	<line stroke="black" stroke-width="1" x1="521.16" x2="496.73" y1="87.5" y2="102.5" />
+	<rect fill="lightseagreen" height="60" stroke="black" width="70.89" x="496.73" y="102.5" />
+	<line stroke="black" stroke-width="1" x1="560.16" x2="567.62" y1="87.5" y2="102.5" />
+	<rect fill="orange" height="60" stroke="black" width="58.27" x="567.62" y="102.5" />
+	<line stroke="black" stroke-width="1" x1="608.21" x2="625.89" y1="87.5" y2="102.5" />
+	<rect fill="mediumpurple" height="60" stroke="black" width="28.42" x="625.89" y="102.5" />
+	<line stroke="black" stroke-width="1" x1="634.08" x2="654.31" y1="87.5" y2="102.5" />
+	<rect fill="palegreen" height="60" stroke="black" width="10.48" x="654.31" y="102.5" />
+	<line stroke="black" stroke-width="1" x1="654.93" x2="664.79" y1="87.5" y2="102.5" />
+	<rect fill="lightcoral" height="60" stroke="black" width="12.45" x="664.79" y="102.5" />
+	<line stroke="black" stroke-width="1" x1="670.29" x2="677.24" y1="87.5" y2="102.5" />
+	<rect fill="dodgerblue" height="60" stroke="black" width="2.61" x="677.24" y="102.5" />
+	<line stroke="black" stroke-width="1" x1="680.07" x2="679.85" y1="87.5" y2="102.5" />
+	<rect fill="lawngreen" height="60" stroke="black" width="2.01" x="679.85" y="102.5" />
+	<line stroke="black" stroke-width="1" x1="687.03" x2="681.86" y1="87.5" y2="102.5" />
+	<rect fill="olive" height="60" stroke="black" width="5.42" x="681.86" y="102.5" />
+	<line stroke="black" stroke-width="1" x1="687.84" x2="687.28" y1="87.5" y2="102.5" />
+	<rect fill="yellow" height="60" stroke="black" width="33.73" x="687.28" y="102.5" />
+	<line stroke="black" stroke-width="1" x1="721" x2="721.01" y1="87.5" y2="102.5" />
+	<rect fill="crimson" height="60" stroke="black" width="131.9" x="321" y="177.5" />
+	<line stroke="black" stroke-width="1" x1="430.99" x2="452.9" y1="162.5" y2="177.5" />
+	<rect fill="blue" height="60" stroke="black" width="49.31" x="452.9" y="177.5" />
+	<line stroke="black" stroke-width="1" x1="496.73" x2="502.21" y1="162.5" y2="177.5" />
+	<rect fill="lightseagreen" height="60" stroke="black" width="68.58" x="502.21" y="177.5" />
+	<line stroke="black" stroke-width="1" x1="567.62" x2="570.79" y1="162.5" y2="177.5" />
+	<rect fill="orange" height="60" stroke="black" width="53.13" x="570.79" y="177.5" />
+	<line stroke="black" stroke-width="1" x1="625.89" x2="623.92" y1="162.5" y2="177.5" />
+	<rect fill="mediumpurple" height="60" stroke="black" width="19.02" x="623.92" y="177.5" />
+	<line stroke="black" stroke-width="1" x1="654.31" x2="642.94" y1="162.5" y2="177.5" />
+	<rect fill="palegreen" height="60" stroke="black" width="17.98" x="642.94" y="177.5" />
+	<line stroke="black" stroke-width="1" x1="664.79" x2="660.92" y1="162.5" y2="177.5" />
+	<rect fill="lightcoral" height="60" stroke="black" width="23.6" x="660.92" y="177.5" />
+	<line stroke="black" stroke-width="1" x1="677.24" x2="684.52" y1="162.5" y2="177.5" />
+	<rect fill="dodgerblue" height="60" stroke="black" width="2.54" x="684.52" y="177.5" />
+	<line stroke="black" stroke-width="1" x1="679.85" x2="687.06" y1="162.5" y2="177.5" />
+	<rect fill="lawngreen" height="60" stroke="black" width="1.1" x="687.06" y="177.5" />
+	<line stroke="black" stroke-width="1" x1="681.86" x2="688.16" y1="162.5" y2="177.5" />
+	<rect fill="olive" height="60" stroke="black" width="6" x="688.16" y="177.5" />
+	<line stroke="black" stroke-width="1" x1="687.28" x2="694.16" y1="162.5" y2="177.5" />
+	<rect fill="yellow" height="60" stroke="black" width="26.83" x="694.16" y="177.5" />
+	<line stroke="black" stroke-width="1" x1="721.01" x2="720.99" y1="162.5" y2="177.5" />
+	<rect fill="crimson" height="60" stroke="black" width="143.03" x="321" y="252.5" />
+	<line stroke="black" stroke-width="1" x1="452.9" x2="464.03" y1="237.5" y2="252.5" />
+	<rect fill="blue" height="60" stroke="black" width="45.99" x="464.03" y="252.5" />
+	<line stroke="black" stroke-width="1" x1="502.21" x2="510.02" y1="237.5" y2="252.5" />
+	<rect fill="lightseagreen" height="60" stroke="black" width="52.19" x="510.02" y="252.5" />
+	<line stroke="black" stroke-width="1" x1="570.79" x2="562.21" y1="237.5" y2="252.5" />
+	<rect fill="orange" height="60" stroke="black" width="51.18" x="562.21" y="252.5" />
+	<line stroke="black" stroke-width="1" x1="623.92" x2="613.39" y1="237.5" y2="252.5" />
+	<rect fill="mediumpurple" height="60" stroke="black" width="28.53" x="613.39" y="252.5" />
+	<line stroke="black" stroke-width="1" x1="642.94" x2="641.92" y1="237.5" y2="252.5" />
+	<rect fill="palegreen" height="60" stroke="black" width="25" x="641.92" y="252.5" />
+	<line stroke="black" stroke-width="1" x1="660.92" x2="666.92" y1="237.5" y2="252.5" />
+	<rect fill="lightcoral" height="60" stroke="black" width="24.16" x="666.92" y="252.5" />
+	<line stroke="black" stroke-width="1" x1="684.52" x2="691.08" y1="237.5" y2="252.5" />
+	<rect fill="dodgerblue" height="60" stroke="black" width="2.29" x="691.08" y="252.5" />
+	<line stroke="black" stroke-width="1" x1="687.06" x2="693.37" y1="237.5" y2="252.5" />
+	<rect fill="lawngreen" height="60" stroke="black" width="0.86" x="693.37" y="252.5" />
+	<line stroke="black" stroke-width="1" x1="688.16" x2="694.23" y1="237.5" y2="252.5" />
+	<rect fill="olive" height="60" stroke="black" width="4.5" x="694.23" y="252.5" />
+	<line stroke="black" stroke-width="1" x1="694.16" x2="698.73" y1="237.5" y2="252.5" />
+	<rect fill="yellow" height="60" stroke="black" width="22.27" x="698.73" y="252.5" />
+	<line stroke="black" stroke-width="1" x1="720.99" x2="721" y1="237.5" y2="252.5" />
+	<line stroke="black" stroke-width="1" x1="321" x2="721" y1="327.5" y2="327.5" />
+	<line stroke="black" stroke-width="1" x1="321" x2="321" y1="327.5" y2="335" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="321" y="350">0</text>
+	<line stroke="black" stroke-width="1" x1="421" x2="421" y1="327.5" y2="335" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="421" y="350">0.25</text>
+	<line stroke="black" stroke-width="1" x1="521" x2="521" y1="327.5" y2="335" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="521" y="350">0.5</text>
+	<line stroke="black" stroke-width="1" x1="621" x2="621" y1="327.5" y2="335" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="621" y="350">0.75</text>
+	<line stroke="black" stroke-width="1" x1="721" x2="721" y1="327.5" y2="335" />
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="721" y="350">1</text>
+	<text fill="black" font-family="Arial" font-size="15" stroke="none" text-anchor="middle" x="521" y="365">Relative Abundance in Phylum Level</text>
+	<rect fill="crimson" height="11.1111111111111" stroke="black" width="11.1111111111111" x="732.111111111111" y="27.5" />
+	<text fill="black" font-family="Arial" font-size="11.1111111111111" stroke="none" text-anchor="start" x="748.777777777778" y="36.9444444444444">Proteobacteria</text>
+	<rect fill="blue" height="11.1111111111111" stroke="black" width="11.1111111111111" x="732.111111111111" y="44.1666666666667" />
+	<text fill="black" font-family="Arial" font-size="11.1111111111111" stroke="none" text-anchor="start" x="748.777777777778" y="53.6111111111111">Acidobacteria</text>
+	<rect fill="lightseagreen" height="11.1111111111111" stroke="black" width="11.1111111111111" x="732.111111111111" y="60.8333333333333" />
+	<text fill="black" font-family="Arial" font-size="11.1111111111111" stroke="none" text-anchor="start" x="748.777777777778" y="70.2777777777778">Chloroflexi</text>
+	<rect fill="orange" height="11.1111111111111" stroke="black" width="11.1111111111111" x="732.111111111111" y="77.5" />
+	<text fill="black" font-family="Arial" font-size="11.1111111111111" stroke="none" text-anchor="start" x="748.777777777778" y="86.9444444444444">Actinobacteria</text>
+	<rect fill="mediumpurple" height="11.1111111111111" stroke="black" width="11.1111111111111" x="732.111111111111" y="94.1666666666667" />
+	<text fill="black" font-family="Arial" font-size="11.1111111111111" stroke="none" text-anchor="start" x="748.777777777778" y="103.611111111111">Bacteroidetes</text>
+	<rect fill="palegreen" height="11.1111111111111" stroke="black" width="11.1111111111111" x="732.111111111111" y="110.833333333333" />
+	<text fill="black" font-family="Arial" font-size="11.1111111111111" stroke="none" text-anchor="start" x="748.777777777778" y="120.277777777778">Gemmatimonadetes</text>
+	<rect fill="lightcoral" height="11.1111111111111" stroke="black" width="11.1111111111111" x="732.111111111111" y="127.5" />
+	<text fill="black" font-family="Arial" font-size="11.1111111111111" stroke="none" text-anchor="start" x="748.777777777778" y="136.944444444444">Saccharibacteria</text>
+	<rect fill="dodgerblue" height="11.1111111111111" stroke="black" width="11.1111111111111" x="732.111111111111" y="144.166666666667" />
+	<text fill="black" font-family="Arial" font-size="11.1111111111111" stroke="none" text-anchor="start" x="748.777777777778" y="153.611111111111">Nitrospirae</text>
+	<rect fill="lawngreen" height="11.1111111111111" stroke="black" width="11.1111111111111" x="732.111111111111" y="160.833333333333" />
+	<text fill="black" font-family="Arial" font-size="11.1111111111111" stroke="none" text-anchor="start" x="748.777777777778" y="170.277777777778">Verrucomicrobia</text>
+	<rect fill="olive" height="11.1111111111111" stroke="black" width="11.1111111111111" x="732.111111111111" y="177.5" />
+	<text fill="black" font-family="Arial" font-size="11.1111111111111" stroke="none" text-anchor="start" x="748.777777777778" y="186.944444444444">Cyanobacteria</text>
+	<rect fill="yellow" height="11.1111111111111" stroke="black" width="11.1111111111111" x="732.111111111111" y="194.166666666667" />
+	<text fill="black" font-family="Arial" font-size="11.1111111111111" stroke="none" text-anchor="start" x="748.777777777778" y="203.611111111111">Others</text>
+	<!-- 
+	Generated using the Perl SVG Module V2.64
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+ -->
+</svg>

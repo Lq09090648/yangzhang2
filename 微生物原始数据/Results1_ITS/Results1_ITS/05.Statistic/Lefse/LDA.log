@@ -1,0 +1,8 @@
+Number of significantly discriminative features: 47 ( 47 ) before internal wilcoxon
+Number of discriminative features with abs LDA score > 4.0 : 5
+clade_sep parameter too large, lowered to 0.200225830078
+Exporting  k__Plantae
+Exporting  k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Trichocomaceae.g__Aspergillus.s__Aspergillus_piperis
+Exporting  k__Fungi.p__Basidiomycota.c__Agaricomycetes.o__Auriculariales
+Exporting  k__Fungi.p__Ascomycota.c__Eurotiomycetes.o__Eurotiales.f__Trichocomaceae.g__Aspergillus
+Exporting  k__Fungi.p__Basidiomycota.c__Tremellomycetes

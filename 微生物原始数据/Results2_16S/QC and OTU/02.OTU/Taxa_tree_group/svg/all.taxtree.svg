@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="660" width="717.5" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<circle cx="20" cy="40" fill="crimson" r="10" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="start" x="35" y="43.3333333333333">CK</text>
+	<circle cx="20" cy="70" fill="blue" r="10" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="start" x="35" y="73.3333333333333">JXBR16</text>
+	<circle cx="20" cy="100" fill="lightseagreen" r="10" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="start" x="35" y="103.333333333333">RW37</text>
+	<circle cx="20" cy="130" fill="orange" r="10" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="start" x="35" y="133.333333333333">R37J16</text>
+	<path d="M 137.5 198.333333333333 V 55 H 208.928571428571" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 137.5 198.333333333333 V 130 H 208.928571428571" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 137.5 198.333333333333 V 190 H 208.928571428571" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 137.5 198.333333333333 V 220 H 208.928571428571" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 137.5 198.333333333333 V 396.666666666667 H 208.928571428571" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="208.928571428571" x2="280.357142857143" y1="55" y2="55" />
+	<line stroke="black" stroke-width="0.5" x1="208.928571428571" x2="280.357142857143" y1="130" y2="130" />
+	<line stroke="black" stroke-width="0.5" x1="208.928571428571" x2="280.357142857143" y1="190" y2="190" />
+	<line stroke="black" stroke-width="0.5" x1="208.928571428571" x2="280.357142857143" y1="220" y2="220" />
+	<path d="M 208.928571428571 396.666666666667 V 270 H 280.357142857143" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 208.928571428571 396.666666666667 V 370 H 280.357142857143" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 208.928571428571 396.666666666667 V 550 H 280.357142857143" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 280.357142857143 55 V 40 H 351.785714285714" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 280.357142857143 55 V 70 H 351.785714285714" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="280.357142857143" x2="351.785714285714" y1="130" y2="130" />
+	<line stroke="black" stroke-width="0.5" x1="280.357142857143" x2="351.785714285714" y1="190" y2="190" />
+	<line stroke="black" stroke-width="0.5" x1="280.357142857143" x2="351.785714285714" y1="220" y2="220" />
+	<line stroke="black" stroke-width="0.5" x1="280.357142857143" x2="351.785714285714" y1="270" y2="270" />
+	<line stroke="black" stroke-width="0.5" x1="280.357142857143" x2="351.785714285714" y1="370" y2="370" />
+	<line stroke="black" stroke-width="0.5" x1="280.357142857143" x2="351.785714285714" y1="550" y2="550" />
+	<line stroke="black" stroke-width="0.5" x1="351.785714285714" x2="423.214285714286" y1="40" y2="40" />
+	<line stroke="black" stroke-width="0.5" x1="351.785714285714" x2="423.214285714286" y1="70" y2="70" />
+	<line stroke="black" stroke-width="0.5" x1="351.785714285714" x2="423.214285714286" y1="130" y2="130" />
+	<line stroke="black" stroke-width="0.5" x1="351.785714285714" x2="423.214285714286" y1="190" y2="190" />
+	<line stroke="black" stroke-width="0.5" x1="351.785714285714" x2="423.214285714286" y1="220" y2="220" />
+	<line stroke="black" stroke-width="0.5" x1="351.785714285714" x2="423.214285714286" y1="270" y2="270" />
+	<path d="M 351.785714285714 370 V 330 H 423.214285714286" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 351.785714285714 370 V 410 H 423.214285714286" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="351.785714285714" x2="423.214285714286" y1="550" y2="550" />
+	<path d="M 423.214285714286 40 V 30 H 494.642857142857" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 423.214285714286 40 V 50 H 494.642857142857" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="423.214285714286" x2="494.642857142857" y1="70" y2="70" />
+	<line stroke="black" stroke-width="0.5" x1="423.214285714286" x2="494.642857142857" y1="130" y2="130" />
+	<line stroke="black" stroke-width="0.5" x1="423.214285714286" x2="494.642857142857" y1="190" y2="190" />
+	<line stroke="black" stroke-width="0.5" x1="423.214285714286" x2="494.642857142857" y1="220" y2="220" />
+	<line stroke="black" stroke-width="0.5" x1="423.214285714286" x2="494.642857142857" y1="270" y2="270" />
+	<line stroke="black" stroke-width="0.5" x1="423.214285714286" x2="494.642857142857" y1="330" y2="330" />
+	<line stroke="black" stroke-width="0.5" x1="423.214285714286" x2="494.642857142857" y1="410" y2="410" />
+	<line stroke="black" stroke-width="0.5" x1="423.214285714286" x2="494.642857142857" y1="550" y2="550" />
+	<path d="M 494.642857142857 130 V 90 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 130 V 110 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="494.642857142857" x2="566.071428571429" y1="130" y2="130" />
+	<path d="M 494.642857142857 130 V 150 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 130 V 170 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="494.642857142857" x2="566.071428571429" y1="190" y2="190" />
+	<path d="M 494.642857142857 220 V 210 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 220 V 230 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 270 V 250 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="494.642857142857" x2="566.071428571429" y1="270" y2="270" />
+	<path d="M 494.642857142857 270 V 290 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 330 V 310 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="494.642857142857" x2="566.071428571429" y1="330" y2="330" />
+	<path d="M 494.642857142857 330 V 350 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 410 V 370 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 410 V 390 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="494.642857142857" x2="566.071428571429" y1="410" y2="410" />
+	<path d="M 494.642857142857 410 V 430 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 410 V 450 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 550 V 470 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 550 V 490 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 550 V 510 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 550 V 530 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="494.642857142857" x2="566.071428571429" y1="550" y2="550" />
+	<path d="M 494.642857142857 550 V 570 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 550 V 590 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 550 V 610 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 494.642857142857 550 V 630 H 566.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 137.50000 191.66667 A 6.66666666666667 6.66666666666667, 0, 0, 1, 143.29606 195.03938 L 137.5 198.333333333333 Z" fill="crimson" stroke="none" />
+	<path d="M 143.29606 195.03938 A 6.66666666666667 6.66666666666667, 0, 0, 1, 142.93960 202.18758 L 137.5 198.333333333333 Z" fill="blue" stroke="none" />
+	<path d="M 142.93960 202.18758 A 6.66666666666667 6.66666666666667, 0, 0, 1, 130.91946 199.40146 L 137.5 198.333333333333 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 130.91946 199.40146 A 6.66666666666667 6.66666666666667, 0, 0, 1, 137.50000 191.66667 L 137.5 198.333333333333 Z" fill="orange" stroke="none" />
+	<circle cx="137.5" cy="198.333333333333" fill="none" r="6.66666666666667" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="8" stroke="none" text-anchor="end" x="126.833333333333" y="197.444444444444">Bacteria</text>
+	<text fill="black" font-family="Arial" font-size="8" stroke="none" text-anchor="end" x="126.833333333333" y="206.333333333333">18.869%</text>
+	<text fill="black" font-family="Arial" font-size="8" stroke="none" text-anchor="end" x="126.833333333333" y="214.333333333333">100.00%</text>
+	<path d="M 208.92857 49.28931 A 5.71068686171768 5.71068686171768, 0, 0, 1, 212.45387 59.49268 L 208.928571428571 55 Z" fill="crimson" stroke="none" />
+	<path d="M 212.45387 59.49268 A 5.71068686171768 5.71068686171768, 0, 0, 1, 204.73801 58.87958 L 208.928571428571 55 Z" fill="blue" stroke="none" />
+	<path d="M 204.73801 58.87958 A 5.71068686171768 5.71068686171768, 0, 0, 1, 203.55647 53.06287 L 208.928571428571 55 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 203.55647 53.06287 A 5.71068686171768 5.71068686171768, 0, 0, 1, 208.92857 49.28931 L 208.928571428571 55 Z" fill="orange" stroke="none" />
+	<circle cx="208.928571428571" cy="55" fill="none" r="5.71068686171768" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.73151583139456" stroke="none" text-anchor="end" x="199.352126651156" y="45.9798981967064">Acidobacteria</text>
+	<text fill="black" font-family="Arial" font-size="7.73151583139456" stroke="none" text-anchor="end" x="199.352126651156" y="53.7114140281009">2.719%,14.41%</text>
+	<path d="M 208.92857 124.33544 A 5.66456216518779 5.66456216518779, 0, 0, 1, 213.69562 126.94017 L 208.928571428571 130 Z" fill="crimson" stroke="none" />
+	<path d="M 213.69562 126.94017 A 5.66456216518779 5.66456216518779, 0, 0, 1, 210.28794 135.49904 L 208.928571428571 130 Z" fill="blue" stroke="none" />
+	<path d="M 210.28794 135.49904 A 5.66456216518779 5.66456216518779, 0, 0, 1, 203.27224 130.30523 L 208.928571428571 130 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 203.27224 130.30523 A 5.66456216518779 5.66456216518779, 0, 0, 1, 208.92857 124.33544 L 208.928571428571 130 Z" fill="orange" stroke="none" />
+	<circle cx="208.928571428571" cy="130" fill="none" r="5.66456216518779" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.30711214037596" stroke="none" text-anchor="end" x="199.610453193196" y="121.475035836228">Actinobacteria</text>
+	<text fill="black" font-family="Arial" font-size="7.30711214037596" stroke="none" text-anchor="end" x="199.610453193196" y="128.782147976604">2.477%,13.13%</text>
+	<path d="M 208.92857 184.50345 A 5.49655028015618 5.49655028015618, 0, 0, 1, 213.23439 186.58357 L 208.928571428571 190 Z" fill="crimson" stroke="none" />
+	<path d="M 213.23439 186.58357 A 5.49655028015618 5.49655028015618, 0, 0, 1, 214.37178 189.23613 L 208.928571428571 190 Z" fill="blue" stroke="none" />
+	<path d="M 214.37178 189.23613 A 5.49655028015618 5.49655028015618, 0, 1, 1, 203.45004 189.55532 L 208.928571428571 190 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 203.45004 189.55532 A 5.49655028015618 5.49655028015618, 0, 0, 1, 208.92857 184.50345 L 208.928571428571 190 Z" fill="orange" stroke="none" />
+	<circle cx="208.928571428571" cy="190" fill="none" r="5.49655028015618" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.75670837040179" stroke="none" text-anchor="end" x="199.553666963214" y="180.950506901198">Bacteroidetes</text>
+	<text fill="black" font-family="Arial" font-size="7.75670837040179" stroke="none" text-anchor="end" x="199.553666963214" y="188.7072152716">1.762%,9.34%</text>
+	<path d="M 208.92857 214.37877 A 5.62123445868261 5.62123445868261, 0, 0, 1, 213.57341 216.83397 L 208.928571428571 220 Z" fill="crimson" stroke="none" />
+	<path d="M 213.57341 216.83397 A 5.62123445868261 5.62123445868261, 0, 0, 1, 214.16244 217.94942 L 208.928571428571 220 Z" fill="blue" stroke="none" />
+	<path d="M 214.16244 217.94942 A 5.62123445868261 5.62123445868261, 0, 0, 1, 203.76644 222.22500 L 208.928571428571 220 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 203.76644 222.22500 A 5.62123445868261 5.62123445868261, 0, 0, 1, 208.92857 214.37877 L 208.928571428571 220 Z" fill="orange" stroke="none" />
+	<circle cx="208.928571428571" cy="220" fill="none" r="5.62123445868261" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.58073369698888" stroke="none" text-anchor="end" x="200.016970121394" y="212.322477353513">Gemmatimonadetes</text>
+	<text fill="black" font-family="Arial" font-size="6.58073369698888" stroke="none" text-anchor="end" x="200.016970121394" y="218.903211050502">2.269%,12.02%</text>
+	<path d="M 208.92857 390.33135 A 6.33531435473051 6.33531435473051, 0, 0, 1, 213.07713 391.87859 L 208.928571428571 396.666666666667 Z" fill="crimson" stroke="none" />
+	<path d="M 213.07713 391.87859 A 6.33531435473051 6.33531435473051, 0, 0, 1, 214.97521 398.55726 L 208.928571428571 396.666666666667 Z" fill="blue" stroke="none" />
+	<path d="M 214.97521 398.55726 A 6.33531435473051 6.33531435473051, 0, 0, 1, 202.91050 398.64633 L 208.928571428571 396.666666666667 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 202.91050 398.64633 A 6.33531435473051 6.33531435473051, 0, 0, 1, 208.92857 390.33135 L 208.928571428571 396.666666666667 Z" fill="orange" stroke="none" />
+	<circle cx="208.928571428571" cy="396.666666666667" fill="none" r="6.33531435473051" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.23258411931566" stroke="none" text-anchor="end" x="198.976965014183" y="388.228651860798">Proteobacteria</text>
+	<text fill="black" font-family="Arial" font-size="7.23258411931566" stroke="none" text-anchor="end" x="198.976965014183" y="395.461235980114">9.642%,51.10%</text>
+	<path d="M 280.35714 49.28931 A 5.71068686171768 5.71068686171768, 0, 0, 1, 283.88244 59.49268 L 280.357142857143 55 Z" fill="crimson" stroke="none" />
+	<path d="M 283.88244 59.49268 A 5.71068686171768 5.71068686171768, 0, 0, 1, 276.16658 58.87958 L 280.357142857143 55 Z" fill="blue" stroke="none" />
+	<path d="M 276.16658 58.87958 A 5.71068686171768 5.71068686171768, 0, 0, 1, 274.98504 53.06287 L 280.357142857143 55 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 274.98504 53.06287 A 5.71068686171768 5.71068686171768, 0, 0, 1, 280.35714 49.28931 L 280.357142857143 55 Z" fill="orange" stroke="none" />
+	<circle cx="280.357142857143" cy="55" fill="none" r="5.71068686171768" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.0596703182513" stroke="none" text-anchor="end" x="271.1166208363" y="46.7637179620401">Acidobacteria</text>
+	<text fill="black" font-family="Arial" font-size="7.0596703182513" stroke="none" text-anchor="end" x="271.1166208363" y="53.8233882802914">2.719%,14.41%</text>
+	<path d="M 280.35714 124.33544 A 5.66456216518779 5.66456216518779, 0, 0, 1, 285.12419 126.94017 L 280.357142857143 130 Z" fill="crimson" stroke="none" />
+	<path d="M 285.12419 126.94017 A 5.66456216518779 5.66456216518779, 0, 0, 1, 281.71651 135.49904 L 280.357142857143 130 Z" fill="blue" stroke="none" />
+	<path d="M 281.71651 135.49904 A 5.66456216518779 5.66456216518779, 0, 0, 1, 274.70081 130.30523 L 280.357142857143 130 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 274.70081 130.30523 A 5.66456216518779 5.66456216518779, 0, 0, 1, 280.35714 124.33544 L 280.357142857143 130 Z" fill="orange" stroke="none" />
+	<circle cx="280.357142857143" cy="130" fill="none" r="5.66456216518779" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.67771634424398" stroke="none" text-anchor="end" x="271.353722519833" y="122.209330931715">Actinobacteria</text>
+	<text fill="black" font-family="Arial" font-size="6.67771634424398" stroke="none" text-anchor="end" x="271.353722519833" y="128.887047275959">2.477%,13.13%</text>
+	<path d="M 280.35714 184.50345 A 5.49655028015618 5.49655028015618, 0, 0, 1, 284.66297 186.58357 L 280.357142857143 190 Z" fill="crimson" stroke="none" />
+	<path d="M 284.66297 186.58357 A 5.49655028015618 5.49655028015618, 0, 0, 1, 285.80036 189.23613 L 280.357142857143 190 Z" fill="blue" stroke="none" />
+	<path d="M 285.80036 189.23613 A 5.49655028015618 5.49655028015618, 0, 1, 1, 274.87861 189.55532 L 280.357142857143 190 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 274.87861 189.55532 A 5.49655028015618 5.49655028015618, 0, 0, 1, 280.35714 184.50345 L 280.357142857143 190 Z" fill="orange" stroke="none" />
+	<circle cx="280.357142857143" cy="190" fill="none" r="5.49655028015618" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.04354708682591" stroke="none" text-anchor="end" x="271.838819033574" y="182.94919506537">Sphingobacteriia</text>
+	<text fill="black" font-family="Arial" font-size="6.04354708682591" stroke="none" text-anchor="end" x="271.838819033574" y="188.992742152196">1.762%,9.34%</text>
+	<path d="M 280.35714 214.37877 A 5.62123445868261 5.62123445868261, 0, 0, 1, 285.00198 216.83397 L 280.357142857143 220 Z" fill="crimson" stroke="none" />
+	<path d="M 285.00198 216.83397 A 5.62123445868261 5.62123445868261, 0, 0, 1, 285.59101 217.94942 L 280.357142857143 220 Z" fill="blue" stroke="none" />
+	<path d="M 285.59101 217.94942 A 5.62123445868261 5.62123445868261, 0, 0, 1, 275.19501 222.22500 L 280.357142857143 220 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 275.19501 222.22500 A 5.62123445868261 5.62123445868261, 0, 0, 1, 280.35714 214.37877 L 280.357142857143 220 Z" fill="orange" stroke="none" />
+	<circle cx="280.357142857143" cy="220" fill="none" r="5.62123445868261" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.01861025112062" stroke="none" text-anchor="end" x="271.7266032729" y="212.978288040359">Gemmatimonadetes</text>
+	<text fill="black" font-family="Arial" font-size="6.01861025112062" stroke="none" text-anchor="end" x="271.7266032729" y="218.99689829148">2.269%,12.02%</text>
+	<path d="M 280.35714 263.99726 A 6.00273543542794 6.00273543542794, 0, 0, 1, 284.17820 265.37049 L 280.357142857143 270 Z" fill="crimson" stroke="none" />
+	<path d="M 284.17820 265.37049 A 6.00273543542794 6.00273543542794, 0, 0, 1, 286.35304 269.71346 L 280.357142857143 270 Z" fill="blue" stroke="none" />
+	<path d="M 286.35304 269.71346 A 6.00273543542794 6.00273543542794, 0, 0, 1, 274.70737 272.02803 L 280.357142857143 270 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 274.70737 272.02803 A 6.00273543542794 6.00273543542794, 0, 0, 1, 280.35714 263.99726 L 280.357142857143 270 Z" fill="orange" stroke="none" />
+	<circle cx="280.357142857143" cy="270" fill="none" r="6.00273543542794" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.68920312983856" stroke="none" text-anchor="end" x="271.509805856796" y="263.362596348522">Alphaproteobacteria</text>
+	<text fill="black" font-family="Arial" font-size="5.68920312983856" stroke="none" text-anchor="end" x="271.509805856796" y="269.05179947836">4.915%,26.05%</text>
+	<path d="M 280.35714 364.13937 A 5.86063096657432 5.86063096657432, 0, 0, 1, 284.90180 366.29959 L 280.357142857143 370 Z" fill="crimson" stroke="none" />
+	<path d="M 284.90180 366.29959 A 5.86063096657432 5.86063096657432, 0, 0, 1, 285.76317 367.73684 L 280.357142857143 370 Z" fill="blue" stroke="none" />
+	<path d="M 285.76317 367.73684 A 5.86063096657432 5.86063096657432, 0, 0, 1, 276.10920 374.03757 L 280.357142857143 370 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 276.10920 374.03757 A 5.86063096657432 5.86063096657432, 0, 0, 1, 280.35714 364.13937 L 280.357142857143 370 Z" fill="orange" stroke="none" />
+	<circle cx="280.357142857143" cy="370" fill="none" r="5.86063096657432" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.96072186018156" stroke="none" text-anchor="end" x="271.516150960478" y="363.045824496455">Betaproteobacteria</text>
+	<text fill="black" font-family="Arial" font-size="5.96072186018156" stroke="none" text-anchor="end" x="271.516150960478" y="369.006546356636">3.685%,19.53%</text>
+	<path d="M 280.35714 544.76266 A 5.23734464794536 5.23734464794536, 0, 0, 1, 281.46589 544.88136 L 280.357142857143 550 Z" fill="crimson" stroke="none" />
+	<path d="M 281.46589 544.88136 A 5.23734464794536 5.23734464794536, 0, 1, 1, 278.90229 544.96878 L 280.357142857143 550 Z" fill="blue" stroke="none" />
+	<path d="M 278.90229 544.96878 A 5.23734464794536 5.23734464794536, 0, 0, 1, 279.32571 544.86522 L 280.357142857143 550 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 279.32571 544.86522 A 5.23734464794536 5.23734464794536, 0, 0, 1, 280.35714 544.76266 L 280.357142857143 550 Z" fill="orange" stroke="none" />
+	<circle cx="280.357142857143" cy="550" fill="none" r="5.23734464794536" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.75575885048922" stroke="none" text-anchor="end" x="272.241918783953" y="543.284948007763">Gammaproteobacteria</text>
+	<text fill="black" font-family="Arial" font-size="5.75575885048922" stroke="none" text-anchor="end" x="272.241918783953" y="549.040706858252">1.042%,5.52%</text>
+	<path d="M 351.78571 34.46423 A 5.53577144076472 5.53577144076472, 0, 1, 1, 350.83258 45.45310 L 351.785714285714 40 Z" fill="crimson" stroke="none" />
+	<path d="M 350.83258 45.45310 A 5.53577144076472 5.53577144076472, 0, 0, 1, 348.20323 44.22026 L 351.785714285714 40 Z" fill="blue" stroke="none" />
+	<path d="M 348.20323 44.22026 A 5.53577144076472 5.53577144076472, 0, 0, 1, 346.40469 38.70026 L 351.785714285714 40 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 346.40469 38.70026 A 5.53577144076472 5.53577144076472, 0, 0, 1, 351.78571 34.46423 L 351.785714285714 40 Z" fill="orange" stroke="none" />
+	<circle cx="351.785714285714" cy="40" fill="none" r="5.53577144076472" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.75209411621255" stroke="none" text-anchor="end" x="342.373895786843" y="30.955890197752">Subgroup 3</text>
+	<text fill="black" font-family="Arial" font-size="7.75209411621255" stroke="none" text-anchor="end" x="342.373895786843" y="38.7079843139646">1.908%,10.11%</text>
+	<path d="M 351.78571 64.88609 A 5.11390606612195 5.11390606612195, 0, 0, 1, 354.26146 65.52532 L 351.785714285714 70 Z" fill="crimson" stroke="none" />
+	<path d="M 354.26146 65.52532 A 5.11390606612195 5.11390606612195, 0, 1, 1, 347.21397 72.29155 L 351.785714285714 70 Z" fill="blue" stroke="none" />
+	<path d="M 347.21397 72.29155 A 5.11390606612195 5.11390606612195, 0, 0, 1, 347.57242 67.10169 L 351.785714285714 70 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 347.57242 67.10169 A 5.11390606612195 5.11390606612195, 0, 0, 1, 351.78571 64.88609 L 351.785714285714 70 Z" fill="orange" stroke="none" />
+	<circle cx="351.785714285714" cy="70" fill="none" r="5.11390606612195" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="8" stroke="none" text-anchor="end" x="342.671808219592" y="60.6666666666667">Subgroup 4</text>
+	<text fill="black" font-family="Arial" font-size="8" stroke="none" text-anchor="end" x="342.671808219592" y="68.6666666666667">0.812%,4.30%</text>
+	<path d="M 351.78571 124.33544 A 5.66456216518779 5.66456216518779, 0, 0, 1, 356.55276 126.94017 L 351.785714285714 130 Z" fill="crimson" stroke="none" />
+	<path d="M 356.55276 126.94017 A 5.66456216518779 5.66456216518779, 0, 0, 1, 353.14508 135.49904 L 351.785714285714 130 Z" fill="blue" stroke="none" />
+	<path d="M 353.14508 135.49904 A 5.66456216518779 5.66456216518779, 0, 0, 1, 346.12938 130.30523 L 351.785714285714 130 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 346.12938 130.30523 A 5.66456216518779 5.66456216518779, 0, 0, 1, 351.78571 124.33544 L 351.785714285714 130 Z" fill="orange" stroke="none" />
+	<circle cx="351.785714285714" cy="130" fill="none" r="5.66456216518779" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.07052318802304" stroke="none" text-anchor="end" x="342.585890526515" y="121.75105628064">Micrococcales</text>
+	<text fill="black" font-family="Arial" font-size="7.07052318802304" stroke="none" text-anchor="end" x="342.585890526515" y="128.821579468663">2.477%,13.13%</text>
+	<path d="M 351.78571 184.50345 A 5.49655028015618 5.49655028015618, 0, 0, 1, 356.09154 186.58357 L 351.785714285714 190 Z" fill="crimson" stroke="none" />
+	<path d="M 356.09154 186.58357 A 5.49655028015618 5.49655028015618, 0, 0, 1, 357.22893 189.23613 L 351.785714285714 190 Z" fill="blue" stroke="none" />
+	<path d="M 357.22893 189.23613 A 5.49655028015618 5.49655028015618, 0, 1, 1, 346.30718 189.55532 L 351.785714285714 190 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 346.30718 189.55532 A 5.49655028015618 5.49655028015618, 0, 0, 1, 351.78571 184.50345 L 351.785714285714 190 Z" fill="orange" stroke="none" />
+	<circle cx="351.785714285714" cy="190" fill="none" r="5.49655028015618" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.49413371529628" stroke="none" text-anchor="end" x="343.54209714791" y="183.590177332154">Sphingobacteriales</text>
+	<text fill="black" font-family="Arial" font-size="5.49413371529628" stroke="none" text-anchor="end" x="343.54209714791" y="189.084311047451">1.762%,9.34%</text>
+	<path d="M 351.78571 214.37877 A 5.62123445868261 5.62123445868261, 0, 0, 1, 356.43056 216.83397 L 351.785714285714 220 Z" fill="crimson" stroke="none" />
+	<path d="M 356.43056 216.83397 A 5.62123445868261 5.62123445868261, 0, 0, 1, 357.01958 217.94942 L 351.785714285714 220 Z" fill="blue" stroke="none" />
+	<path d="M 357.01958 217.94942 A 5.62123445868261 5.62123445868261, 0, 0, 1, 346.62358 222.22500 L 351.785714285714 220 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 346.62358 222.22500 A 5.62123445868261 5.62123445868261, 0, 0, 1, 351.78571 214.37877 L 351.785714285714 220 Z" fill="orange" stroke="none" />
+	<circle cx="351.785714285714" cy="220" fill="none" r="5.62123445868261" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.01861025112062" stroke="none" text-anchor="end" x="343.155174701471" y="212.978288040359">Gemmatimonadales</text>
+	<text fill="black" font-family="Arial" font-size="6.01861025112062" stroke="none" text-anchor="end" x="343.155174701471" y="218.99689829148">2.269%,12.02%</text>
+	<path d="M 351.78571 263.99726 A 6.00273543542794 6.00273543542794, 0, 0, 1, 355.60677 265.37049 L 351.785714285714 270 Z" fill="crimson" stroke="none" />
+	<path d="M 355.60677 265.37049 A 6.00273543542794 6.00273543542794, 0, 0, 1, 357.78161 269.71346 L 351.785714285714 270 Z" fill="blue" stroke="none" />
+	<path d="M 357.78161 269.71346 A 6.00273543542794 6.00273543542794, 0, 0, 1, 346.13594 272.02803 L 351.785714285714 270 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 346.13594 272.02803 A 6.00273543542794 6.00273543542794, 0, 0, 1, 351.78571 263.99726 L 351.785714285714 270 Z" fill="orange" stroke="none" />
+	<circle cx="351.785714285714" cy="270" fill="none" r="6.00273543542794" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.94231005577156" stroke="none" text-anchor="end" x="342.811823822401" y="263.067304934933">Sphingomonadales</text>
+	<text fill="black" font-family="Arial" font-size="5.94231005577156" stroke="none" text-anchor="end" x="342.811823822401" y="269.009614990705">4.915%,26.05%</text>
+	<path d="M 351.78571 364.13937 A 5.86063096657432 5.86063096657432, 0, 0, 1, 356.33038 366.29959 L 351.785714285714 370 Z" fill="crimson" stroke="none" />
+	<path d="M 356.33038 366.29959 A 5.86063096657432 5.86063096657432, 0, 0, 1, 357.19174 367.73684 L 351.785714285714 370 Z" fill="blue" stroke="none" />
+	<path d="M 357.19174 367.73684 A 5.86063096657432 5.86063096657432, 0, 0, 1, 347.53778 374.03757 L 351.785714285714 370 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 347.53778 374.03757 A 5.86063096657432 5.86063096657432, 0, 0, 1, 351.78571 364.13937 L 351.785714285714 370 Z" fill="orange" stroke="none" />
+	<circle cx="351.785714285714" cy="370" fill="none" r="5.86063096657432" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.28497994688661" stroke="none" text-anchor="end" x="342.782593345697" y="362.667523395299">Burkholderiales</text>
+	<text fill="black" font-family="Arial" font-size="6.28497994688661" stroke="none" text-anchor="end" x="342.782593345697" y="368.952503342186">3.685%,19.53%</text>
+	<path d="M 351.78571 544.76266 A 5.23734464794536 5.23734464794536, 0, 0, 1, 352.89446 544.88136 L 351.785714285714 550 Z" fill="crimson" stroke="none" />
+	<path d="M 352.89446 544.88136 A 5.23734464794536 5.23734464794536, 0, 1, 1, 350.33086 544.96878 L 351.785714285714 550 Z" fill="blue" stroke="none" />
+	<path d="M 350.33086 544.96878 A 5.23734464794536 5.23734464794536, 0, 0, 1, 350.75428 544.86522 L 351.785714285714 550 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 350.75428 544.86522 A 5.23734464794536 5.23734464794536, 0, 0, 1, 351.78571 544.76266 L 351.785714285714 550 Z" fill="orange" stroke="none" />
+	<circle cx="351.785714285714" cy="550" fill="none" r="5.23734464794536" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.41619811922955" stroke="none" text-anchor="end" x="343.340270578154" y="542.514435527566">Pseudomonadales</text>
+	<text fill="black" font-family="Arial" font-size="6.41619811922955" stroke="none" text-anchor="end" x="343.340270578154" y="548.930633646795">1.042%,5.52%</text>
+	<path d="M 423.21429 34.46423 A 5.53577144076472 5.53577144076472, 0, 1, 1, 422.26116 45.45310 L 423.214285714286 40 Z" fill="crimson" stroke="none" />
+	<path d="M 422.26116 45.45310 A 5.53577144076472 5.53577144076472, 0, 0, 1, 419.63180 44.22026 L 423.214285714286 40 Z" fill="blue" stroke="none" />
+	<path d="M 419.63180 44.22026 A 5.53577144076472 5.53577144076472, 0, 0, 1, 417.83326 38.70026 L 423.214285714286 40 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 417.83326 38.70026 A 5.53577144076472 5.53577144076472, 0, 0, 1, 423.21429 34.46423 L 423.214285714286 40 Z" fill="orange" stroke="none" />
+	<circle cx="423.214285714286" cy="40" fill="none" r="5.53577144076472" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.70633650522689" stroke="none" text-anchor="end" x="414.325346020908" y="32.175940743902">Unknown Family</text>
+	<text fill="black" font-family="Arial" font-size="6.70633650522689" stroke="none" text-anchor="end" x="414.325346020908" y="38.8822772491289">1.908%,10.11%</text>
+	<path d="M 423.21429 64.88609 A 5.11390606612195 5.11390606612195, 0, 0, 1, 425.69003 65.52532 L 423.214285714286 70 Z" fill="crimson" stroke="none" />
+	<path d="M 425.69003 65.52532 A 5.11390606612195 5.11390606612195, 0, 1, 1, 418.64254 72.29155 L 423.214285714286 70 Z" fill="blue" stroke="none" />
+	<path d="M 418.64254 72.29155 A 5.11390606612195 5.11390606612195, 0, 0, 1, 419.00100 67.10169 L 423.214285714286 70 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 419.00100 67.10169 A 5.11390606612195 5.11390606612195, 0, 0, 1, 423.21429 64.88609 L 423.214285714286 70 Z" fill="orange" stroke="none" />
+	<circle cx="423.214285714286" cy="70" fill="none" r="5.11390606612195" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.80008436625861" stroke="none" text-anchor="end" x="414.700337465035" y="62.066568239365">Unknown Family</text>
+	<text fill="black" font-family="Arial" font-size="6.80008436625861" stroke="none" text-anchor="end" x="414.700337465035" y="68.8666526056236">0.812%,4.30%</text>
+	<path d="M 423.21429 124.33544 A 5.66456216518779 5.66456216518779, 0, 0, 1, 427.98133 126.94017 L 423.214285714286 130 Z" fill="crimson" stroke="none" />
+	<path d="M 427.98133 126.94017 A 5.66456216518779 5.66456216518779, 0, 0, 1, 424.57365 135.49904 L 423.214285714286 130 Z" fill="blue" stroke="none" />
+	<path d="M 424.57365 135.49904 A 5.66456216518779 5.66456216518779, 0, 0, 1, 417.55795 130.30523 L 423.214285714286 130 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 417.55795 130.30523 A 5.66456216518779 5.66456216518779, 0, 0, 1, 423.21429 124.33544 L 423.214285714286 130 Z" fill="orange" stroke="none" />
+	<circle cx="423.214285714286" cy="130" fill="none" r="5.66456216518779" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.67771634424398" stroke="none" text-anchor="end" x="414.210865376976" y="122.209330931715">Micrococcaceae</text>
+	<text fill="black" font-family="Arial" font-size="6.67771634424398" stroke="none" text-anchor="end" x="414.210865376976" y="128.887047275959">2.477%,13.13%</text>
+	<path d="M 423.21429 184.50345 A 5.49655028015618 5.49655028015618, 0, 0, 1, 427.52011 186.58357 L 423.214285714286 190 Z" fill="crimson" stroke="none" />
+	<path d="M 427.52011 186.58357 A 5.49655028015618 5.49655028015618, 0, 0, 1, 428.65750 189.23613 L 423.214285714286 190 Z" fill="blue" stroke="none" />
+	<path d="M 428.65750 189.23613 A 5.49655028015618 5.49655028015618, 0, 1, 1, 417.73575 189.55532 L 423.214285714286 190 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 417.73575 189.55532 A 5.49655028015618 5.49655028015618, 0, 0, 1, 423.21429 184.50345 L 423.214285714286 190 Z" fill="orange" stroke="none" />
+	<circle cx="423.214285714286" cy="190" fill="none" r="5.49655028015618" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.04354708682591" stroke="none" text-anchor="end" x="414.695961890717" y="182.94919506537">Chitinophagaceae</text>
+	<text fill="black" font-family="Arial" font-size="6.04354708682591" stroke="none" text-anchor="end" x="414.695961890717" y="188.992742152196">1.762%,9.34%</text>
+	<path d="M 423.21429 214.37877 A 5.62123445868261 5.62123445868261, 0, 0, 1, 427.85913 216.83397 L 423.214285714286 220 Z" fill="crimson" stroke="none" />
+	<path d="M 427.85913 216.83397 A 5.62123445868261 5.62123445868261, 0, 0, 1, 428.44815 217.94942 L 423.214285714286 220 Z" fill="blue" stroke="none" />
+	<path d="M 428.44815 217.94942 A 5.62123445868261 5.62123445868261, 0, 0, 1, 418.05215 222.22500 L 423.214285714286 220 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 418.05215 222.22500 A 5.62123445868261 5.62123445868261, 0, 0, 1, 423.21429 214.37877 L 423.214285714286 220 Z" fill="orange" stroke="none" />
+	<circle cx="423.214285714286" cy="220" fill="none" r="5.62123445868261" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.73200976297202" stroke="none" text-anchor="end" x="414.727046374117" y="213.312655276533">Gemmatimonadaceae</text>
+	<text fill="black" font-family="Arial" font-size="5.73200976297202" stroke="none" text-anchor="end" x="414.727046374117" y="219.044665039505">2.269%,12.02%</text>
+	<path d="M 423.21429 263.99726 A 6.00273543542794 6.00273543542794, 0, 0, 1, 427.03534 265.37049 L 423.214285714286 270 Z" fill="crimson" stroke="none" />
+	<path d="M 427.03534 265.37049 A 6.00273543542794 6.00273543542794, 0, 0, 1, 429.21018 269.71346 L 423.214285714286 270 Z" fill="blue" stroke="none" />
+	<path d="M 429.21018 269.71346 A 6.00273543542794 6.00273543542794, 0, 0, 1, 417.56451 272.02803 L 423.214285714286 270 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 417.56451 272.02803 A 6.00273543542794 6.00273543542794, 0, 0, 1, 423.21429 263.99726 L 423.214285714286 270 Z" fill="orange" stroke="none" />
+	<circle cx="423.214285714286" cy="270" fill="none" r="6.00273543542794" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.65934291025862" stroke="none" text-anchor="end" x="414.381878823729" y="263.397433271365">Sphingomonadaceae</text>
+	<text fill="black" font-family="Arial" font-size="5.65934291025862" stroke="none" text-anchor="end" x="414.381878823729" y="269.056776181624">4.915%,26.05%</text>
+	<path d="M 423.21429 324.67911 A 5.32088760221725 5.32088760221725, 0, 0, 1, 428.50391 329.42409 L 423.214285714286 330 Z" fill="crimson" stroke="none" />
+	<path d="M 428.50391 329.42409 A 5.32088760221725 5.32088760221725, 0, 0, 1, 428.51243 329.50858 L 423.214285714286 330 Z" fill="blue" stroke="none" />
+	<path d="M 428.51243 329.50858 A 5.32088760221725 5.32088760221725, 0, 0, 1, 419.18371 333.47366 L 423.214285714286 330 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 419.18371 333.47366 A 5.32088760221725 5.32088760221725, 0, 0, 1, 423.21429 324.67911 L 423.214285714286 330 Z" fill="orange" stroke="none" />
+	<circle cx="423.214285714286" cy="330" fill="none" r="5.32088760221725" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.61076838263542" stroke="none" text-anchor="end" x="414.588013920751" y="322.287436886925">Burkholderiaceae</text>
+	<text fill="black" font-family="Arial" font-size="6.61076838263542" stroke="none" text-anchor="end" x="414.588013920751" y="328.898205269561">1.234%,6.54%</text>
+	<path d="M 423.21429 404.34070 A 5.65930196362352 5.65930196362352, 0, 0, 1, 426.39999 405.32250 L 423.214285714286 410 Z" fill="crimson" stroke="none" />
+	<path d="M 426.39999 405.32250 A 5.65930196362352 5.65930196362352, 0, 0, 1, 428.04001 407.04363 L 423.214285714286 410 Z" fill="blue" stroke="none" />
+	<path d="M 428.04001 407.04363 A 5.65930196362352 5.65930196362352, 0, 0, 1, 419.20904 413.99821 L 423.214285714286 410 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 419.20904 413.99821 A 5.65930196362352 5.65930196362352, 0, 0, 1, 423.21429 404.34070 L 423.214285714286 410 Z" fill="orange" stroke="none" />
+	<circle cx="423.214285714286" cy="410" fill="none" r="5.65930196362352" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.57692694649479" stroke="none" text-anchor="end" x="414.266520277415" y="402.326918562423">Oxalobacteraceae</text>
+	<text fill="black" font-family="Arial" font-size="6.57692694649479" stroke="none" text-anchor="end" x="414.266520277415" y="408.903845508918">2.451%,12.99%</text>
+	<path d="M 423.21429 544.76266 A 5.23734464794536 5.23734464794536, 0, 0, 1, 424.32303 544.88136 L 423.214285714286 550 Z" fill="crimson" stroke="none" />
+	<path d="M 424.32303 544.88136 A 5.23734464794536 5.23734464794536, 0, 1, 1, 421.75943 544.96878 L 423.214285714286 550 Z" fill="blue" stroke="none" />
+	<path d="M 421.75943 544.96878 A 5.23734464794536 5.23734464794536, 0, 0, 1, 422.18285 544.86522 L 423.214285714286 550 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 422.18285 544.86522 A 5.23734464794536 5.23734464794536, 0, 0, 1, 423.21429 544.76266 L 423.214285714286 550 Z" fill="orange" stroke="none" />
+	<circle cx="423.214285714286" cy="550" fill="none" r="5.23734464794536" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.09538821326807" stroke="none" text-anchor="end" x="414.929246959706" y="542.888713751187">Pseudomonadaceae</text>
+	<text fill="black" font-family="Arial" font-size="6.09538821326807" stroke="none" text-anchor="end" x="414.929246959706" y="548.984101964455">1.042%,5.52%</text>
+	<path d="M 494.64286 24.76688 A 5.23312176294696 5.23312176294696, 0, 1, 1, 494.55376 35.23236 L 494.642857142857 30 Z" fill="crimson" stroke="none" />
+	<path d="M 494.55376 35.23236 A 5.23312176294696 5.23312176294696, 0, 0, 1, 490.53177 33.23799 L 494.642857142857 30 Z" fill="blue" stroke="none" />
+	<path d="M 490.53177 33.23799 A 5.23312176294696 5.23312176294696, 0, 0, 1, 489.70764 28.25956 L 494.642857142857 30 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 489.70764 28.25956 A 5.23312176294696 5.23312176294696, 0, 0, 1, 494.64286 24.76688 L 494.642857142857 30 Z" fill="orange" stroke="none" />
+	<circle cx="494.642857142857" cy="30" fill="none" r="5.23312176294696" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="8" stroke="none" text-anchor="start" x="503.875978905804" y="29.1111111111111">Bryobacter</text>
+	<text fill="black" font-family="Arial" font-size="8" stroke="none" text-anchor="start" x="503.875978905804" y="38">1.033%,5.48%</text>
+	<path d="M 494.64286 44.84917 A 5.15083476956763 5.15083476956763, 0, 1, 1, 492.84125 54.82549 L 494.642857142857 50 Z" fill="crimson" stroke="none" />
+	<path d="M 492.84125 54.82549 A 5.15083476956763 5.15083476956763, 0, 0, 1, 492.32001 54.59734 L 494.642857142857 50 Z" fill="blue" stroke="none" />
+	<path d="M 492.32001 54.59734 A 5.15083476956763 5.15083476956763, 0, 0, 1, 489.52686 49.40198 L 494.642857142857 50 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 489.52686 49.40198 A 5.15083476956763 5.15083476956763, 0, 0, 1, 494.64286 44.84917 L 494.642857142857 50 Z" fill="orange" stroke="none" />
+	<circle cx="494.642857142857" cy="50" fill="none" r="5.15083476956763" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.34793321843459" stroke="none" text-anchor="start" x="502.467658521642" y="49.4057851979517">Candidatus Solibacter</text>
+	<text fill="black" font-family="Arial" font-size="5.34793321843459" stroke="none" text-anchor="start" x="502.467658521642" y="55.3479332184346">0.875%,4.64%</text>
+	<path d="M 494.64286 64.88609 A 5.11390606612195 5.11390606612195, 0, 0, 1, 497.11860 65.52532 L 494.642857142857 70 Z" fill="crimson" stroke="none" />
+	<path d="M 497.11860 65.52532 A 5.11390606612195 5.11390606612195, 0, 1, 1, 490.07112 72.29155 L 494.642857142857 70 Z" fill="blue" stroke="none" />
+	<path d="M 490.07112 72.29155 A 5.11390606612195 5.11390606612195, 0, 0, 1, 490.42957 67.10169 L 494.642857142857 70 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 490.42957 67.10169 A 5.11390606612195 5.11390606612195, 0, 0, 1, 494.64286 64.88609 L 494.642857142857 70 Z" fill="orange" stroke="none" />
+	<circle cx="494.642857142857" cy="70" fill="none" r="5.11390606612195" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.86895222751506" stroke="none" text-anchor="start" x="503.691239322737" y="69.1256719747205">Blastocatella</text>
+	<text fill="black" font-family="Arial" font-size="7.86895222751506" stroke="none" text-anchor="start" x="503.691239322737" y="77.8689522275151">0.812%,4.30%</text>
+	<path d="M 494.64286 124.33544 A 5.66456216518779 5.66456216518779, 0, 0, 1, 499.40990 126.94017 L 494.642857142857 130 Z" fill="crimson" stroke="none" />
+	<path d="M 499.40990 126.94017 A 5.66456216518779 5.66456216518779, 0, 0, 1, 496.00222 135.49904 L 494.642857142857 130 Z" fill="blue" stroke="none" />
+	<path d="M 496.00222 135.49904 A 5.66456216518779 5.66456216518779, 0, 0, 1, 488.98652 130.30523 L 494.642857142857 130 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 488.98652 130.30523 A 5.66456216518779 5.66456216518779, 0, 0, 1, 494.64286 124.33544 L 494.642857142857 130 Z" fill="orange" stroke="none" />
+	<circle cx="494.642857142857" cy="130" fill="none" r="5.66456216518779" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.07052318802304" stroke="none" text-anchor="end" x="485.443033383658" y="121.75105628064">Arthrobacter</text>
+	<text fill="black" font-family="Arial" font-size="7.07052318802304" stroke="none" text-anchor="end" x="485.443033383658" y="128.821579468663">2.477%,13.13%</text>
+	<path d="M 494.64286 184.50345 A 5.49655028015618 5.49655028015618, 0, 0, 1, 498.94868 186.58357 L 494.642857142857 190 Z" fill="crimson" stroke="none" />
+	<path d="M 498.94868 186.58357 A 5.49655028015618 5.49655028015618, 0, 0, 1, 500.08607 189.23613 L 494.642857142857 190 Z" fill="blue" stroke="none" />
+	<path d="M 500.08607 189.23613 A 5.49655028015618 5.49655028015618, 0, 1, 1, 489.16432 189.55532 L 494.642857142857 190 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 489.16432 189.55532 A 5.49655028015618 5.49655028015618, 0, 0, 1, 494.64286 184.50345 L 494.642857142857 190 Z" fill="orange" stroke="none" />
+	<circle cx="494.642857142857" cy="190" fill="none" r="5.49655028015618" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.36162851244832" stroke="none" text-anchor="end" x="485.965492606477" y="182.57810006881">Flavisolibacter</text>
+	<text fill="black" font-family="Arial" font-size="6.36162851244832" stroke="none" text-anchor="end" x="485.965492606477" y="188.939728581259">1.762%,9.34%</text>
+	<path d="M 494.64286 214.37877 A 5.62123445868261 5.62123445868261, 0, 0, 1, 499.28770 216.83397 L 494.642857142857 220 Z" fill="crimson" stroke="none" />
+	<path d="M 499.28770 216.83397 A 5.62123445868261 5.62123445868261, 0, 0, 1, 499.87673 217.94942 L 494.642857142857 220 Z" fill="blue" stroke="none" />
+	<path d="M 499.87673 217.94942 A 5.62123445868261 5.62123445868261, 0, 0, 1, 489.48072 222.22500 L 494.642857142857 220 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 489.48072 222.22500 A 5.62123445868261 5.62123445868261, 0, 0, 1, 494.64286 214.37877 L 494.642857142857 220 Z" fill="orange" stroke="none" />
+	<circle cx="494.642857142857" cy="220" fill="none" r="5.62123445868261" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.08071794249485" stroke="none" text-anchor="end" x="485.481263712927" y="211.739162400423">Gemmatimonas</text>
+	<text fill="black" font-family="Arial" font-size="7.08071794249485" stroke="none" text-anchor="end" x="485.481263712927" y="218.819880342918">2.269%,12.02%</text>
+	<path d="M 494.64286 263.99726 A 6.00273543542794 6.00273543542794, 0, 0, 1, 498.46391 265.37049 L 494.642857142857 270 Z" fill="crimson" stroke="none" />
+	<path d="M 498.46391 265.37049 A 6.00273543542794 6.00273543542794, 0, 0, 1, 500.63875 269.71346 L 494.642857142857 270 Z" fill="blue" stroke="none" />
+	<path d="M 500.63875 269.71346 A 6.00273543542794 6.00273543542794, 0, 0, 1, 488.99309 272.02803 L 494.642857142857 270 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 488.99309 272.02803 A 6.00273543542794 6.00273543542794, 0, 0, 1, 494.64286 263.99726 L 494.642857142857 270 Z" fill="orange" stroke="none" />
+	<circle cx="494.642857142857" cy="270" fill="none" r="6.00273543542794" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.99095300679007" stroke="none" text-anchor="end" x="485.144645204034" y="261.843888158745">Sphingomonas</text>
+	<text fill="black" font-family="Arial" font-size="6.99095300679007" stroke="none" text-anchor="end" x="485.144645204034" y="268.834841165535">4.915%,26.05%</text>
+	<path d="M 494.64286 324.67911 A 5.32088760221725 5.32088760221725, 0, 0, 1, 499.93249 329.42409 L 494.642857142857 330 Z" fill="crimson" stroke="none" />
+	<path d="M 499.93249 329.42409 A 5.32088760221725 5.32088760221725, 0, 0, 1, 499.94100 329.50858 L 494.642857142857 330 Z" fill="blue" stroke="none" />
+	<path d="M 499.94100 329.50858 A 5.32088760221725 5.32088760221725, 0, 0, 1, 490.61228 333.47366 L 494.642857142857 330 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 490.61228 333.47366 A 5.32088760221725 5.32088760221725, 0, 0, 1, 494.64286 324.67911 L 494.642857142857 330 Z" fill="orange" stroke="none" />
+	<circle cx="494.642857142857" cy="330" fill="none" r="5.32088760221725" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.59834952801712" stroke="none" text-anchor="end" x="485.522794776631" y="321.13525888398">Burkholderia</text>
+	<text fill="black" font-family="Arial" font-size="7.59834952801712" stroke="none" text-anchor="end" x="485.522794776631" y="328.733608411997">1.234%,6.54%</text>
+	<path d="M 494.64286 404.34070 A 5.65930196362352 5.65930196362352, 0, 0, 1, 497.82856 405.32250 L 494.642857142857 410 Z" fill="crimson" stroke="none" />
+	<path d="M 497.82856 405.32250 A 5.65930196362352 5.65930196362352, 0, 0, 1, 499.46858 407.04363 L 494.642857142857 410 Z" fill="blue" stroke="none" />
+	<path d="M 499.46858 407.04363 A 5.65930196362352 5.65930196362352, 0, 0, 1, 490.63761 413.99821 L 494.642857142857 410 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 490.63761 413.99821 A 5.65930196362352 5.65930196362352, 0, 0, 1, 494.64286 404.34070 L 494.642857142857 410 Z" fill="orange" stroke="none" />
+	<circle cx="494.642857142857" cy="410" fill="none" r="5.65930196362352" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.07176088250875" stroke="none" text-anchor="end" x="485.447674737979" y="401.74961230374">Massilia</text>
+	<text fill="black" font-family="Arial" font-size="7.07176088250875" stroke="none" text-anchor="end" x="485.447674737979" y="408.821373186249">2.451%,12.99%</text>
+	<path d="M 494.64286 544.76266 A 5.23734464794536 5.23734464794536, 0, 0, 1, 495.75160 544.88136 L 494.642857142857 550 Z" fill="crimson" stroke="none" />
+	<path d="M 495.75160 544.88136 A 5.23734464794536 5.23734464794536, 0, 1, 1, 493.18801 544.96878 L 494.642857142857 550 Z" fill="blue" stroke="none" />
+	<path d="M 493.18801 544.96878 A 5.23734464794536 5.23734464794536, 0, 0, 1, 493.61142 544.86522 L 494.642857142857 550 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 493.61142 544.86522 A 5.23734464794536 5.23734464794536, 0, 0, 1, 494.64286 544.76266 L 494.642857142857 550 Z" fill="orange" stroke="none" />
+	<circle cx="494.642857142857" cy="550" fill="none" r="5.23734464794536" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.61923526658509" stroke="none" text-anchor="end" x="485.595894861619" y="541.110892188984">Pseudomonas</text>
+	<text fill="black" font-family="Arial" font-size="7.61923526658509" stroke="none" text-anchor="end" x="485.595894861619" y="548.730127455569">1.042%,5.52%</text>
+	<path d="M 566.07143 89.26352 A 0.736475120909702 0.736475120909702, 0, 1, 1, 565.77491 90.67415 L 566.071428571429 90 Z" fill="crimson" stroke="none" />
+	<path d="M 565.77491 90.67415 A 0.736475120909702 0.736475120909702, 0, 0, 1, 566.07143 89.26352 L 566.071428571429 90 Z" fill="lightseagreen" stroke="none" />
+	<circle cx="566.071428571429" cy="90" fill="none" r="0.736475120909702" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="4.31900150782365" stroke="none" text-anchor="start" x="568.96740444625" y="89.5201109435751">Arthrobacter crystallopoietes</text>
+	<text fill="black" font-family="Arial" font-size="4.31900150782365" stroke="none" text-anchor="start" x="568.96740444625" y="94.3190015078237">0.000%,0.00%</text>
+	<path d="M 566.07143 108.12506 A 1.87493601834127 1.87493601834127, 0, 0, 1, 566.72159 108.24140 L 566.071428571429 110 Z" fill="crimson" stroke="none" />
+	<path d="M 566.72159 108.24140 A 1.87493601834127 1.87493601834127, 0, 0, 1, 565.82405 111.85855 L 566.071428571429 110 Z" fill="blue" stroke="none" />
+	<path d="M 565.82405 111.85855 A 1.87493601834127 1.87493601834127, 0, 0, 1, 564.89914 111.46326 L 566.071428571429 110 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 564.89914 111.46326 A 1.87493601834127 1.87493601834127, 0, 0, 1, 566.07143 108.12506 L 566.071428571429 110 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="110" fill="none" r="1.87493601834127" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.00893314154705" stroke="none" text-anchor="start" x="570.450831160543" y="109.443451873161">Arthrobacter gandavensis</text>
+	<text fill="black" font-family="Arial" font-size="5.00893314154705" stroke="none" text-anchor="start" x="570.450831160543" y="115.008933141547">0.001%,0.01%</text>
+	<path d="M 566.07143 127.62475 A 2.37524794930353 2.37524794930353, 0, 0, 1, 567.93110 128.52236 L 566.071428571429 130 Z" fill="crimson" stroke="none" />
+	<path d="M 567.93110 128.52236 A 2.37524794930353 2.37524794930353, 0, 1, 1, 563.74879 130.49715 L 566.071428571429 130 Z" fill="blue" stroke="none" />
+	<path d="M 563.74879 130.49715 A 2.37524794930353 2.37524794930353, 0, 0, 1, 564.21846 128.51396 L 566.071428571429 130 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 564.21846 128.51396 A 2.37524794930353 2.37524794930353, 0, 0, 1, 566.07143 127.62475 L 566.071428571429 130 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="130" fill="none" r="2.37524794930353" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="4.97319657504975" stroke="none" text-anchor="start" x="570.933274808257" y="129.447422602772">Arthrobacter globiformis</text>
+	<text fill="black" font-family="Arial" font-size="4.97319657504975" stroke="none" text-anchor="start" x="570.933274808257" y="134.97319657505">0.003%,0.02%</text>
+	<circle cx="566.071428571429" cy="150" fill="blue" r="0.702439763331314" stroke="none" />
+	<circle cx="566.071428571429" cy="150" fill="none" r="0.702439763331314" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.48442771051298" stroke="none" text-anchor="start" x="569.516082190017" y="149.390619143276">Arthrobacter sp. AB_18</text>
+	<text fill="black" font-family="Arial" font-size="5.48442771051298" stroke="none" text-anchor="start" x="569.516082190017" y="155.484427710513">0.000%,0.00%</text>
+	<path d="M 566.07143 168.44025 A 1.55975103253665 1.55975103253665, 0, 0, 1, 567.40749 169.19517 L 566.071428571429 170 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 567.40749 169.19517 A 1.55975103253665 1.55975103253665, 0, 1, 1, 566.07143 168.44025 L 566.071428571429 170 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="170" fill="none" r="1.55975103253665" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.2177962198121" stroke="none" text-anchor="start" x="570.240077713871" y="169.420244864465">Arthrobacter woluwensis</text>
+	<text fill="black" font-family="Arial" font-size="5.2177962198121" stroke="none" text-anchor="start" x="570.240077713871" y="175.217796219812">0.001%,0.00%</text>
+	<path d="M 566.07143 188.29069 A 1.7093068005284 1.7093068005284, 0, 1, 1, 564.38235 190.26220 L 566.071428571429 190 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 564.38235 190.26220 A 1.7093068005284 1.7093068005284, 0, 0, 1, 566.07143 188.29069 L 566.071428571429 190 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="190" fill="none" r="1.7093068005284" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="4.39316832496698" stroke="none" text-anchor="start" x="569.977319534441" y="189.511870186115">Flavisolibacter ginsengisoli</text>
+	<text fill="black" font-family="Arial" font-size="4.39316832496698" stroke="none" text-anchor="start" x="569.977319534441" y="194.393168324967">0.001%,0.00%</text>
+	<path d="M 566.07143 208.43081 A 1.56918973131785 1.56918973131785, 0, 0, 1, 567.51494 210.61532 L 566.071428571429 210 Z" fill="crimson" stroke="none" />
+	<path d="M 567.51494 210.61532 A 1.56918973131785 1.56918973131785, 0, 0, 1, 564.89202 211.03506 L 566.071428571429 210 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 564.89202 211.03506 A 1.56918973131785 1.56918973131785, 0, 0, 1, 566.07143 208.43081 L 566.071428571429 210 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="210" fill="none" r="1.56918973131785" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.12441828423323" stroke="none" text-anchor="start" x="570.702827444863" y="209.31950907953">bacterium Ellin5290</text>
+	<text fill="black" font-family="Arial" font-size="6.12441828423323" stroke="none" text-anchor="start" x="570.702827444863" y="216.124418284233">0.001%,0.00%</text>
+	<circle cx="566.071428571429" cy="230" fill="orange" r="0.929333252948793" stroke="none" />
+	<circle cx="566.071428571429" cy="230" fill="none" r="0.929333252948793" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="3.02428369136388" stroke="none" text-anchor="start" x="568.512903670059" y="229.663968478737">bacterium enrichment culture clone auto9_4W</text>
+	<text fill="black" font-family="Arial" font-size="3.02428369136388" stroke="none" text-anchor="start" x="568.512903670059" y="233.024283691364">0.000%,0.00%</text>
+	<path d="M 566.07143 249.28398 A 0.716016235738793 0.716016235738793, 0, 0, 1, 566.13240 250.71342 L 566.071428571429 250 Z" fill="blue" stroke="none" />
+	<path d="M 566.13240 250.71342 A 0.716016235738793 0.716016235738793, 0, 1, 1, 566.07143 249.28398 L 566.071428571429 250 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="250" fill="none" r="0.716016235738793" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="4.59896669446846" stroke="none" text-anchor="start" x="569.086928154402" y="249.489003700615">Kaistobacter sp. IMER-A2-13</text>
+	<text fill="black" font-family="Arial" font-size="4.59896669446846" stroke="none" text-anchor="start" x="569.086928154402" y="254.598966694468">0.000%,0.00%</text>
+	<path d="M 566.07143 268.56226 A 1.43774356503319 1.43774356503319, 0, 1, 1, 565.85473 271.42132 L 566.071428571429 270 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 565.85473 271.42132 A 1.43774356503319 1.43774356503319, 0, 0, 1, 566.07143 268.56226 L 566.071428571429 270 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="270" fill="none" r="1.43774356503319" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="4.70415042899779" stroke="none" text-anchor="start" x="569.861247350961" y="269.477316619">Sphingomonas changbaiensis</text>
+	<text fill="black" font-family="Arial" font-size="4.70415042899779" stroke="none" text-anchor="start" x="569.861247350961" y="274.704150428998">0.000%,0.00%</text>
+	<path d="M 566.07143 288.56537 A 1.43463129890877 1.43463129890877, 0, 0, 1, 567.00937 288.91444 L 566.071428571429 290 Z" fill="blue" stroke="none" />
+	<path d="M 567.00937 288.91444 A 1.43463129890877 1.43463129890877, 0, 1, 1, 564.96144 290.90890 L 566.071428571429 290 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 564.96144 290.90890 A 1.43463129890877 1.43463129890877, 0, 0, 1, 566.07143 288.56537 L 566.071428571429 290 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="290" fill="none" r="1.43463129890877" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="3.52826843505456" stroke="none" text-anchor="start" x="569.270194087865" y="289.607970173883">unidentified marine bacterioplankton</text>
+	<text fill="black" font-family="Arial" font-size="3.52826843505456" stroke="none" text-anchor="start" x="569.270194087865" y="293.528268435055">0.000%,0.00%</text>
+	<circle cx="566.071428571429" cy="310" fill="blue" r="0.702439763331314" stroke="none" />
+	<circle cx="566.071428571429" cy="310" fill="none" r="0.702439763331314" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.94146335305572" stroke="none" text-anchor="start" x="569.744600011288" y="309.339837405216">Burkholderia cepacia</text>
+	<text fill="black" font-family="Arial" font-size="5.94146335305572" stroke="none" text-anchor="start" x="569.744600011288" y="315.941463353056">0.000%,0.00%</text>
+	<circle cx="566.071428571429" cy="330" fill="orange" r="0.729229202186323" stroke="none" />
+	<circle cx="566.071428571429" cy="330" fill="none" r="0.729229202186323" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.09076934270098" stroke="none" text-anchor="start" x="569.346042444965" y="329.434358961922">Burkholderia multivorans</text>
+	<text fill="black" font-family="Arial" font-size="5.09076934270098" stroke="none" text-anchor="start" x="569.346042444965" y="335.090769342701">0.000%,0.00%</text>
+	<path d="M 566.07143 348.55123 A 1.44876951629656 1.44876951629656, 0, 1, 1, 565.75903 351.41469 L 566.071428571429 350 Z" fill="crimson" stroke="none" />
+	<path d="M 565.75903 351.41469 A 1.44876951629656 1.44876951629656, 0, 0, 1, 566.07143 348.55123 L 566.071428571429 350 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="350" fill="none" r="1.44876951629656" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.64409843869628" stroke="none" text-anchor="start" x="570.342247307073" y="349.372877951256">Burkholderia sacchari</text>
+	<text fill="black" font-family="Arial" font-size="5.64409843869628" stroke="none" text-anchor="start" x="570.342247307073" y="355.644098438696">0.000%,0.00%</text>
+	<path d="M 566.07143 368.68505 A 1.31494850508562 1.31494850508562, 0, 0, 1, 567.24410 369.40509 L 566.071428571429 370 Z" fill="crimson" stroke="none" />
+	<path d="M 567.24410 369.40509 A 1.31494850508562 1.31494850508562, 0, 1, 1, 564.99518 369.24451 L 566.071428571429 370 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 564.99518 369.24451 A 1.31494850508562 1.31494850508562, 0, 0, 1, 566.07143 368.68505 L 566.071428571429 370 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="370" fill="none" r="1.31494850508562" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.06850514949144" stroke="none" text-anchor="start" x="570.92062965126" y="369.214610538945">Massilia sp. RK4</text>
+	<text fill="black" font-family="Arial" font-size="7.06850514949144" stroke="none" text-anchor="start" x="570.92062965126" y="377.068505149491">0.000%,0.00%</text>
+	<circle cx="566.071428571429" cy="390" fill="lightseagreen" r="0.666666666666667" stroke="none" />
+	<circle cx="566.071428571429" cy="390" fill="none" r="0.666666666666667" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.94444444444444" stroke="none" text-anchor="start" x="569.710317460317" y="389.339506172839">Massilia sp. Sco-D26</text>
+	<text fill="black" font-family="Arial" font-size="5.94444444444444" stroke="none" text-anchor="start" x="569.710317460317" y="395.944444444444">0.000%,0.00%</text>
+	<path d="M 566.07143 408.75654 A 1.24345966561808 1.24345966561808, 0, 1, 1, 564.98847 410.61105 L 566.071428571429 410 Z" fill="blue" stroke="none" />
+	<path d="M 564.98847 410.61105 A 1.24345966561808 1.24345966561808, 0, 0, 1, 564.95864 409.44511 L 566.071428571429 410 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 564.95864 409.44511 A 1.24345966561808 1.24345966561808, 0, 0, 1, 566.07143 408.75654 L 566.071428571429 410 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="410" fill="none" r="1.24345966561808" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.07565403343819" stroke="none" text-anchor="start" x="570.852715253766" y="409.213816218507">Massilia timonae</text>
+	<text fill="black" font-family="Arial" font-size="7.07565403343819" stroke="none" text-anchor="start" x="570.852715253766" y="417.075654033438">0.000%,0.00%</text>
+	<path d="M 566.07143 427.90145 A 2.09854624520218 2.09854624520218, 0, 0, 1, 567.38322 428.36198 L 566.071428571429 430 Z" fill="crimson" stroke="none" />
+	<path d="M 567.38322 428.36198 A 2.09854624520218 2.09854624520218, 0, 1, 1, 564.32151 431.15831 L 566.071428571429 430 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 564.32151 431.15831 A 2.09854624520218 2.09854624520218, 0, 0, 1, 566.07143 427.90145 L 566.071428571429 430 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="430" fill="none" r="2.09854624520218" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.82512114623315" stroke="none" text-anchor="start" x="571.082535389747" y="429.352764317085">Tripterygion delaisi</text>
+	<text fill="black" font-family="Arial" font-size="5.82512114623315" stroke="none" text-anchor="start" x="571.082535389747" y="435.825121146233">0.002%,0.01%</text>
+	<circle cx="566.071428571429" cy="450" fill="lightseagreen" r="0.866770717429137" stroke="none" />
+	<circle cx="566.071428571429" cy="450" fill="none" r="0.866770717429137" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.26912809500525" stroke="none" text-anchor="start" x="569.57276333636" y="449.414541322777">beta proteobacterium 51</text>
+	<text fill="black" font-family="Arial" font-size="5.26912809500525" stroke="none" text-anchor="start" x="569.57276333636" y="455.269128095005">0.000%,0.00%</text>
+	<path d="M 566.07143 468.67538 A 1.32461722956691 1.32461722956691, 0, 1, 1, 565.00160 469.21892 L 566.071428571429 470 Z" fill="blue" stroke="none" />
+	<path d="M 565.00160 469.21892 A 1.32461722956691 1.32461722956691, 0, 0, 1, 566.07143 468.67538 L 566.071428571429 470 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="470" fill="none" r="1.32461722956691" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.2352135385506" stroke="none" text-anchor="start" x="570.013652570271" y="469.418309606828">Pseudomonas fluorescens</text>
+	<text fill="black" font-family="Arial" font-size="5.2352135385506" stroke="none" text-anchor="start" x="570.013652570271" y="475.235213538551">0.000%,0.00%</text>
+	<path d="M 566.07143 488.01258 A 1.98742127156798 1.98742127156798, 0, 0, 1, 567.55899 488.68205 L 566.071428571429 490 Z" fill="crimson" stroke="none" />
+	<path d="M 567.55899 488.68205 A 1.98742127156798 1.98742127156798, 0, 0, 1, 567.30330 491.55960 L 566.071428571429 490 Z" fill="blue" stroke="none" />
+	<path d="M 567.30330 491.55960 A 1.98742127156798 1.98742127156798, 0, 0, 1, 565.68370 491.94923 L 566.071428571429 490 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 565.68370 491.94923 A 1.98742127156798 1.98742127156798, 0, 0, 1, 566.07143 488.01258 L 566.071428571429 490 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="490" fill="none" r="1.98742127156798" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.83438156070267" stroke="none" text-anchor="start" x="570.976040623348" y="489.351735382144">Pseudomonas mandelii</text>
+	<text fill="black" font-family="Arial" font-size="5.83438156070267" stroke="none" text-anchor="start" x="570.976040623348" y="495.834381560703">0.001%,0.01%</text>
+	<path d="M 566.07143 506.25279 A 3.74721293137038 3.74721293137038, 0, 0, 1, 566.98804 506.36662 L 566.071428571429 510 Z" fill="crimson" stroke="none" />
+	<path d="M 566.98804 506.36662 A 3.74721293137038 3.74721293137038, 0, 1, 1, 564.40009 506.64616 L 566.071428571429 510 Z" fill="blue" stroke="none" />
+	<path d="M 564.40009 506.64616 A 3.74721293137038 3.74721293137038, 0, 0, 1, 564.82162 506.46736 L 566.071428571429 510 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 564.82162 506.46736 A 3.74721293137038 3.74721293137038, 0, 0, 1, 566.07143 506.25279 L 566.071428571429 510 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="510" fill="none" r="3.74721293137038" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.46022296549037" stroke="none" text-anchor="start" x="572.548752985544" y="509.39330855939">Pseudomonas monteilii</text>
+	<text fill="black" font-family="Arial" font-size="5.46022296549037" stroke="none" text-anchor="start" x="572.548752985544" y="515.46022296549">0.051%,0.27%</text>
+	<circle cx="566.071428571429" cy="530" fill="blue" r="1.15464510346434" stroke="none" />
+	<circle cx="566.071428571429" cy="530" fill="none" r="1.15464510346434" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="4.57066805784101" stroke="none" text-anchor="start" x="569.511407703813" y="529.492147993573">Pseudomonas plecoglossicida</text>
+	<text fill="black" font-family="Arial" font-size="4.57066805784101" stroke="none" text-anchor="start" x="569.511407703813" y="534.570668057841">0.000%,0.00%</text>
+	<path d="M 566.07143 545.79770 A 4.20229670472817 4.20229670472817, 0, 0, 1, 567.64390 546.10300 L 566.071428571429 550 Z" fill="crimson" stroke="none" />
+	<path d="M 567.64390 546.10300 A 4.20229670472817 4.20229670472817, 0, 1, 1, 564.85801 545.97670 L 566.071428571429 550 Z" fill="blue" stroke="none" />
+	<path d="M 564.85801 545.97670 A 4.20229670472817 4.20229670472817, 0, 0, 1, 565.09479 545.91277 L 566.071428571429 550 Z" fill="lightseagreen" stroke="none" />
+	<path d="M 565.09479 545.91277 A 4.20229670472817 4.20229670472817, 0, 0, 1, 566.07143 545.79770 L 566.071428571429 550 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="550" fill="none" r="4.20229670472817" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.16342757229744" stroke="none" text-anchor="start" x="573.355439062306" y="549.315174714189">Pseudomonas putida</text>
+	<text fill="black" font-family="Arial" font-size="6.16342757229744" stroke="none" text-anchor="start" x="573.355439062306" y="556.163427572297">0.128%,0.68%</text>
+	<circle cx="566.071428571429" cy="570" fill="blue" r="0.902543814093784" stroke="none" />
+	<circle cx="566.071428571429" cy="570" fill="none" r="0.902543814093784" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.6877964948725" stroke="none" text-anchor="start" x="569.817870632959" y="569.368022611681">Pseudomonas sp. B-5-1</text>
+	<text fill="black" font-family="Arial" font-size="5.6877964948725" stroke="none" text-anchor="start" x="569.817870632959" y="575.687796494872">0.000%,0.00%</text>
+	<circle cx="566.071428571429" cy="590" fill="blue" r="1.15464510346434" stroke="none" />
+	<circle cx="566.071428571429" cy="590" fill="none" r="1.15464510346434" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.66762839172285" stroke="none" text-anchor="start" x="570.059887870754" y="589.370263512031">Pseudomonas sp. N6-12</text>
+	<text fill="black" font-family="Arial" font-size="5.66762839172285" stroke="none" text-anchor="start" x="570.059887870754" y="595.667628391723">0.000%,0.00%</text>
+	<circle cx="566.071428571429" cy="610" fill="blue" r="1.04451989755492" stroke="none" />
+	<circle cx="566.071428571429" cy="610" fill="none" r="1.04451989755492" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.91295667520376" stroke="none" text-anchor="start" x="570.072426806585" y="609.343004813866">Pseudomonas stutzeri</text>
+	<text fill="black" font-family="Arial" font-size="5.91295667520376" stroke="none" text-anchor="start" x="570.072426806585" y="615.912956675204">0.000%,0.00%</text>
+	<path d="M 566.07143 628.04778 A 1.95222315510687 1.95222315510687, 0, 1, 1, 564.68365 628.62696 L 566.071428571429 630 Z" fill="blue" stroke="none" />
+	<path d="M 564.68365 628.62696 A 1.95222315510687 1.95222315510687, 0, 0, 1, 566.07143 628.04778 L 566.071428571429 630 Z" fill="orange" stroke="none" />
+	<circle cx="566.071428571429" cy="630" fill="none" r="1.95222315510687" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.83731473707443" stroke="none" text-anchor="start" x="570.942309095073" y="629.351409473658">Pseudomonas syringae</text>
+	<text fill="black" font-family="Arial" font-size="5.83731473707443" stroke="none" text-anchor="start" x="570.942309095073" y="635.837314737074">0.001%,0.01%</text>
+	<!-- 
+	Generated using the Perl SVG Module V2.64
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+ -->
+</svg>

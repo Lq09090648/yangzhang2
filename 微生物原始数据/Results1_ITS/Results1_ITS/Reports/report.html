@@ -1,0 +1,833 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!-- <link rel="stylesheet" type="text/css" href="css/text.css"> -->
+        <!-----------------------引入样式表------------------------>
+       <script src="src/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+
+        <script src="src/js/common.js" type="text/javascript"></script>
+        <script src="src/js/jquery.albumSlider.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="src/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+        <link rel="stylesheet" type="text/css" href="src/css/topnav.css" />
+        <link rel="stylesheet" type="text/css" href="src/js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+        <link rel="stylesheet" href="src/css/style.css" />
+        <link rel="stylesheet" href="src/css/base.css" />
+        <!----------------------------目录的样式-------------------------------->
+        <link rel="stylesheet" type="text/css" href="src/css/catalog.css">
+
+        <link rel="stylesheet" type="text/css" href="src/css/jscrollpane1.css">
+        <script src="src/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+        <script src="src/js/scrolltop.js" type="text/javascript"></script>
+        <script src="src/js/common.js" type="text/javascript"></script>
+        <script src="src/js/jquery.albumSlider.min.js" type="text/javascript"></script>
+        <!--<script type="text/javascript" src="js/tree/tree.js"></script>-->
+        <!-----------------------支持鼠标滑轮滚动效果的js------------------------>
+        <script type="text/javascript" src="src/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+        <!-----------------------基于JQuery的弹出框插件Fancybox的js------------------------>
+        <script type="text/javascript" src="src/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+        <!----------------------------按表的字段排序的js-------------------------->
+        <script type="text/javascript" src="src/js/tableSort.js"></script>
+        <link type="text/css" rel="stylesheet" href="src/css/goTop.css">
+        <!-------------------------------轮番滚动图片的css和js---------------------------------->
+        <link rel="stylesheet" href="src/css/DB_gallery.css" type="text/css">
+        <!--<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>-->
+        <script type="text/javascript" src="src/js/jquery.DB_gallery.js" charset="utf-8"></script>
+		<!--------------------多表格下拉框---------------------->
+		<script type="text/javascript" src="src/js/XttSelect.js"></script>
+        <!--------------------style 属性media值为print意思为在打印时该样式才启用---------------->
+        <!--------------------滚动条---------------------->
+        <script type="text/javascript" src="src/js/jquery.jscrollpane.min.js"></script>
+		
+		<script type="text/javascript">
+            $(function() {
+
+                // the element we want to apply the jScrollPane
+                var $el					= $('#jp-container').jScrollPane({
+                            verticalGutter 	: -16
+                        }),
+
+                // the extension functions and options
+                        extensionPlugin 	= {
+
+                            extPluginOpts	: {
+                                // speed for the fadeOut animation
+                                mouseLeaveFadeSpeed	: 500,
+                                // scrollbar fades out after hovertimeout_t milliseconds
+                                hovertimeout_t		: 1000,
+                                // if set to false, the scrollbar will be shown on mouseenter and hidden on mouseleave
+                                // if set to true, the same will happen, but the scrollbar will be also hidden on mouseenter after "hovertimeout_t" ms
+                                // also, it will be shown when we start to scroll and hidden when stopping
+                                useTimeout			: true,
+                                // the extension only applies for devices with width > deviceWidth
+                                deviceWidth			: 980
+                            },
+                            hovertimeout	: null, // timeout to hide the scrollbar
+                            isScrollbarHover: false,// true if the mouse is over the scrollbar
+                            elementtimeout	: null,	// avoids showing the scrollbar when moving from inside the element to outside, passing over the scrollbar
+                            isScrolling		: false,// true if scrolling
+                            addHoverFunc	: function() {
+
+                                // run only if the window has a width bigger than deviceWidth
+                                if( $(window).width() <= this.extPluginOpts.deviceWidth ) return false;
+
+                                var instance		= this;
+
+                                // functions to show / hide the scrollbar
+                                $.fn.jspmouseenter 	= $.fn.show;
+                                $.fn.jspmouseleave 	= $.fn.fadeOut;
+
+                                // hide the jScrollPane vertical bar
+                                var $vBar			= this.getContentPane().siblings('.jspVerticalBar').hide();
+
+                                /*
+                                 * mouseenter / mouseleave events on the main element
+                                 * also scrollstart / scrollstop - @James Padolsey : http://james.padolsey.com/javascript/special-scroll-events-for-jquery/
+                                 */
+                                $el.bind('mouseenter.jsp',function() {
+
+                                    // show the scrollbar
+                                    $vBar.stop( true, true ).jspmouseenter();
+
+                                    if( !instance.extPluginOpts.useTimeout ) return false;
+
+                                    // hide the scrollbar after hovertimeout_t ms
+                                    clearTimeout( instance.hovertimeout );
+                                    instance.hovertimeout 	= setTimeout(function() {
+                                        // if scrolling at the moment don't hide it
+                                        if( !instance.isScrolling )
+                                            $vBar.stop( true, true ).jspmouseleave( instance.extPluginOpts.mouseLeaveFadeSpeed || 0 );
+                                    }, instance.extPluginOpts.hovertimeout_t );
+
+
+                                }).bind('mouseleave.jsp',function() {
+
+                                    // hide the scrollbar
+                                    if( !instance.extPluginOpts.useTimeout )
+                                        $vBar.stop( true, true ).jspmouseleave( instance.extPluginOpts.mouseLeaveFadeSpeed || 0 );
+                                    else {
+                                        clearTimeout( instance.elementtimeout );
+                                        if( !instance.isScrolling )
+                                            $vBar.stop( true, true ).jspmouseleave( instance.extPluginOpts.mouseLeaveFadeSpeed || 0 );
+                                    }
+
+                                });
+
+                                if( this.extPluginOpts.useTimeout ) {
+
+                                    $el.bind('scrollstart.jsp', function() {
+
+                                        // when scrolling show the scrollbar
+                                        clearTimeout( instance.hovertimeout );
+                                        instance.isScrolling	= true;
+                                        $vBar.stop( true, true ).jspmouseenter();
+
+                                    }).bind('scrollstop.jsp', function() {
+
+                                        // when stop scrolling hide the scrollbar (if not hovering it at the moment)
+                                        clearTimeout( instance.hovertimeout );
+                                        instance.isScrolling	= false;
+                                        instance.hovertimeout 	= setTimeout(function() {
+                                            if( !instance.isScrollbarHover )
+                                                $vBar.stop( true, true ).jspmouseleave( instance.extPluginOpts.mouseLeaveFadeSpeed || 0 );
+                                        }, instance.extPluginOpts.hovertimeout_t );
+
+                                    });
+
+                                    // wrap the scrollbar
+                                    // we need this to be able to add the mouseenter / mouseleave events to the scrollbar
+                                    var $vBarWrapper	= $('<div/>').css({
+                                        position	: 'absolute',
+                                        left		: $vBar.css('left'),
+                                        top			: $vBar.css('top'),
+                                        right		: $vBar.css('right'),
+                                        bottom		: $vBar.css('bottom'),
+                                        width		: $vBar.width(),
+                                        height		: $vBar.height()
+                                    }).bind('mouseenter.jsp',function() {
+
+                                        clearTimeout( instance.hovertimeout );
+                                        clearTimeout( instance.elementtimeout );
+
+                                        instance.isScrollbarHover	= true;
+
+                                        // show the scrollbar after 100 ms.
+                                        // avoids showing the scrollbar when moving from inside the element to outside, passing over the scrollbar
+                                        instance.elementtimeout	= setTimeout(function() {
+                                            $vBar.stop( true, true ).jspmouseenter();
+                                        }, 100 );
+
+                                    }).bind('mouseleave.jsp',function() {
+
+                                        // hide the scrollbar after hovertimeout_t
+                                        clearTimeout( instance.hovertimeout );
+                                        instance.isScrollbarHover	= false;
+                                        instance.hovertimeout = setTimeout(function() {
+                                            // if scrolling at the moment don't hide it
+                                            if( !instance.isScrolling )
+                                                $vBar.stop( true, true ).jspmouseleave( instance.extPluginOpts.mouseLeaveFadeSpeed || 0 );
+                                        }, instance.extPluginOpts.hovertimeout_t );
+
+                                    });
+
+                                    $vBar.wrap( $vBarWrapper );
+
+                                }
+
+                            }
+
+                        },
+
+                // the jScrollPane instance
+                        jspapi 			= $el.data('jsp');
+
+                // extend the jScollPane by merging
+                $.extend( true, jspapi, extensionPlugin );
+                jspapi.addHoverFunc();
+
+            });
+        </script>
+			
+        <style media="print">
+            .noprint {
+                DISPLAY: none;
+            }
+            #main {
+                width: 95%;
+                left: 10px;
+                right: 30px;
+            }
+            .printmenu {
+                display: block;
+            }
+        </style>
+			
+        <style type="text/css">
+            *{
+                font-family: '微软雅黑';
+            }
+            p{
+                line-height: 1.1em;
+            }
+        </style>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.fancybox-effects-s').fancybox({
+                    'scrolling': 'yes',
+                    'speedIn': 200,
+                    'speedOut': 200,
+                    // 'centerOnScroll': true,
+                    // 'autoDimensions': false,
+                    'padding': 0
+
+                });
+                $('.fancybox-effects-d').fancybox({
+                    "centerOnScroll": true,
+                    'autoDimensions': false,
+                    'width': 2000,
+
+                });
+            });
+
+            /**
+             * 返回顶部的图标是否显示的判断
+             * 页面当前显示内容与目录指示标题一致
+             */
+            $(document).scroll(function() {
+                var scrollTop = $(document).scrollTop(),
+                    bodyHeight = $(window).height();
+                // alert(scrollTop + "##");
+
+                // 返回顶部的图标是否显示的判断
+                if (scrollTop > bodyHeight) {
+                    $('.fixed-bar .gotop').css('display', 'block');
+                } else {
+                    $('.fixed-bar .gotop').css('display', 'none');
+                }
+            });
+        </script>
+    
+    </head>
+	
+	<body style="background: #fff url(src/img/bg.gif) repeat-x; color: #091f30;">
+        <table width="100%" height="105px" border="0" cellpadding="5" cellspacing="0" class="table_top">
+            <tr height="100%">
+                <td width='3%'></td>
+                <td>
+                    <img src="src/img/logo3.png" width="203" height="60">
+                </td>
+                <td width="30%" class="top_font_left">
+                    <!--基因科技，让人类更美更健康<br>Genetic technology,<br>make people more beautiful and healthier-->
+                </td>
+                <td width="10%"></td>
+
+                <td width="50%" class="top_font_right">
+                    <img src="src/img/slogan.png" width="350" height="60">
+                </td>
+                <td width="4%"></td>
+            </tr>
+        </table>
+
+
+
+		<div id="mulu">
+            <div id="changemulu" class="bottom-wrap">
+                <a class="toggle-button" href="javascript:void(0);" title="点击收起目录"></a>
+            </div>
+            <div class="side-catalog" id="holemulu">
+                <div class="side-bar noprint">
+                    <em class="circle start"></em>
+                    <em class="circle end"></em>
+                </div>
+                <div style="width:180px;height:673px;overflow: hidden;">
+                    <div id="jp-container" class="catalog-scroller noprint">
+                        <dl class="catalog-list">
+
+							<dt class="catalog-title level1" id="title1">
+                                <em class="pointer"></em>
+                                <span class="text" >
+                                    <span class="title-index">一</span>
+                                    <a href="#1" class="title-link">概述</a>
+                                </span>
+                            </dt>
+							<dt class="catalog-title level1" id="title2">
+                                <em class="pointer"></em>
+                                <span class="text" >
+                                    <span class="title-index">二</span>
+                                    <a href="#2" class="title-link">工作流程</a>
+                                </span>
+                            </dt>
+							<dd class="catalog-title level2">
+                                <span class="text">
+                                    <span class="title-index">2.1</span>
+                                <a href="#2.1" class="title-link">实验流程</a>
+                                </span>
+                            </dd>
+							<dd class="catalog-title level2">
+                                <span class="text">
+                                    <span class="title-index">2.2</span>
+                                <a href="#2.2" class="title-link">数据分析流程</a>
+                                </span>
+                            </dd>
+							<dt class="catalog-title level1" id="title3">
+                                <em class="pointer"></em>
+                                <span class="text" >
+                                    <span class="title-index">三</span>
+                                    <a href="#3" class="title-link">结果展示及说明</a>
+                                </span>
+                            </dt>
+							<dd class="catalog-title level2">
+                                <span class="text">
+                                    <span class="title-index">3.1</span>
+                                <a href="#3.1" class="title-link">原始序列数据</a>
+                                </span>
+                            </dd>
+							<dd class="catalog-title level2">
+                                <span class="text">
+                                    <span class="title-index">3.2</span>
+                                <a href="#3.2" class="title-link">测序数据质量评估</a>
+                                </span>
+                            </dd>
+							<dd class="catalog-title level2">
+                                <span class="text">
+                                    <span class="title-index">3.3</span>
+                                <a href="#3.3" class="title-link">OTU分析</a>
+                                </span>
+                            </dd>
+							<dd class="catalog-title level2">
+                                <span class="text">
+                                    <span class="title-index">3.4</span>
+                                <a href="#3.4" class="title-link">α多样性</a>
+                                </span>
+                            </dd>
+							<dd class="catalog-title level2">
+                                <span class="text">
+                                    <span class="title-index">3.5</span>
+                                <a href="#3.5" class="title-link">β多样性</a>
+                                </span>
+                            </dd>
+							<dd class="catalog-title level2">
+                                <span class="text">
+                                    <span class="title-index">3.6</span>
+                                <a href="#3.6" class="title-link">组间统计分析</a>
+                                </span>
+                            </dd>
+							<dd class="catalog-title level2">
+                                <span class="text">
+                                    <span class="title-index">3.7</span>
+                                <a href="#3.7" class="title-link">高级分析</a>
+                                </span>
+                            </dd>
+							<dt class="catalog-title level1" id="title4">
+                                <em class="pointer"></em>
+                                <span class="text" >
+                                    <span class="title-index">四</span>
+                                    <a href="#4" class="title-link">参考文献</a>
+                                </span>
+                            </dt>
+
+
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		<div class="fixed-bar">
+            <div class="wide-bar">
+                <a href="javascript:scrollTo(0,0)" class="gotop" title="回到顶部" style="display:none;">
+					<i class="icon">返回顶部</i>
+					<span>返回顶部</span>
+				</a>
+            </div>
+        </div>
+
+
+
+		<div id="main">
+
+			<div class="head">
+               <h1 >100个土壤样本16S和ITS微生物多样性测序分析</h1>
+                <div class="head-txt">
+                    <p>合同编号:C10117100230</p><p>结题时间:2017年12月27日</p><p>项目联系人:美因运营</p><p>联系方式:micro-pm@megagenomics.cn</p>
+                </div>
+            </div>
+			<h2 id="1">一、 概述</h2><hr >
+			<p class="paragraph">ITS（Internal Transcribed Spacer）内转录间隔区，包括ITS1和ITS2，分别位于真核生物核糖体rDNA序列18S和5.8S之间及5.8S和28S之间。ITS区进化速率较快，大约为18S的10倍，基于其序列多态性，ITS被广泛用于分类学和系统发生分析（Lafontaine et al. 2001; Oechsler et al. 2009.）。</p>
+			<p class="paragraph">本流程采用Illumina HiSeq测序平台，构建小片段文库进行双末端（paired-end）测序。下机数据经过预处理和质量控制后，进行OTUs聚类和注释，从而获得环境样品中真菌的物种组成及丰度信息，后续的α多样性分析、β多样性分析及其他统计分析将提供样品间和样本组间的差异信息。</p>
+			<p class="paragraph"></p>
+			<h2 id="2">二、 工作流程</h2><hr >
+			<h3 id="2.1">2.1 实验流程</h3>
+			<p class="paragraph">微生物多样性测序首先需要从环境样品中提取微生物DNA，用Nanodrop检测DNA的浓度和总量，PCR预扩增检测样品是否合格。样品检测合格后进行可变区域的扩增，扩增后的产物进行质检、纯化以及文库构建，构建好的文库经Qubit和QPCR定量，文库合格后，进行上机测序。实验具体流程如图2.1所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/img/experiment_procedure.png">
+					<img class="normal" src="src/img/experiment_procedure.png" alt="experiment_procedure" width="25%" height="25%" />
+				</a>
+			</p>
+			<p class="name_fig">图2.1 实验流程图</p>
+			<h3 id="2.2">2.2 数据分析流程</h3>
+			<p class="paragraph">测序得到的原始下机数据(Raw reads)经过拼接、过滤，得到Clean Tags, Clean Tags经过嵌合体的去除得到有效数据(Effective Tags)，基于质控合格的有效数据进行后续生物信息分析：根据特定的阈值（默认选取97%）进行OTU聚类，结合微生物目前最权威的数据库——Unite数据库进行物种注释和物种分类分析；后续基于OTU的分析，可以获得样品的丰度信息、样本内α多样性指数和样本间β多样性指数信息；通过多种统计比较，可以挖掘样品之间的群落结构和物种组成差异。生物信息具体流程如图2.2所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/img/analysis_procedure.png">
+					<img class="normal" src="src/img/analysis_procedure.png" alt="analysis_procedure" width="60%" height="60%" />
+				</a>
+			</p>
+			<p class="name_fig">图2.2 数据分析流程图</p>
+			<p class="premark">注：总样品数少于3时, 则不能进行多样品比较分析；组内生物学重复小于3时, 则不能进行组间统计分析及更高级的分析。</p>
+			<h2 id="3">三、 结果展示及说明</h2><hr >
+			<h3 id="3.1">3.1 原始序列数据</h3>
+			<p class="paragraph">高通量测序得到的原始图像数据文件经CASAVA碱基识别(Base Calling)分析转化为原始测序序列（Sequenced Reads）, 称为Raw Data或Raw Reads, 结果以FASTQ (简称为fq)文件格式存储, 其中包含测序序列（Reads）的序列信息及其对应的测序质量信息。</p>
+			<p class="paragraph">FASTQ格式文件中每个Read由四行描述, 如下：</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/img/fastq_format.png">
+					<img class="normal" src="src/img/fastq_format.png" alt="fastq_format" width="52%" height="20%" />
+				</a>
+			</p>
+			<p class="paragraph">第一行是序列标识（Read ID）以及相关的描述信息, 以“@”开头；</p>
+			<p class="paragraph">第二行即为碱基序列, 长度由测序策略决定；</p>
+			<p class="paragraph">第三行以“+”开头, 后面是序列标示符、描述信息, 或者什么也不加；</p>
+			<p class="paragraph">第四行是测序质量值（Phred）, 与第二行一一对应, Phred值以ASCII码标记, 对应的ASCII值减去33, 即为第二行对应碱基的测序质量值。</p>
+			<p class="name_fig">表3.1 Illumina测序标识详细信息</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/img/sequencing_identification_details.png">
+					<img class="normal" src="src/img/sequencing_identification_details.png" alt="sequencing_identification_details" width="50%" height="50%" />
+				</a>
+			</p>
+			<h3 id="3.2">3.2 测序数据质量评估</h3>
+			<h4 id="3.2.1">3.2.1 数据预处理及质量控制</h4>
+			<p class="paragraph">测序数据下机后, 首先对其进行数据过滤、拼接、质控, 具体包括以下流程：</p>
+			<p class="paragraph">(1)	去除Reads两端的Barcode和Primer序列；</p>
+			<p class="paragraph">(2) 使用FLASH软件将Read1和Read2的overlap进行拼接, 拼接后的序列为Raw Tags。拼接过程要求重叠区的最小长度为10 bp, 最大错配率为10%。</p>
+			<p class="paragraph">(3)	使用Qiime (Caporaso et al. 2010b)对Raw Tags进行质控, 截断掉含5个以上连续N或低质量碱基的Tags, 进一步过滤掉连续高质量碱基长度小于Tags长度75%的Tags, 从而获得Clean Tags。</p>
+			<p class="paragraph">(4)	去除Clean Tags中的嵌合体, 嵌合体即PCR扩增过程中产生的错误序列。嵌合体的检定采用UCHIME算法 (Edgar et al. 2011), 与Unite数据库比对,嵌合体序列，去除后即获得作为后续数据分析的Effective Tags。</p>
+			<h4 id="3.2.2">3.2.2 测序数据处理结果统计</h4>
+			<p class="paragraph">本项目共完成12个样品的扩增子测序分析, 平均每个样品产生98469条Clean Tags, 最少62401条Clean Tags。碱基质量值Q30比例大于83.47%。测序数据质控结果统计如表3.2.2所示。</p>
+			<p class="name_fig">表3.2.2 测序质量信息汇总</p>
+			<div class="stb1" style="overflow:auto;text-align:center;">
+				<table class="tf1" id="qc" width="50%">
+					<tr><th>SampleID</th><th>Raw PE</th><th>Raw Tags</th><th>Clean Tags</th><th>Effective Tags</th><th>Effective Rate(%)</th><th>Effective Bases(nt)</th><th>Avg Length(nt)</th><th>Q20 content(%)</th><th>Q30 content(%)</th><th>GC content(%)</th></tr><tr><td>CK1</td><td>119395</td><td>78661</td><td>77319</td><td>76433</td><td>64.02</td><td>28082228</td><td>367</td><td>92.17</td><td>83.55</td><td>51.38</td></tr><tr><td>CK2</td><td>89251</td><td>63401</td><td>62401</td><td>61991</td><td>69.46</td><td>22139123</td><td>357</td><td>92.34</td><td>83.81</td><td>54.51</td></tr><tr><td>CK3</td><td>117759</td><td>82327</td><td>81281</td><td>80177</td><td>68.09</td><td>28718513</td><td>358</td><td>92.33</td><td>83.75</td><td>54.08</td></tr><tr><td>JXBR161</td><td>93874</td><td>66336</td><td>65930</td><td>65240</td><td>69.50</td><td>23777516</td><td>364</td><td>92.32</td><td>83.81</td><td>51.73</td></tr><tr><td>JXBR162</td><td>162138</td><td>114668</td><td>113813</td><td>112322</td><td>69.28</td><td>39943706</td><td>356</td><td>92.60</td><td>84.31</td><td>53.70</td></tr><tr><td>JXBR163</td><td>129728</td><td>92630</td><td>92226</td><td>91155</td><td>70.27</td><td>32646624</td><td>358</td><td>92.68</td><td>84.36</td><td>54.80</td></tr><tr><td>R37J161</td><td>217055</td><td>148748</td><td>146363</td><td>144303</td><td>66.48</td><td>52486086</td><td>364</td><td>92.21</td><td>83.55</td><td>51.88</td></tr><tr><td>R37J162</td><td>159866</td><td>115055</td><td>110459</td><td>109598</td><td>68.56</td><td>38537066</td><td>352</td><td>92.32</td><td>83.87</td><td>51.46</td></tr><tr><td>R37J163</td><td>135729</td><td>92105</td><td>91475</td><td>90471</td><td>66.66</td><td>32596741</td><td>360</td><td>92.49</td><td>84.00</td><td>54.28</td></tr><tr><td>RW371</td><td>110228</td><td>77051</td><td>76272</td><td>75568</td><td>68.56</td><td>27866058</td><td>369</td><td>92.15</td><td>83.51</td><td>51.53</td></tr><tr><td>RW372</td><td>120596</td><td>82181</td><td>80501</td><td>79655</td><td>66.05</td><td>29229008</td><td>367</td><td>92.17</td><td>83.47</td><td>50.51</td></tr><tr><td>RW373</td><td>198441</td><td>184019</td><td>183593</td><td>183160</td><td>92.30</td><td>65637076</td><td>358</td><td>97.66</td><td>93.68</td><td>54.14</td></tr>
+				</table>
+			</div>
+			
+			<script>
+				//tableid，第几行是标签行，从第几行开始排序，第几行结束排序(999表示最后)， 升序标签样式，降序标签样式，选中列样式 
+                //注意标签行的class应该是一致的 
+                var ex1 = new tableSort('qc', 1, 2, 999, '', '', '');
+			</script>
+			<p class="tremark">
+				注：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)	Sample ID：样品名称；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)	Raw PE-Reads：原始下机的PE-Reads数目；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)	Raw Tags：拼接得到的Tags序列；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)	Clean Tags：Tags过滤低质量和短长度Tags后的序列；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5)	Effective Tags：过滤嵌合体后, 最终用于后续分析的Tags序列；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)	Effective Rate(%)：Effective Tags占Raw PE-Reads的比例；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(7)	Effective Bases(nt)：Effective Tags的碱基数；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)	AvgLen：Effective Tags的平均长度；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(9)	Q20：Effective Tags中碱基质量值大于20(测序错误率小于1%)的碱基所占的百分比；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(10)	Q30：Effective Tags中碱基质量值大于30(测序错误率小于0.1%)的碱基所占的百分比；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(11)	GC (%)：Effective Tags中GC碱基的含量。<br>
+			</p>
+			<h4 id="3.2.3">3.2.3 Effective Tags长度分布图</h4>
+			<p class="paragraph">各样品的Effective Tags长度分布如图3.2.3所示。</p>
+			<p class="center">
+                <div class="albumSlider">
+                    <div class="fullview"><img src='src/results/01.QC/quality_control/CK1/read_length.png' /></div>
+                    <div class="slider">
+                        <div class="button movebackward" title="向上滚动"></div>
+                        <div class="imglistwrap">
+                            <ul class="imglist">
+								<li><a id="example2" href='src/results/01.QC/quality_control/CK1/read_length.png'><img src='src/results/01.QC/quality_control/CK1/read_length.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/CK2/read_length.png'><img src='src/results/01.QC/quality_control/CK2/read_length.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/CK3/read_length.png'><img src='src/results/01.QC/quality_control/CK3/read_length.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/JXBR161/read_length.png'><img src='src/results/01.QC/quality_control/JXBR161/read_length.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/JXBR162/read_length.png'><img src='src/results/01.QC/quality_control/JXBR162/read_length.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/JXBR163/read_length.png'><img src='src/results/01.QC/quality_control/JXBR163/read_length.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/R37J161/read_length.png'><img src='src/results/01.QC/quality_control/R37J161/read_length.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/R37J162/read_length.png'><img src='src/results/01.QC/quality_control/R37J162/read_length.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/R37J163/read_length.png'><img src='src/results/01.QC/quality_control/R37J163/read_length.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/RW371/read_length.png'><img src='src/results/01.QC/quality_control/RW371/read_length.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/RW372/read_length.png'><img src='src/results/01.QC/quality_control/RW372/read_length.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/RW373/read_length.png'><img src='src/results/01.QC/quality_control/RW373/read_length.png' /></a></li>
+							</ul>
+                        </div>
+                        <div class="button moveforward" title="向下滚动"></div>
+                    </div>
+                </div>
+            </p>
+			<p class="name_fig">图3.2.3 Effective Tags长度分布图</p>
+			<p class="premark">注：横坐标表示Effective Tags长度, 纵坐标表示对应长度Effective Tags的数量。</p>
+			<p class="paragraph">测序数据处理结果文件目录请点击<a href="../01.QC/quality_control/">这里</a></p>
+			<h4 id="3.2.4">3.2.4 碱基测序质量值</h4>
+			<p class="paragraph">碱基质量值（Quality Score）是碱基识别（Base Calling）出错的概率的整数映射。碱基质量值越高表明碱基识别越可靠, 准确度越高。比如, 对于碱基质量值为Q20的碱基识别, 100个碱基中有1个会识别出错, Q30表示1000个碱基中有1个会识别出错, 以此类推。样品碱基测序质量值分布如图3.2.4所示。</p>
+			<p class="center">
+                <div class="albumSlider">
+                    <div class="fullview"><img src='src/results/01.QC/quality_control/CK1/quality_score.png' /></div>
+                    <div class="slider">
+                        <div class="button movebackward" title="向上滚动"></div>
+                        <div class="imglistwrap">
+                            <ul class="imglist">
+								<li><a id="example2" href='src/results/01.QC/quality_control/CK1/quality_score.png'><img src='src/results/01.QC/quality_control/CK1/quality_score.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/CK2/quality_score.png'><img src='src/results/01.QC/quality_control/CK2/quality_score.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/CK3/quality_score.png'><img src='src/results/01.QC/quality_control/CK3/quality_score.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/JXBR161/quality_score.png'><img src='src/results/01.QC/quality_control/JXBR161/quality_score.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/JXBR162/quality_score.png'><img src='src/results/01.QC/quality_control/JXBR162/quality_score.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/JXBR163/quality_score.png'><img src='src/results/01.QC/quality_control/JXBR163/quality_score.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/R37J161/quality_score.png'><img src='src/results/01.QC/quality_control/R37J161/quality_score.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/R37J162/quality_score.png'><img src='src/results/01.QC/quality_control/R37J162/quality_score.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/R37J163/quality_score.png'><img src='src/results/01.QC/quality_control/R37J163/quality_score.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/RW371/quality_score.png'><img src='src/results/01.QC/quality_control/RW371/quality_score.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/RW372/quality_score.png'><img src='src/results/01.QC/quality_control/RW372/quality_score.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/RW373/quality_score.png'><img src='src/results/01.QC/quality_control/RW373/quality_score.png' /></a></li>
+							</ul>
+                        </div>
+                        <div class="button moveforward" title="向下滚动"></div>
+                    </div>
+                </div>
+            </p>
+			<p class="name_fig">图3.2.4 碱基测序质量值分布图</p>
+			<p class="premark">注：横坐标为Reads的碱基位置, 纵坐标为单碱基质量值。</p>
+			<p class="paragraph">测序数据处理结果文件目录请点击<a href="../01.QC/quality_control/">这里</a></p>
+			<h4 id="3.2.5">3.2.5 碱基测序错误率</h4>
+			<p class="paragraph">测序错误率受测序仪本身、测序试剂、样品等多个因素共同影响。由于测序过程中化学试剂的消耗, 测序错误率会随着测序序列(Sequenced Reads)长度的增加而升高。此特征是Illumina高通量测序平台所具有的。碱基测序错误率分布如图3.2.5所示。</p>
+			<p class="center">
+                <div class="albumSlider">
+                    <div class="fullview"><img src='src/results/01.QC/quality_control/CK1/error_rate.png' /></div>
+                    <div class="slider">
+                        <div class="button movebackward" title="向上滚动"></div>
+                        <div class="imglistwrap">
+                            <ul class="imglist">
+								<li><a id="example2" href='src/results/01.QC/quality_control/CK1/error_rate.png'><img src='src/results/01.QC/quality_control/CK1/error_rate.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/CK2/error_rate.png'><img src='src/results/01.QC/quality_control/CK2/error_rate.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/CK3/error_rate.png'><img src='src/results/01.QC/quality_control/CK3/error_rate.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/JXBR161/error_rate.png'><img src='src/results/01.QC/quality_control/JXBR161/error_rate.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/JXBR162/error_rate.png'><img src='src/results/01.QC/quality_control/JXBR162/error_rate.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/JXBR163/error_rate.png'><img src='src/results/01.QC/quality_control/JXBR163/error_rate.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/R37J161/error_rate.png'><img src='src/results/01.QC/quality_control/R37J161/error_rate.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/R37J162/error_rate.png'><img src='src/results/01.QC/quality_control/R37J162/error_rate.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/R37J163/error_rate.png'><img src='src/results/01.QC/quality_control/R37J163/error_rate.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/RW371/error_rate.png'><img src='src/results/01.QC/quality_control/RW371/error_rate.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/RW372/error_rate.png'><img src='src/results/01.QC/quality_control/RW372/error_rate.png' /></a></li><li><a id="example2" href='src/results/01.QC/quality_control/RW373/error_rate.png'><img src='src/results/01.QC/quality_control/RW373/error_rate.png' /></a></li>
+							</ul>
+                        </div>
+                        <div class="button moveforward" title="向下滚动"></div>
+                    </div>
+                </div>
+            </p>
+			<p class="name_fig">图3.2.5 碱基测序错误率分布图</p>
+			<p class="premark">注：横坐标为Reads的碱基位置, 纵坐标为碱基错误率。</p>
+			<p class="paragraph">测序数据处理结果文件目录请点击<a href="../01.QC/quality_control/">这里</a></p>
+			<h3 id="3.3">3.3 OTU分析</h3>
+			<h4 id="3.3.1">3.3.1 OTU聚类</h4>
+			<p class="paragraph">为了研究样品的物种组成及多样性信息, 使用USEARCH方法, 对各样品的Effective Tags进行聚类, 将序列相似性达到97%的序列聚类成一个OTU, OTU即分类操作单元, 是在系统发生学研究或群体遗传学研究中, 为了便于进行分析, 人为给某一个分类单元设置的同一标志。各样品的OTU数量统计结果如图3.3.1所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/02.OTU/OTUcount/per_sample/otu_per_sample_summary.png">
+					<img class="normal" src="src/results/02.OTU/OTUcount/per_sample/otu_per_sample_summary.png" alt="otu_per_sample_summary" width="45%" height="45%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.3.1 各样品OTU数量统计图</p>
+			<p class="premark">注：横坐标为样品名称, 纵坐标为OTU数量。</p>
+			<p class="paragraph">OTU聚类结果文件目录请点击<a href="../02.OTU/OTUcount/per_sample/">这里</a></p>
+			<h4 id="3.3.2">3.3.2 基于OTU的Venn图</h4>
+			<p class="paragraph">为了更直观的展示不同样品（组）之间特有和共有的OTU, 根据OTU的分析结果绘制Venn图, 当样品（组）数目超过5但不超过20时, 绘制Flower图。如图3.3.2所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/02.OTU/Venn/group/venn_display.png">
+					<img class="normal" src="src/results/02.OTU/Venn/group/venn_display.png" alt="venn_display" width="45%" height="45%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.3.2 各样品（组）OTU的venn图</p>
+			<p class="premark">注：图中每个圈代表一个样品（组）, 圈和圈重叠区域的数字代表样品（组）间共有的OTU个数, 没有重叠部分的数字代表样品（组）特有的OTU个数。</p>
+			<p class="paragraph">各样品（组）OTU的Venn图文件目录请点击<a href="../02.OTU/Venn/">这里</a></p>
+			<h4 id="3.3.3">3.3.3 物种注释及分类学分析</h4>
+			<h5 id="3.3.3.1">3.3.3.1 物种注释结果KRONA展示</h5>
+			<p class="paragraph">使用KRONA对物种注释结果进行可视化展示, 展示结果中, 圆圈从内到外依次代表不同的分类级别, 扇形的大小代表不同OTU注释结果的相对比例。物种注释结果KRONA示例图如图3.3.3.1所示。</p>
+			<p class="paragraph">
+				KRONA注释结果在线展示请点击<a href='src/results/02.OTU/Krona/krona.html' class='mylink' target='_blank'>这里</a>
+			</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/img/krona_demo.png">
+					<img class="normal" src="src/img/krona_demo.png" alt="krona_demo" width="45%" height="45%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.3.3.1 物种注释结果可视化展示</p>
+			<h5 id="3.3.3.2">3.3.3.2 物种注释结果统计</h5>
+			<p class="paragraph">以OTU中出现频数最高的序列为该OTU代表序列；利用OTU代表序列进行分类注释, 采用算法为UCLUST算法 (Edgar 2010), 参考序列为Unite数据库 (Quast et al. 2013), 分类水平为界（kingdom）、门（phylum）、纲（class）、目（order）、科（family）、属（genus）、种（species）；根据注释情况, 统计每个样品注释到各个分类水平上的序列数目, 由此可轻松了解注释结果在分类水平的整体情况, 其中注释到属的比例越高表示样本的OTU注释效果越好。各样品在各分类水平上的OTU数目统计结果如图3.3.3.2所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/02.OTU/OTUcount/per_level/otu_count_each_level.png">
+					<img class="normal" src="src/results/02.OTU/OTUcount/per_level/otu_count_each_level.png" alt="otu_count_each_level.png" width="60%" height="45%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.3.3.2 各样品在各分类水平上的序列数目</p>
+			<p class="paragraph">物种注释结果统计文件目录请点击<a href="../02.OTU/OTUcount/per_level/">这里</a></p>
+			<h5 id="3.3.3.3">3.3.3.3 物种相对丰度展示</h5>
+			<p class="paragraph">根据物种注释结果, 选取每个样品（组）在门、纲、目、科、属 (Phylum, Class, Order, Family, Genus) 这五个分类水平上丰度排名前10的物种, 生成物种相对丰度柱形累加图, 以便直观查看各样品在不同分类水平上, 相对丰度较高的物种及其比例。以门水平丰度排名前10的物种相对丰度柱状图为例展示如图3.3.3.3-1与3.3.3.3-2所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/02.OTU/Top10/sample/sample.p.png">
+					<img class="normal" src="src/results/02.OTU/Top10/sample/sample.p.png" alt="sample.p.png" width="60%" height="45%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.3.3.3-1 门水平物种相对丰度柱状图</p>
+			<p class="premark">注：横坐标（Sample Name）为样品名称, 纵坐标（Relative Abundance）为相对丰度, 不同颜色代表不同的物种, Others表示排名为10以后的所有门以及没有注释信息的门的相对丰度之和。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/02.OTU/Top10/group/group.p.png">
+					<img class="normal" src="src/results/02.OTU/Top10/group/group.p.png" alt="group.p.png" width="45%" height="45%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.3.3.3-2 门水平样品分组相对丰度柱状图</p>
+			<p class="premark">注：横坐标（Group Name）为样品分组名称, 纵坐标（Relative Abundance）为相对丰度, 不同颜色代表不同的物种, Others表示排名为10以后的所有门以及没有注释信息的门的相对丰度之和。</p>
+			<p class="paragraph">物种相对丰度文件目录请点击<a href="../02.OTU/Top10/sample/">这里</a></p>
+			<h4 id="3.3.4">3.3.4 物种丰度聚类图</h4>
+			<p class="paragraph">根据所有样品（组）在各水平的物种注释及丰度信息, 选取丰度排名前35的物种绘制成热图, 便于发现哪些物种在哪些样品（组）中富集或含量较低。以门水平的物种丰度聚类结果为例展示如图3.3.4所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/02.OTU/Taxa_heatmap/sample/sample.p.png">
+					<img class="normal" src="src/results/02.OTU/Taxa_heatmap/sample/sample.p.png" alt="sample.p" width="70%" height="70%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.3.4 物种丰度聚类图</p>
+			<p class="premark">注：横向为样品信息，纵向为门水平物种信息。</p>
+			<p class="paragraph">物种丰度聚类热图文件目录请点击<a href="../02.OTU/Taxa_heatmap/">这里</a></p>
+			<h4 id="3.3.5">3.3.5 特定物种分类树</h4>
+			<p class="paragraph">对每个样品的物种分类结果, 筛选特别关注的物种（默认选择最大相对丰度前10的属）进行物种分类树统计(Degnan and Ochman 2012),并使用自主研发的画图工具进行展示， 其中多个样品的物种分类树如图3.3.5-1所示, 单个样品的物种分类树如图3.3.5-2所示, 分组样品的物种分类树见结果文件。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/02.OTU/Taxa_tree/group/all.taxtree.png">
+					<img class="normal" src="src/results/02.OTU/Taxa_tree/group/all.taxtree.png" alt="all.taxtree" width="45%" height="45%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.3.5-1 多样品中特定物种分类树</p>
+			<p class="premark">注：圆圈中不同颜色的扇形表示不同的样品, 对应左侧图例；扇形的大小表示该样品在该分类上相对丰度的比例大小；分类名下方的数字表示所有样品在该分类上的平均相对丰度百分率, 有两个数字, 前者表示占所有物种的百分率, 后者表示占所选取物种的百分率。</p>
+			<p class="center">
+                <div class="albumSlider">
+                    <div class="fullview"><img src='src/results/02.OTU/Taxa_tree/CK1.taxtree.png' /></div>
+                    <div class="slider">
+                        <div class="button movebackward" title="向上滚动"></div>
+                        <div class="imglistwrap">
+                            <ul class="imglist">
+								<li><a id="example2" href='src/results/02.OTU/Taxa_tree/CK1.taxtree.png'><img src='src/results/02.OTU/Taxa_tree/CK1.taxtree.png' /></a></li><li><a id="example2" href='src/results/02.OTU/Taxa_tree/CK2.taxtree.png'><img src='src/results/02.OTU/Taxa_tree/CK2.taxtree.png' /></a></li><li><a id="example2" href='src/results/02.OTU/Taxa_tree/CK3.taxtree.png'><img src='src/results/02.OTU/Taxa_tree/CK3.taxtree.png' /></a></li><li><a id="example2" href='src/results/02.OTU/Taxa_tree/JXBR161.taxtree.png'><img src='src/results/02.OTU/Taxa_tree/JXBR161.taxtree.png' /></a></li><li><a id="example2" href='src/results/02.OTU/Taxa_tree/JXBR162.taxtree.png'><img src='src/results/02.OTU/Taxa_tree/JXBR162.taxtree.png' /></a></li><li><a id="example2" href='src/results/02.OTU/Taxa_tree/JXBR163.taxtree.png'><img src='src/results/02.OTU/Taxa_tree/JXBR163.taxtree.png' /></a></li><li><a id="example2" href='src/results/02.OTU/Taxa_tree/R37J161.taxtree.png'><img src='src/results/02.OTU/Taxa_tree/R37J161.taxtree.png' /></a></li><li><a id="example2" href='src/results/02.OTU/Taxa_tree/R37J162.taxtree.png'><img src='src/results/02.OTU/Taxa_tree/R37J162.taxtree.png' /></a></li><li><a id="example2" href='src/results/02.OTU/Taxa_tree/R37J163.taxtree.png'><img src='src/results/02.OTU/Taxa_tree/R37J163.taxtree.png' /></a></li><li><a id="example2" href='src/results/02.OTU/Taxa_tree/RW371.taxtree.png'><img src='src/results/02.OTU/Taxa_tree/RW371.taxtree.png' /></a></li><li><a id="example2" href='src/results/02.OTU/Taxa_tree/RW372.taxtree.png'><img src='src/results/02.OTU/Taxa_tree/RW372.taxtree.png' /></a></li><li><a id="example2" href='src/results/02.OTU/Taxa_tree/RW373.taxtree.png'><img src='src/results/02.OTU/Taxa_tree/RW373.taxtree.png' /></a></li>
+							</ul>
+                        </div>
+                        <div class="button moveforward" title="向下滚动"></div>
+                    </div>
+                </div>
+            </p>
+			<p class="name_fig">图3.3.5-2 单样品中特定物种分类树</p>
+			<p class="premark">注：不同颜色的圆圈表示不同的分类水平, 对应左侧图例；圆圈的大小代表该分类的相对丰度大小；分类名下方的两个数字均表示相对丰度百分率, 前者表示该分类占该样品中所有分类物种的百分率, 后者则表示该分类占该样品所选取的分类物种中的百分率。红色字体的分类表示在该样品中不存在该分类注释, 但是存在于其他分析样品中。</p>
+			<p class="paragraph">特定物种分类树文件目录请点击<a href="../02.OTU/Taxa_tree/">这里</a></p>
+			<h3 id="3.4">3.4 样品复杂度分析-α多样性</h3>
+			<p class="paragraph">Alpha Diversity用于分析样品内(Within-Community)的微生物群落多样性, 通过单样本的多样性分析(α多样性)可以反映样品内的微生物群落的丰富度和多样性, 包括用稀释曲线和一系列统计学分析指数来评估各样品中微生物群落的物种丰富度和多样性。</p>
+			<h4 id="3.4.1">3.4.1 稀释曲线</h4>
+			<p class="paragraph">常见计算群落丰度（Community Richness）的指数有：Chao1、Goods_Coverage和Observed_OTUs, 此类指数只考虑群落中物种的数量, 不考虑群落中每个物种的丰度情况。Chao1指数是生态学中广泛使用的α多样性测度指数之一, 用于估计群落样品中包含的物种总数；Goods_Coverage指数是一个较为常用的测序深度指数, 其在计算中加入了只含有一条序列的OTU数目和抽样中出现的总序列数目, 因此能较为真实的反映样品的测序深度。Observed_OTUs指数用于检测群落样品中包含的OTU总数。</p>
+			<p class="paragraph">常见计算群落多样性（Community Diversity）的指数有：Shannon指数和Simpson指数, 二者受群落中物种丰富度和均匀度（Community Evenness）的共同影响, 相同物种丰度的情况下, 群落中各物种具有越大的均匀度, 则认为群落具有越大的多样性。Shannon指数也叫香农-维纳(Shannon-Wiener)或香农-韦弗(Shannon-Weaver)指数, 它的计算考虑到样品中的分类总数和每个分类所占的比例。群落多样性越高, 物种分布越均匀, Shannon指数越大；Simpson指数通过计算随机取样的两个个体属于不同种的概率, 来表征群落内物种分布的多样性和均匀度。群落中种数越多, 各种个体分配越均匀, 指数越高, 指示群落多样性好。</p>
+			<p class="paragraph">α多样性指标的稀释曲线各样本的结果如图3.4.1-1所示, 样本分组的结果如图3.4.1-2所示。</p>
+			<p class="center">
+                <div class="albumSlider">
+                    <div class="fullview"><img src='src/results/03.AlphaDiversity/AlphaRarefraction/chao1/SampleID_chao1.png' /></div>
+                    <div class="slider">
+                        <div class="button movebackward" title="向上滚动"></div>
+                        <div class="imglistwrap">
+                            <ul class="imglist">
+								<li><a id="example2" href='src/results/03.AlphaDiversity/AlphaRarefraction/chao1/SampleID_chao1.png'><img src='src/results/03.AlphaDiversity/AlphaRarefraction/chao1/SampleID_chao1.png' /></a></li><li><a id="example2" href='src/results/03.AlphaDiversity/AlphaRarefraction/goods_coverage/SampleID_goods_coverage.png'><img src='src/results/03.AlphaDiversity/AlphaRarefraction/goods_coverage/SampleID_goods_coverage.png' /></a></li><li><a id="example2" href='src/results/03.AlphaDiversity/AlphaRarefraction/observed_otus/SampleID_observed_otus.png'><img src='src/results/03.AlphaDiversity/AlphaRarefraction/observed_otus/SampleID_observed_otus.png' /></a></li><li><a id="example2" href='src/results/03.AlphaDiversity/AlphaRarefraction/shannon/SampleID_shannon.png'><img src='src/results/03.AlphaDiversity/AlphaRarefraction/shannon/SampleID_shannon.png' /></a></li><li><a id="example2" href='src/results/03.AlphaDiversity/AlphaRarefraction/simpson/SampleID_simpson.png'><img src='src/results/03.AlphaDiversity/AlphaRarefraction/simpson/SampleID_simpson.png' /></a></li>
+							</ul>
+                        </div>
+                        <div class="button moveforward" title="向下滚动"></div>
+                    </div>
+                </div>
+            </p>
+			<p class="name_fig">图3.4.1-1 稀释曲线</p>
+			<p class="premark">注：横坐标为从样本中随机抽取的测序条数, 纵坐标为基于该测序条数的chao1指数值, 用来反映测序深度情况；不同的样品用不同颜色的线条表示。</p>
+			<p class="center">
+                <div class="albumSlider">
+                    <div class="fullview"><img src='src/results/03.AlphaDiversity/AlphaRarefraction/chao1/SampleType_group_chao1.png' /></div>
+                    <div class="slider">
+                        <div class="button movebackward" title="向上滚动"></div>
+                        <div class="imglistwrap">
+                            <ul class="imglist">
+								<li><a id="example2" href='src/results/03.AlphaDiversity/AlphaRarefraction/chao1/SampleType_group_chao1.png'><img src='src/results/03.AlphaDiversity/AlphaRarefraction/chao1/SampleType_group_chao1.png' /></a></li><li><a id="example2" href='src/results/03.AlphaDiversity/AlphaRarefraction/goods_coverage/SampleType_group_goods_coverage.png'><img src='src/results/03.AlphaDiversity/AlphaRarefraction/goods_coverage/SampleType_group_goods_coverage.png' /></a></li><li><a id="example2" href='src/results/03.AlphaDiversity/AlphaRarefraction/observed_otus/SampleType_group_observed_otus.png'><img src='src/results/03.AlphaDiversity/AlphaRarefraction/observed_otus/SampleType_group_observed_otus.png' /></a></li><li><a id="example2" href='src/results/03.AlphaDiversity/AlphaRarefraction/shannon/SampleType_shannon.png'><img src='src/results/03.AlphaDiversity/AlphaRarefraction/shannon/SampleType_shannon.png' /></a></li><li><a id="example2" href='src/results/03.AlphaDiversity/AlphaRarefraction/simpson/SampleType_simpson.png'><img src='src/results/03.AlphaDiversity/AlphaRarefraction/simpson/SampleType_simpson.png' /></a></li>
+							</ul>
+                        </div>
+                        <div class="button moveforward" title="向下滚动"></div>
+                    </div>
+                </div>
+            </p>
+			<p class="name_fig">图3.4.1-2 稀释曲线</p>
+			<p class="premark">注：横坐标为从样本组中随机抽取的测序条数, 纵坐标为基于该测序条数的chao1指数值, 用来反映测序深度情况；不同的样品组用不同颜色的线条表示。</p>
+			<p class="paragraph">稀释曲线文件目录请点击<a href="../03.AlphaDiversity/AlphaRarefraction/">这里</a></p>
+			<h4 id="3.4.2">3.4.2 Rank-Abundance曲线</h4>
+			<p class="paragraph">Rank-Abundance曲线是将OTU按含有的序列条数由大到小进行等级排序, 以OTU等级为横坐标, 以每个OTU中所含的序列数（或OTU中序列数的百分含量）为纵坐标, 将数据点用折线连接, 曲线的宽度反映了样品中OTU的丰度, 曲线的平滑度反映了OTU分布的均匀程度。Rank-Abundance曲线如图3.4.2所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/03.AlphaDiversity/RankAbundance/sample.rank_abundance.png">
+					<img class="normal" src="src/results/03.AlphaDiversity/RankAbundance/sample.rank_abundance.png" alt="sample.rank_abundance" width="45%" height="45%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.4.2 Rank-Abundance曲线</p>
+			<p class="premark">注：横坐标为按OTU丰度排序的序号, 纵坐标为对应的OTU的相对丰度, 不同的样品使用不同的颜色的折线表示。</p>
+			<p class="paragraph">Rank-Abundance曲线文件目录请点击<a href="../03.AlphaDiversity/RankAbundance/">这里</a></p>
+			<h4 id="3.4.3">3.4.3 α多样性指数统计</h4>
+			<p class="paragraph">α多样性指数组间差异可以通过箱形图直观的反映组内物种多样性的中位数、离散程度、最大值、最小值和异常值, 同时, 通过T-test检验, Wilcox秩和检验和Tukey检验（只有2个分组时进行T-test和Wilcox秩和检验, 分组大于2时进行Tukey和Wilcox秩和检验）分析组间物种多样性差异是否显著。以Chao1指数为例, 其组间差异分析的箱形图如图3.4.3所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/03.AlphaDiversity/Compare_Alpha_Metrics/chao1.png">
+					<img class="normal" src="src/results/03.AlphaDiversity/Compare_Alpha_Metrics/chao1.png" alt="chao1" width="45%" height="45%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.4.3 Chao1差异箱形图</p>
+			<p class="premark">注：横坐标为样品分组, 纵坐标为相应指标的值。</p>
+			<p class="paragraph">α多样性指数统计文件目录请点击<a href="../03.AlphaDiversity/Compare_Alpha_Metrics/">这里</a></p>
+			<h3 id="3.5">3.5 多样品比较分析-β多样性</h3>
+			<p class="paragraph">Beta Diversity是对不同样品的微生物群落构成进行比较分析。首先根据所有样品的物种注释结果和OTUs的丰度信息，将相同分类的OTUs信息合并处理得到物种丰度信息表(Profiling Table)，并进一步计算Bray-Curtis距离（Bokulich et al. 2013; Mueller et al. 2014.）。Bray-Curtis 距离是一种利用各样品中微生物组成 和峰度信息计算样品间距离，两个以上的样品，则得到一个距离矩阵。最后，通过多变量统计学方法主成分分析(PCA, Principal Component Analysis)，主坐标分析(PCoA，Principal Co-ordinates Analysis)，非加权组平均聚类分析(UPGMA，Unweighted Pair-group Method with Arithmetic Means)等分析方法，从中发现不同样品（组）间的差异。</p>
+			<h4 id="3.5.1">3.5.1 β多样性指数</h4>
+			<p class="paragraph">Beta多样性研究中，选用Bray-Curtis距离来衡量两个样品间的相异系数，其值越小，表示这两个样品在物种多样性方面存在的差异越小。以Bray-Curtis距离绘制Heatmap图。β多样性指数热图如图3.5.1所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/04.BetaDiversity/beta_div_heatmap/bray_curtis_heatmap.png">
+					<img class="normal" src="src/results/04.BetaDiversity/beta_div_heatmap/bray_curtis_heatmap.png" alt="bray_curtis_heatmap" width="70%" height="70%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.5.1 基于Bray-Curtis距离的Beta多样性指数热图</p>
+			<p class="premark">注：图中方格中的数字是样品两两之间的相异系数，取值0-1，相异系数越小的两个样品，物种多样性的差异越小。</p>
+			<p class="paragraph">β多样性指数文件目录请点击<a href="../04.BetaDiversity/beta_div_heatmap/">这里</a></p>
+			<h4 id="3.5.2">3.5.2 PCA分析</h4>
+			<p class="paragraph">主成分分析(PCA, Principal Component Analysis), 是一种应用方差分解, 对多维数据进行降维, 从而提取出数据中最主要的元素和结构的方法。应用PCA分析, 能够提取出最大程度反映样品间差异的两个坐标轴, 从而将多维数据的差异反映在二维坐标图上, 进而揭示复杂数据背景下的简单规律。样品的群落组成越相似, 则它们在PCA图中的距离越接近。PCA分析图如图3.5.2所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/04.BetaDiversity/PCA/pca.png">
+					<img class="normal" src="src/results/04.BetaDiversity/PCA/pca.png" alt="pca" width="45%" height="45%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.5.2 PCA分析</p>
+			<p class="premark">注：横坐标表示第一主成分, 百分比则表示第一主成分对样品差异的贡献值；纵坐标表示第二主成分, 百分比表示第二主成分对样品差异的贡献值；图中的每个点表示一个样品, 同一组的样品使用同一种颜色表示。</p>
+			<p class="paragraph">PCA分析文件目录请点击<a href="../04.BetaDiversity/PCA/">这里</a></p>
+			<h4 id="3.5.3">3.5.3 PCoA分析</h4>
+			<p class="paragraph">主坐标分析（PCoA，Principal Co-ordinates Analysis），是一种与PCA类似的降维排序方法，通过一系列的特征值和特征向量排序，从多维数据中提取出最主要的元素和结构。区别在于PCA是基于样品的相似系数矩阵来寻找主坐标，而PCoA是基于距离矩阵来寻找主坐标。基于Bray-Curtis距离来进行PCoA分析，并选取贡献率最大的主坐标组合进行作图展示。如果样品距离越接近，表示物种组成结构越相似，因此群落结构相似度高的样品倾向于聚集在一起，群落差异很大的样品则会远远分开。PCoA分析图如图3.5.3所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/04.BetaDiversity/PCOA/pcoa.png">
+					<img class="normal" src="src/results/04.BetaDiversity/PCOA/pcoa.png" alt="pcoa" width="70%" height="70%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.5.3 PCoA分析图</p>
+			<p class="premark">注：横坐标表示一个主成分, 纵坐标表示另一个主成分, 百分比表示主成分对样品差异的贡献值；图中的每个点表示一个样品, 同一个组的样品使用同一种颜色表示。图为基于Bray-Curtis距离的PCoA分析图。</p>
+			<p class="paragraph">PCoA分析文件目录请点击<a href="../04.BetaDiversity/PCOA/">这里</a></p>
+			<h4 id="3.5.4">3.5.4 NMDS分析</h4>
+			<p class="paragraph">无度量多维标定法（Non-MetricMulti-Dimensional Scaling, NMDS）是一种适用于生态学研究的排序方法, 类似于PCA或者PCoA, 通过样本的分布可以看出组间或组内差异。其与PCA、PCoA的主要差别在于NMDS是⾮线性模型, 克服了线性模型的缺点从而更好地反映⽣态学数据的⾮线性结构。无度量多维标定法是一种将多维空间的研究对象(样本或变量)简化到低维空间进行定位、分析和归类, 同时又保留对象间原始关系的数据分析方法, 适用于无法获得研究对象间精确的相似性或相异性数据, 仅能得到他们之间等级关系数据的情形。对不同样本间的差异程度, 则是通过点与点间的距离体现, 能够反映样本的组间和组内差异等。NMDS分析结果如图3.5.4所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/04.BetaDiversity/NMDS/nmds.png">
+					<img class="normal" src="src/results/04.BetaDiversity/NMDS/nmds.png" alt="nmds" width="45%" height="45%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.5.4 NMDS分析图</p>
+			<p class="premark">注：图中点分别表示各样品；不同颜色代表不同分组；点与点之间的距离表示差异程度；Stress小于0.2时, 表明NMDS分析具有一定的可靠性。</p>
+			<p class="paragraph">NMDS分析文件目录请点击<a href="../04.BetaDiversity/NMDS/">这里</a></p>
+			<h4 id="3.5.5">3.5.5 样品聚类分析-UPGMA聚类树</h4>
+			<p class="paragraph">为了研究不同样品间的相似性, 还可以通过对样品进行聚类分析, 构建样品的聚类树。在环境生物学中, UPGMA(Unweighted Pair-group Method with Arithmetic Mean)是一种较为常用的聚类分析方法, 它最早便是用来解决分类问题的。UPGMA的基本思想是：首先将距离最小的2个样品聚在一起, 并形成一个新的节点(新的样品), 其分支点位于2个样品间距离的1/2处；然后计算新的“样品”与其它样品间的平均距离, 再找出其中的最小2个样品进行聚类；如此反复, 直到所有的样品都聚到一起, 最终得到一个完整的聚类树。UPGMA聚类树通过R的ggtree包进行绘制。结果如图3.5.5所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/04.BetaDiversity/UPGMA_top10/sample/UPGMA.Bray_Curtis.tree.png">
+					<img class="normal" src="src/results/04.BetaDiversity/UPGMA_top10/sample/UPGMA.Bray_Curtis.tree.png" alt="UPGMA.Bray_Curtis.tree" width="85%" height="70%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.5.5 UPGMA聚类树</p>
+			<p class="premark">注：图为基于Bray-Curtis距离构建的UPGMA聚类树图。</p>
+			<p class="paragraph">样品聚类分析-UPGMA聚类树文件目录请点击<a href="../04.BetaDiversity/UPGMA_top10/">这里</a></p>
+			<h4 id="3.5.6">3.5.6 β多样性指数统计</h4>
+			<p class="paragraph">β多样性组间差异分析箱形图可以直观的反应组内样本相似性的中位数, 离散程度, 最大值、最小值和异常值。同时, 通过T-test检验, Wilcox秩和检验和Tukey检验分析组间物种β多样性差异是否显著, 当样品只有2个分组时进行T-test和Wilcox秩和检验, 分组大于2时进行Tukey和Wilcox秩和检验。β多样性指数统计如图3.5.6所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/04.BetaDiversity/Beta_div/bray_curtis/bray_curtis.png">
+					<img class="normal" src="src/results/04.BetaDiversity/Beta_div/bray_curtis/bray_curtis.png" alt="bray_curtis" width="70%" height="70%" />
+				</a>
+			</p>
+			<p class="name_fig">3.5.6 β多样性箱形图</p>
+			<p class="premark">注：图为基于Bray-Curtis的β多样性箱形图。</p>
+			<p class="paragraph">β多样性指数统计文件目录请点击<a href="../04.BetaDiversity/Beta_div/">这里</a></p>
+			<h3 id="3.6">3.6 组间统计分析</h3>
+			<p class="paragraph">Anosim（Analysis of similarities）和MRPP（Multi-response Permutation Procedures）分析用于比较组间群落结构差异是否显著, 同时还比较组内差异和组间差异的大小。MetaStat和LEfSe （Linear discriminant analysis Effect Size） (Segata et al. 2011)分析用于比较组间物种差异显著性。</p>
+			<h4 id="3.6.1">3.6.1 组间群落结构差异显著性分析（Anosim分析）</h4>
+			<p class="paragraph">Anosim分析是一种非参数检验, 用来检验组间的差异是否显著大于组内差异, 从而判断分组是否有意义。检验统计量R取值在-1和1之间, 小于0时表示组内差异大于组间差异, 大于0时表示组间差异大于组内差异, p-value为差异显著性水平。Anosim分析统计结果如表3.6.1所示。</p>
+			<p class="name_fig">表3.6.1 Anosim分析统计信息表</p>
+			<div class="stb1" style="overflow:auto;text-align:center;">
+				<table class="tf1" id="pairwise_anosim" width="50%">
+					<tr><th>Group</th><th>R.value</th><th>P.value</th></tr><tr><td>CK,JXBR16</td><td>0.8519</td><td>0.102</td></tr><tr><td>CK,RW37</td><td>0.1111</td><td>0.309</td></tr><tr><td>CK,R37J16</td><td>0.7407</td><td>0.087</td></tr><tr><td>JXBR16,RW37</td><td>0.4815</td><td>0.1</td></tr><tr><td>JXBR16,R37J16</td><td>-0.037</td><td>0.584</td></tr><tr><td>RW37,R37J16</td><td>0.4074</td><td>0.094</td></tr>
+				</table>
+			</div>
+			
+			<script>
+				//tableid，第几行是标签行，从第几行开始排序，第几行结束排序(999表示最后)， 升序标签样式，降序标签样式，选中列样式 
+                //注意标签行的class应该是一致的 
+                var ex1 = new tableSort('pairwise_anosim', 1, 2, 999, '', '', '');
+			</script>
+			<p class="paragraph">Anosim分析文件目录请点击<a href="../05.Statistic/Anosim/">这里</a></p>
+			<h4 id="3.6.2">3.6.2 组间群落结构差异显著性分析（MRPP分析）</h4>
+			<p class="paragraph">MRPP分析类似于Anosim分析, 只是排序方式不同。检验统计量A小于0表示组内差异大于组间差异, 大于0表示组间差异大于组内差异；Observed Delta值越小说明组内差异小；Expected Delta值越大说明组间差异大；p-value为差异显著性水平。MRPP分析统计结果如表3.6.2所示。</p>
+			<p class="name_fig">表3.6.2 MRPP分析统计信息表</p>
+			<div class="stb1" style="overflow:auto;text-align:center;">
+				<table class="tf1" id="pairwise_mrpp" width="50%">
+					<tr><th>Group</th><th>A.value</th><th>Observed.delta</th><th>Expected.delta</th><th>P.value</th></tr><tr><td>CK,JXBR16</td><td>0.1833</td><td>0.5464</td><td>0.6691</td><td>0.1</td></tr><tr><td>CK,RW37</td><td>0.0178</td><td>0.7308</td><td>0.7441</td><td>0.3</td></tr><tr><td>CK,R37J16</td><td>0.0995</td><td>0.6246</td><td>0.6936</td><td>0.1</td></tr><tr><td>JXBR16,RW37</td><td>0.1255</td><td>0.6327</td><td>0.7235</td><td>0.1</td></tr><tr><td>JXBR16,R37J16</td><td>0.0028</td><td>0.5265</td><td>0.528</td><td>0.5</td></tr><tr><td>RW37,R37J16</td><td>0.0514</td><td>0.7108</td><td>0.7494</td><td>0.1</td></tr>
+				</table>
+			</div>
+			
+			<script>
+				//tableid，第几行是标签行，从第几行开始排序，第几行结束排序(999表示最后)， 升序标签样式，降序标签样式，选中列样式 
+                //注意标签行的class应该是一致的 
+                var ex1 = new tableSort('pairwise_mrpp', 1, 2, 999, '', '', '');
+			</script>
+			<p class="paragraph">﻿MRPP分析文件目录请点击<a href="../05.Statistic/MRPP/">这里</a></p>
+			<h4 id="3.6.3">3.6.3 组间物种差异显著性分析（Metastat分析）</h4>
+			<p class="paragraph">为了研究两组样品间微生物群落丰度的差异, 利用Metastats软件R vegan包的MRPP函数, 对组间的物种丰度数据进行T检验得到p值, 通过对p值的校正, 得到q值；最后根据p值或q值筛选出导致两组样品组成差异的物种。以门水平的统计结果展示为例如表3.6.3所示, 其他水平统计结果见结果文件。</p>
+			<p class="name_fig">表3.6.3 Metastat分析统计信息表</p>
+			<div class="stb1" style="overflow:auto;text-align:center;">
+				<table class="tf1" id="metastat_L2" width="50%">
+					<tr><th>OTU</th><th>Test.Statistic</th><th>P</th><th>FDR.P</th><th>Bonferroni.P</th><th>CK.mean</th><th>RW37.mean</th><th>JXBR16.mean</th><th>R37J16.mean</th></tr><tr><td>k__Fungi;p__Chytridiomycota</td><td>9.4615</td><td>0.0237</td><td>0.2988</td><td>0.4036</td><td>0.0043</td><td>0.0149</td><td>0.001</td><td>0.0053</td></tr><tr><td>k__Plantae;p__</td><td>8.4359</td><td>0.0378</td><td>0.2988</td><td>0.6428</td><td>0.0239</td><td>0.0131</td><td>4e-04</td><td>3e-04</td></tr><tr><td>k__;p__</td><td>6.8462</td><td>0.077</td><td>0.2988</td><td>1</td><td>7e-04</td><td>0.0017</td><td>2e-04</td><td>0.0011</td></tr><tr><td>k__Fungi;p__Rozellomycota</td><td>6.5897</td><td>0.0862</td><td>0.2988</td><td>1</td><td>8e-04</td><td>6e-04</td><td>6e-04</td><td>0.0063</td></tr><tr><td>k__Fungi;p__Neocallimastigomycota</td><td>6.5455</td><td>0.0879</td><td>0.2988</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>k__Fungi;p__Glomeromycota</td><td>5.6667</td><td>0.129</td><td>0.3203</td><td>1</td><td>0.005</td><td>0.0018</td><td>8e-04</td><td>9e-04</td></tr><tr><td>k__Fungi;p__</td><td>5.6154</td><td>0.1319</td><td>0.3203</td><td>1</td><td>0.0403</td><td>0.0312</td><td>0.0181</td><td>0.0495</td></tr><tr><td>k__Protista;p__</td><td>4.992</td><td>0.1724</td><td>0.3465</td><td>1</td><td>0</td><td>2e-04</td><td>0</td><td>0</td></tr><tr><td>k__Plantae;p__Chlorophyta</td><td>4.8462</td><td>0.1834</td><td>0.3465</td><td>1</td><td>0.0027</td><td>0.0033</td><td>5e-04</td><td>0.002</td></tr><tr><td>k__Protozoa;p__</td><td>2.8377</td><td>0.4173</td><td>0.6507</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>No blast hit;Other</td><td>2.7949</td><td>0.4243</td><td>0.6507</td><td>1</td><td>0.0028</td><td>0.0018</td><td>0.0014</td><td>0.0022</td></tr><tr><td>k__Protista;p__Cercozoa</td><td>2.5897</td><td>0.4593</td><td>0.6507</td><td>1</td><td>3e-04</td><td>5e-04</td><td>3e-04</td><td>3e-04</td></tr><tr><td>k__Protista;p__Ciliophora</td><td>1.359</td><td>0.7152</td><td>0.9297</td><td>1</td><td>0.0122</td><td>0.0356</td><td>0.0152</td><td>0.0188</td></tr><tr><td>k__Fungi;p__Basidiomycota</td><td>0.8974</td><td>0.826</td><td>0.9297</td><td>1</td><td>0.1246</td><td>0.1039</td><td>0.116</td><td>0.095</td></tr><tr><td>k__Fungi;p__Ascomycota</td><td>0.7436</td><td>0.8629</td><td>0.9297</td><td>1</td><td>0.754</td><td>0.7244</td><td>0.7962</td><td>0.7624</td></tr><tr><td>k__Fungi;p__Zygomycota</td><td>0.6923</td><td>0.875</td><td>0.9297</td><td>1</td><td>0.0283</td><td>0.067</td><td>0.0493</td><td>0.056</td></tr><tr><td>k__Animalia;p__Arthropoda</td><td>0.1815</td><td>0.9805</td><td>0.9805</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+				</table>
+			</div>
+			
+			<script>
+				//tableid，第几行是标签行，从第几行开始排序，第几行结束排序(999表示最后)， 升序标签样式，降序标签样式，选中列样式 
+                //注意标签行的class应该是一致的 
+                var ex1 = new tableSort('metastat_L2', 1, 2, 999, '', '', '');
+			</script>
+			<p class="tremark">
+				注：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)	OTU：OTU不同分类水平注释信息, 可用于比较的注释水平有门、纲、目、科、属；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)	Test-Statistic：检验统计量计算值；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)	P：T检验得到的概率值；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4) 	FDR_P：Benjamini-Hochberg FDR校正后的P值；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5)	Bonferroni_P：Bonferroni校正后的P值；<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6) 	GroupX_mean列为X组OTU出现频率。<br>
+			</p>
+			<p class="paragraph">﻿Metastat分析文件目录请点击<a href="../05.Statistic/MetaStat/">这里</a></p>
+			<h4 id="3.6.4">3.6.4 组间物种差异显著性分析（LEfSe分析）</h4>
+			<p class="paragraph">LEfSe根据分类学组成对样品按照不同分组条件进行线性判别分析, 从而能够在组与组之间寻找具有统计学差异的物种, 即对样品划分产生显著性差异影响的Biomarker物种。LEfSe用于寻找对组间差异贡献最大的物种, 即Biomarker。LEfSe的统计结果包括三部分, 分别是显著差异物种LDA值分布柱状图, 用以展示每个组内显著富集的物种及其差异影响；物种分支进化图, 用以展示整个物种系统进化关系及各组样品中起重要作用的物种分布规律；组间具有统计学差异的物种在不同组样品中的丰度比较图 (图可能较多, 不在报告中展示)。LEfSe分析结果如图3.6.4所示。</p>
+			<table style="border-bottom: 0px;text-align: center;">
+				<tr>
+					<td><p class="center"><a class="fancybox-effects-s" href="src/results/05.Statistic/Lefse/LDA.png"><img class="normal" src="src/results/05.Statistic/Lefse/LDA.png" width="70%" height="70%" alt="LDA" /></a></p></td><td><p class="center"><a class="fancybox-effects-s" href="src/results/05.Statistic/Lefse/LDA.tree.png"><img class="normal" src="src/results/05.Statistic/Lefse/LDA.tree.png" width="85%" height="85%" alt="LDA.tree" /></a></p></td>
+				</tr>
+			</table>
+			<p class="name_fig">图3.6.4 LDA得分图与物种分支进化图</p>
+			<p class="premark">注：左图为LDA得分图, 显示了LDA Score大于4的物种, 可作为代表各组的Biomarker。右图为物种分支进化图, 图同心圆由内到外分别代表不同的分类水平, 同心圆上的小圆代表各分类名称, 其大小与丰度呈正比, 黄色表示在各组间无显著差异, 其他颜色为同色组的代表性物种。</p>
+			<p class="paragraph">LEfSe分析文件目录请点击<a href="../05.Statistic/Lefse/">这里</a></p>
+			<h3 id="3.7">3.7 高级分析-环境因子关联分析</h3>
+			<h4 id="3.7.1">3.7.1 CCA/RDA分析</h4>
+			<p class="paragraph">典范对应分析（Canonical Correspondence Analysis, CCA）和冗余分析(RDA, Redundancy Analysis)可以用来展示反映菌群与环境因子之间关系, 前者基于单峰模型, 后者基于线性模型。CCA/RDA分析用于检测环境因子、样品、菌群三者之间的关系或者两两之间的关系, 可得到影响样品分布的重要环境驱动因子。该项分析需要提供环境因子的数据, 如pH值、温度值、临床因子等, 且环境因子数量应少于样本数量。</p>
+			<p class="paragraph">CCA/RDA分析是基于对应分析发展的一种排序方法, 将对应分析与多元回归分析相结合, 每一步计算均与环境因子进行回归, 又称多元直接梯度分析。主要用来反映菌群与环境因子之间的关系。CCA/RDA分析结果如图3.7.1所示。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/06.Correlation/CCA/phylum/CCA_sample_env.png">
+					<img class="normal" src="src/results/06.Correlation/CCA/phylum/CCA_sample_env.png" alt="CCA_RDA" width="45%" height="45%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.7.1 CCA/RDA分析结果</p>
+			<p class="premark">注：图中不同颜色的点表示不同分组的样品, 拉丁文代表物种名称。箭头射线：图中箭头代表不同的环境因子；箭头连线的长度代表某个环境因子与群落分布和种类分布间相关程度的大小, 射线越长, 说明该环境因子的影响程度越大。夹角：箭头连线和排序轴的夹角代表某个环境因子与排序轴的相关性大小, 夹角越小, 相关性越高；环境因子之间的夹角为锐角时表示两个环境因子之间呈正相关, 钝角时呈负相关。</p>
+			<p class="paragraph">CCA/RDA分析文件目录请点击<a href="../06.Correlation/CCA/">这里</a></p>
+			<h4 id="3.7.2">3.7.2 Spearman相关性分析</h4>
+			<p class="paragraph">Spearman相关性分析是基于Spearman相关系数（又称秩相关系数）、α多样性数据和OTU各分类水平的相对丰度, 利⽤两变量的秩次⼤⼩作线性相关分析。Spearman相关性分析对原始变量的分布不作要求, 属于⾮参数统计⽅法, 适⽤范围较⼴泛, 可以用于分析环境因子或其他临床表型数据与微生物群落或物种之间是否显著相关, 得到两两之间的相关性和显著性p值, 并以热图形式展示, 如图3.7.2。</p>
+			<p class="center">
+				<a class="fancybox-effects-s" href="src/results/06.Correlation/spearman/correlation.png">
+					<img class="normal" src="src/results/06.Correlation/spearman/correlation.png" alt="Spearman" width="45%" height="45%" />
+				</a>
+			</p>
+			<p class="name_fig">图3.7.2 Spearman 相关性分析聚类热图</p>
+			<p class="premark">注：横向为物种信息, 纵向为环境因子信息, 热图对应的值为Spearman相关系数R, R取值范围介于－1至1之间, R<0为负相关, R>0为正相关。</p>
+			<p class="paragraph">Spearman相关性分析文件目录请点击<a href="../06.Correlation/spearman/">这里</a></p>
+			<h2 id="4">四、 参考文献</h2><hr >
+			<p class="ref">
+				[1]	Lafontaine DLJ, Tollervey D (2001). The function and synthesis of ribosomes. Nature Reviews Molecular Cell Biology 2, 514-520.<br/><br/>[2]	Oechsler RA, Feilmeier MR, Ledee DR (2009). Utility of molecular sequence analysis of the ITS rRNA region for identification of Fusarium spp. from ocular sources. Invest Ophthalmol Vis Sci 50, 2230-2236.<br/><br/>[3]	Caporaso JG, Bittinger K, Bushman FD, DeSantis TZ, Andersen GL, Knight R (2010a) PyNAST: a flexible tool for aligning sequences to a template alignment. Bioinformatics 26, 266-267.<br/><br/>[4]	Caporaso JG, Kuczynski J, Stombaugh J, Bittinger K, Bushman FD, Costello EK, Fierer N, Pena AG, Goodrich JK, Gordon JI, Huttley GA, Kelley ST, Knights D, Koenig JE, Ley RE, Lozupone CA, McDonald D, Muegge BD, Pirrung M, Reeder J, Sevinsky JR, Turnbaugh PJ, Walters WA, Widmann J, Yatsunenko T, Zaneveld J, Knight R (2010b) QIIME allows analysis of high-throughput community sequencing data. Nature methods 7, 335-336.<br/><br/>[5]	Caporaso JG, Lauber CL, Walters WA, Berg-Lyons D, Lozupone CA, Turnbaugh PJ, Fierer N, Knight R (2011) Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample. Proceedings of the National Academy of Sciences of the United States of America 108 Suppl 1, 4516-4522.<br/><br/>[6]	Degnan PH, Ochman H (2012) Illumina-based analysis of microbial community diversity. The ISME journal 6, 183-194.<br/><br/>[7]	Edgar RC (2010) Search and clustering orders of magnitude faster than BLAST. Bioinformatics 26, 2460-2461.<br/><br/>[8]	Edgar RC, Haas BJ, Clemente JC, Quince C, Knight R (2011) UCHIME improves sensitivity and speed of chimera detection. Bioinformatics 27, 2194-2200.<br/><br/>[9]	Segata N, Izard J, Waldron L, Gevers D, Miropolsky L, Garrett WS, Huttenhower C (2011) Metagenomic biomarker discovery and explanation. Genome biology 12, R60.<br/><br/>[10]	Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski B, Ideker T (2003) Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome research 13, 2498-2504.<br/><br/>[11]	Youssef N, Sheik CS, Krumholz LR, Najar FZ, Roe BA, Elshahed MS (2009) Comparison of species richness estimates obtained using nearly complete fragments and simulated pyrosequencing-generated fragments in 16S rRNA gene-based environmental surveys. Applied and environmental microbiology 75, 5227-5236.<br/><br/>
+			</p>
+
+
+			<p class="head2">
+                <a href="http://megagenomics.cn/index.php" target="_blank">美因健康科技(北京)有限公司</a>
+            </p>
+            <hr />
+        </div>
+
+
+
+	</body>
+</html>
+

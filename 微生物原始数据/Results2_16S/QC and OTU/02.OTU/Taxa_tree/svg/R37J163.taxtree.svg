@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="700" width="722.5" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<circle cx="20" cy="40" fill="lightblue" r="10" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="start" x="35" y="43.3333333333333">Kingdom</text>
+	<circle cx="20" cy="70" fill="palegreen" r="10" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="start" x="35" y="73.3333333333333">Phylum</text>
+	<circle cx="20" cy="100" fill="darkcyan" r="10" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="start" x="35" y="103.333333333333">Class</text>
+	<circle cx="20" cy="130" fill="lightcoral" r="10" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="start" x="35" y="133.333333333333">Order</text>
+	<circle cx="20" cy="160" fill="khaki" r="10" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="start" x="35" y="163.333333333333">Family</text>
+	<circle cx="20" cy="190" fill="olive" r="10" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="start" x="35" y="193.333333333333">Genus</text>
+	<circle cx="20" cy="220" fill="crimson" r="10" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="10" stroke="none" text-anchor="start" x="35" y="223.333333333333">Species</text>
+	<path d="M 142.5 211.333333333333 V 40 H 213.928571428571" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 142.5 211.333333333333 V 110 H 213.928571428571" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 142.5 211.333333333333 V 210 H 213.928571428571" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 142.5 211.333333333333 V 260 H 213.928571428571" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 142.5 211.333333333333 V 436.666666666667 H 213.928571428571" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="213.928571428571" x2="285.357142857143" y1="40" y2="40" />
+	<line stroke="black" stroke-width="0.5" x1="213.928571428571" x2="285.357142857143" y1="110" y2="110" />
+	<path d="M 213.928571428571 210 V 190 H 285.357142857143" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<path d="M 213.928571428571 210 V 230 H 285.357142857143" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="213.928571428571" x2="285.357142857143" y1="260" y2="260" />
+	<path d="M 213.928571428571 436.666666666667 V 310 H 285.357142857143" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 213.928571428571 436.666666666667 V 410 H 285.357142857143" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 213.928571428571 436.666666666667 V 590 H 285.357142857143" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="285.357142857143" x2="356.785714285714" y1="40" y2="40" />
+	<line stroke="black" stroke-width="0.5" x1="285.357142857143" x2="356.785714285714" y1="110" y2="110" />
+	<line stroke="red" stroke-width="0.5" x1="285.357142857143" x2="356.785714285714" y1="190" y2="190" />
+	<line stroke="black" stroke-width="0.5" x1="285.357142857143" x2="356.785714285714" y1="230" y2="230" />
+	<line stroke="black" stroke-width="0.5" x1="285.357142857143" x2="356.785714285714" y1="260" y2="260" />
+	<line stroke="black" stroke-width="0.5" x1="285.357142857143" x2="356.785714285714" y1="310" y2="310" />
+	<line stroke="black" stroke-width="0.5" x1="285.357142857143" x2="356.785714285714" y1="410" y2="410" />
+	<line stroke="black" stroke-width="0.5" x1="285.357142857143" x2="356.785714285714" y1="590" y2="590" />
+	<line stroke="black" stroke-width="0.5" x1="356.785714285714" x2="428.214285714286" y1="40" y2="40" />
+	<line stroke="black" stroke-width="0.5" x1="356.785714285714" x2="428.214285714286" y1="110" y2="110" />
+	<line stroke="red" stroke-width="0.5" x1="356.785714285714" x2="428.214285714286" y1="190" y2="190" />
+	<line stroke="black" stroke-width="0.5" x1="356.785714285714" x2="428.214285714286" y1="230" y2="230" />
+	<line stroke="black" stroke-width="0.5" x1="356.785714285714" x2="428.214285714286" y1="260" y2="260" />
+	<line stroke="black" stroke-width="0.5" x1="356.785714285714" x2="428.214285714286" y1="310" y2="310" />
+	<path d="M 356.785714285714 410 V 370 H 428.214285714286" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 356.785714285714 410 V 450 H 428.214285714286" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="356.785714285714" x2="428.214285714286" y1="590" y2="590" />
+	<path d="M 428.214285714286 40 V 30 H 499.642857142857" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 428.214285714286 40 V 50 H 499.642857142857" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="428.214285714286" x2="499.642857142857" y1="110" y2="110" />
+	<line stroke="red" stroke-width="0.5" x1="428.214285714286" x2="499.642857142857" y1="190" y2="190" />
+	<line stroke="black" stroke-width="0.5" x1="428.214285714286" x2="499.642857142857" y1="230" y2="230" />
+	<line stroke="black" stroke-width="0.5" x1="428.214285714286" x2="499.642857142857" y1="260" y2="260" />
+	<line stroke="black" stroke-width="0.5" x1="428.214285714286" x2="499.642857142857" y1="310" y2="310" />
+	<line stroke="black" stroke-width="0.5" x1="428.214285714286" x2="499.642857142857" y1="370" y2="370" />
+	<line stroke="black" stroke-width="0.5" x1="428.214285714286" x2="499.642857142857" y1="450" y2="450" />
+	<line stroke="black" stroke-width="0.5" x1="428.214285714286" x2="499.642857142857" y1="590" y2="590" />
+	<path d="M 499.642857142857 110 V 70 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<path d="M 499.642857142857 110 V 90 H 571.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="499.642857142857" x2="571.071428571429" y1="110" y2="110" />
+	<path d="M 499.642857142857 110 V 130 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<path d="M 499.642857142857 110 V 150 H 571.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 499.642857142857 190 V 170 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<line stroke="red" stroke-width="0.5" x1="499.642857142857" x2="571.071428571429" y1="190" y2="190" />
+	<path d="M 499.642857142857 190 V 210 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="499.642857142857" x2="571.071428571429" y1="230" y2="230" />
+	<path d="M 499.642857142857 260 V 250 H 571.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 499.642857142857 260 V 270 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<path d="M 499.642857142857 310 V 290 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="499.642857142857" x2="571.071428571429" y1="310" y2="310" />
+	<path d="M 499.642857142857 310 V 330 H 571.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 499.642857142857 370 V 350 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<line stroke="red" stroke-width="0.5" x1="499.642857142857" x2="571.071428571429" y1="370" y2="370" />
+	<path d="M 499.642857142857 370 V 390 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<path d="M 499.642857142857 450 V 410 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<path d="M 499.642857142857 450 V 430 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<line stroke="red" stroke-width="0.5" x1="499.642857142857" x2="571.071428571429" y1="450" y2="450" />
+	<path d="M 499.642857142857 450 V 470 H 571.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 499.642857142857 450 V 490 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<path d="M 499.642857142857 590 V 510 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<path d="M 499.642857142857 590 V 530 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<path d="M 499.642857142857 590 V 550 H 571.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<path d="M 499.642857142857 590 V 570 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<line stroke="black" stroke-width="0.5" x1="499.642857142857" x2="571.071428571429" y1="590" y2="590" />
+	<path d="M 499.642857142857 590 V 610 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<path d="M 499.642857142857 590 V 630 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<path d="M 499.642857142857 590 V 650 H 571.071428571429" style="fill: none; stroke: red; stroke-width: 0.5" />
+	<path d="M 499.642857142857 590 V 670 H 571.071428571429" style="fill: none; stroke: black; stroke-width: 0.5" />
+	<circle cx="142.5" cy="211.333333333333" fill="lightblue" r="6.66666666666667" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="8" stroke="none" text-anchor="end" x="131.833333333333" y="210.444444444444">Bacteria</text>
+	<text fill="black" font-family="Arial" font-size="8" stroke="none" text-anchor="end" x="131.833333333333" y="219.333333333333">19.794%</text>
+	<text fill="black" font-family="Arial" font-size="8" stroke="none" text-anchor="end" x="131.833333333333" y="227.333333333333">100.00%</text>
+	<circle cx="213.928571428571" cy="40" fill="palegreen" r="5.12662941297906" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.80022847242263" stroke="none" text-anchor="end" x="204.901827779381" y="30.8997334488403">Acidobacteria</text>
+	<text fill="black" font-family="Arial" font-size="7.80022847242263" stroke="none" text-anchor="end" x="204.901827779381" y="38.6999619212629">1.460%,7.38%</text>
+	<circle cx="213.928571428571" cy="110" fill="palegreen" r="5.27810455648267" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.35005187467653" stroke="none" text-anchor="end" x="204.975440934751" y="101.424939479544">Actinobacteria</text>
+	<text fill="black" font-family="Arial" font-size="7.35005187467653" stroke="none" text-anchor="end" x="204.975440934751" y="108.774991354221">1.887%,9.53%</text>
+	<circle cx="213.928571428571" cy="210" fill="palegreen" r="4.97252735991532" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.81835812572425" stroke="none" text-anchor="end" x="205.046865005794" y="200.878582186655">Bacteroidetes</text>
+	<text fill="black" font-family="Arial" font-size="7.81835812572425" stroke="none" text-anchor="end" x="205.046865005794" y="208.696940312379">1.125%,5.68%</text>
+	<circle cx="213.928571428571" cy="260" fill="palegreen" r="5.49223521176951" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.59363362168019" stroke="none" text-anchor="end" x="205.139519405962" y="252.307427441373">Gemmatimonadetes</text>
+	<text fill="black" font-family="Arial" font-size="6.59363362168019" stroke="none" text-anchor="end" x="205.139519405962" y="258.901061063053">2.711%,13.70%</text>
+	<circle cx="213.928571428571" cy="436.666666666667" fill="palegreen" r="6.40028483939432" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.22536517657523" stroke="none" text-anchor="end" x="203.91560400089" y="428.237073960662">Proteobacteria</text>
+	<text fill="black" font-family="Arial" font-size="7.22536517657523" stroke="none" text-anchor="end" x="203.91560400089" y="435.462439137237">12.610%,63.71%</text>
+	<circle cx="285.357142857143" cy="40" fill="darkcyan" r="5.12662941297906" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.19709560030745" stroke="none" text-anchor="end" x="276.63196564401" y="31.603388466308">Acidobacteria</text>
+	<text fill="black" font-family="Arial" font-size="7.19709560030745" stroke="none" text-anchor="end" x="276.63196564401" y="38.8004840666154">1.460%,7.38%</text>
+	<circle cx="285.357142857143" cy="110" fill="darkcyan" r="5.27810455648267" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.76359581284512" stroke="none" text-anchor="end" x="276.697240394238" y="102.109138218347">Actinobacteria</text>
+	<text fill="black" font-family="Arial" font-size="6.76359581284512" stroke="none" text-anchor="end" x="276.697240394238" y="108.872734031192">1.887%,9.53%</text>
+	<circle cx="285.357142857143" cy="190" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="7.87724867724868" stroke="none" text-anchor="end" x="280.885185185185" y="180.80987654321">Flavobacteriia</text>
+	<text fill="red" font-family="Arial" font-size="7.87724867724868" stroke="none" text-anchor="end" x="280.885185185185" y="188.687125220459">0.000%,0.00%</text>
+	<circle cx="285.357142857143" cy="230" fill="darkcyan" r="4.97252735991532" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.64560440686561" stroke="none" text-anchor="end" x="277.061813293795" y="222.246794858657">Sphingobacteriia</text>
+	<text fill="black" font-family="Arial" font-size="6.64560440686561" stroke="none" text-anchor="end" x="277.061813293795" y="228.892399265522">1.125%,5.68%</text>
+	<circle cx="285.357142857143" cy="260" fill="darkcyan" r="5.49223521176951" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.04441010050324" stroke="none" text-anchor="end" x="276.842702595122" y="252.94818821608">Gemmatimonadetes</text>
+	<text fill="black" font-family="Arial" font-size="6.04441010050324" stroke="none" text-anchor="end" x="276.842702595122" y="258.992598316583">2.711%,13.70%</text>
+	<circle cx="285.357142857143" cy="310" fill="darkcyan" r="6.08747269777933" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.68183467224279" stroke="none" text-anchor="end" x="276.428752823242" y="303.371192882383">Alphaproteobacteria</text>
+	<text fill="black" font-family="Arial" font-size="5.68183467224279" stroke="none" text-anchor="end" x="276.428752823242" y="309.053027554626">7.426%,37.52%</text>
+	<circle cx="285.357142857143" cy="410" fill="darkcyan" r="5.85838585614672" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.96092596112952" stroke="none" text-anchor="end" x="276.518294020431" y="403.045586378682">Betaproteobacteria</text>
+	<text fill="black" font-family="Arial" font-size="5.96092596112952" stroke="none" text-anchor="end" x="276.518294020431" y="409.006512339812">5.039%,25.46%</text>
+	<circle cx="285.357142857143" cy="590" fill="darkcyan" r="3.76033207902185" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.88419472604779" stroke="none" text-anchor="end" x="278.654713415097" y="583.135106152944">Gammaproteobacteria</text>
+	<text fill="black" font-family="Arial" font-size="5.88419472604779" stroke="none" text-anchor="end" x="278.654713415097" y="589.019300878992">0.145%,0.73%</text>
+	<circle cx="356.785714285714" cy="40" fill="lightcoral" r="5.12662941297906" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.64691407532666" stroke="none" text-anchor="end" x="347.835627835072" y="31.0786002454522">Subgroup 3</text>
+	<text fill="black" font-family="Arial" font-size="7.64691407532666" stroke="none" text-anchor="end" x="347.835627835072" y="38.7255143207789">1.460%,7.38%</text>
+	<circle cx="356.785714285714" cy="110" fill="lightcoral" r="5.27810455648267" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.1614543900713" stroke="none" text-anchor="end" x="347.926882534196" y="101.64496987825">Micrococcales</text>
+	<text fill="black" font-family="Arial" font-size="7.1614543900713" stroke="none" text-anchor="end" x="347.926882534196" y="108.806424268321">1.887%,9.53%</text>
+	<circle cx="356.785714285714" cy="190" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="7.03619047619048" stroke="none" text-anchor="end" x="352.734285714286" y="181.791111111111">Flavobacteriales</text>
+	<text fill="red" font-family="Arial" font-size="7.03619047619048" stroke="none" text-anchor="end" x="352.734285714286" y="188.827301587302">0.000%,0.00%</text>
+	<circle cx="356.785714285714" cy="230" fill="lightcoral" r="4.97252735991532" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.58941060988553" stroke="none" text-anchor="end" x="349.018481620856" y="223.479020955134">Sphingobacteriales</text>
+	<text fill="black" font-family="Arial" font-size="5.58941060988553" stroke="none" text-anchor="end" x="349.018481620856" y="229.068431565019">1.125%,5.68%</text>
+	<circle cx="356.785714285714" cy="260" fill="lightcoral" r="5.49223521176951" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.04441010050324" stroke="none" text-anchor="end" x="348.271274023693" y="252.94818821608">Gemmatimonadales</text>
+	<text fill="black" font-family="Arial" font-size="6.04441010050324" stroke="none" text-anchor="end" x="348.271274023693" y="258.992598316583">2.711%,13.70%</text>
+	<circle cx="356.785714285714" cy="310" fill="lightcoral" r="6.08747269777933" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.92536260330128" stroke="none" text-anchor="end" x="347.735560286284" y="303.087076962815">Sphingomonadales</text>
+	<text fill="black" font-family="Arial" font-size="5.92536260330128" stroke="none" text-anchor="end" x="347.735560286284" y="309.012439566116">7.426%,37.52%</text>
+	<circle cx="356.785714285714" cy="410" fill="lightcoral" r="5.85838585614672" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.28545260171347" stroke="none" text-anchor="end" x="347.784602128711" y="402.666971964668">Burkholderiales</text>
+	<text fill="black" font-family="Arial" font-size="6.28545260171347" stroke="none" text-anchor="end" x="347.784602128711" y="408.952424566381">5.039%,25.46%</text>
+	<circle cx="356.785714285714" cy="590" fill="lightcoral" r="3.76033207902185" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.72714813373976" stroke="none" text-anchor="end" x="349.661808139823" y="582.151660510637">Pseudomonadales</text>
+	<text fill="black" font-family="Arial" font-size="6.72714813373976" stroke="none" text-anchor="end" x="349.661808139823" y="588.878808644377">0.145%,0.73%</text>
+	<circle cx="428.214285714286" cy="40" fill="khaki" r="5.12662941297906" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.79725695584592" stroke="none" text-anchor="end" x="419.689027823384" y="32.0698668848464">Unknown Family</text>
+	<text fill="black" font-family="Arial" font-size="6.79725695584592" stroke="none" text-anchor="end" x="419.689027823384" y="38.8671238406923">1.460%,7.38%</text>
+	<circle cx="428.214285714286" cy="110" fill="khaki" r="5.27810455648267" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.76359581284512" stroke="none" text-anchor="end" x="419.554383251381" y="102.109138218347">Micrococcaceae</text>
+	<text fill="black" font-family="Arial" font-size="6.76359581284512" stroke="none" text-anchor="end" x="419.554383251381" y="108.872734031192">1.887%,9.53%</text>
+	<circle cx="428.214285714286" cy="190" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="6.70113378684807" stroke="none" text-anchor="end" x="424.330385487528" y="182.182010582011">Flavobacteriaceae</text>
+	<text fill="red" font-family="Arial" font-size="6.70113378684807" stroke="none" text-anchor="end" x="424.330385487528" y="188.883144368859">0.000%,0.00%</text>
+	<circle cx="428.214285714286" cy="230" fill="khaki" r="4.97252735991532" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.14835167087408" stroke="none" text-anchor="end" x="420.167582518933" y="222.826923050647">Chitinophagaceae</text>
+	<text fill="black" font-family="Arial" font-size="6.14835167087408" stroke="none" text-anchor="end" x="420.167582518933" y="228.975274721521">1.125%,5.68%</text>
+	<circle cx="428.214285714286" cy="260" fill="khaki" r="5.49223521176951" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.75658104809832" stroke="none" text-anchor="end" x="419.843759978467" y="253.283988777219">Gemmatimonadaceae</text>
+	<text fill="black" font-family="Arial" font-size="5.75658104809832" stroke="none" text-anchor="end" x="419.843759978467" y="259.040569825317">2.711%,13.70%</text>
+	<circle cx="428.214285714286" cy="310" fill="khaki" r="6.08747269777933" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.64320247933455" stroke="none" text-anchor="end" x="419.305211776839" y="303.41626377411">Sphingomonadaceae</text>
+	<text fill="black" font-family="Arial" font-size="5.64320247933455" stroke="none" text-anchor="end" x="419.305211776839" y="309.059466253444">7.426%,37.52%</text>
+	<circle cx="428.214285714286" cy="370" fill="khaki" r="5.33933904878715" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.60892323797843" stroke="none" text-anchor="end" x="419.570485046509" y="362.289589555692">Burkholderiaceae</text>
+	<text fill="black" font-family="Arial" font-size="6.60892323797843" stroke="none" text-anchor="end" x="419.570485046509" y="368.89851279367">2.093%,10.57%</text>
+	<circle cx="428.214285714286" cy="450" fill="khaki" r="5.54124864427712" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.58873227842943" stroke="none" text-anchor="end" x="419.378670930794" y="442.313145675166">Oxalobacteraceae</text>
+	<text fill="black" font-family="Arial" font-size="6.58873227842943" stroke="none" text-anchor="end" x="419.378670930794" y="448.901877953595">2.946%,14.88%</text>
+	<circle cx="428.214285714286" cy="590" fill="khaki" r="3.76033207902185" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.39079072705277" stroke="none" text-anchor="end" x="421.258558271738" y="582.544077485105">Pseudomonadaceae</text>
+	<text fill="black" font-family="Arial" font-size="6.39079072705277" stroke="none" text-anchor="end" x="421.258558271738" y="588.934868212158">0.145%,0.73%</text>
+	<circle cx="499.642857142857" cy="30" fill="olive" r="4.72791097606694" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="8" stroke="none" text-anchor="start" x="508.370768118924" y="29.1111111111111">Bryobacter</text>
+	<text fill="black" font-family="Arial" font-size="8" stroke="none" text-anchor="start" x="508.370768118924" y="38">0.744%,3.76%</text>
+	<circle cx="499.642857142857" cy="50" fill="olive" r="4.70613090434963" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.38350952765203" stroke="none" text-anchor="start" x="507.040742811033" y="49.4018322747053">Candidatus Solibacter</text>
+	<text fill="black" font-family="Arial" font-size="5.38350952765203" stroke="none" text-anchor="start" x="507.040742811033" y="55.383509527652">0.717%,3.62%</text>
+	<circle cx="499.642857142857" cy="110" fill="olive" r="5.27810455648267" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.60904528945076" stroke="none" text-anchor="end" x="490.560229941649" y="101.122780495641">Arthrobacter</text>
+	<text fill="black" font-family="Arial" font-size="7.60904528945076" stroke="none" text-anchor="end" x="490.560229941649" y="108.731825785092">1.887%,9.53%</text>
+	<circle cx="499.642857142857" cy="190" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="7.81798941798942" stroke="none" text-anchor="end" x="495.200529100529" y="180.879012345679">Flavobacterium</text>
+	<text fill="red" font-family="Arial" font-size="7.81798941798942" stroke="none" text-anchor="end" x="495.200529100529" y="188.697001763668">0.000%,0.00%</text>
+	<circle cx="499.642857142857" cy="230" fill="olive" r="4.97252735991532" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.47194912723587" stroke="none" text-anchor="end" x="491.434355219324" y="222.449392684891">Flavisolibacter</text>
+	<text fill="black" font-family="Arial" font-size="6.47194912723587" stroke="none" text-anchor="end" x="491.434355219324" y="228.921341812127">1.125%,5.68%</text>
+	<circle cx="499.642857142857" cy="260" fill="olive" r="5.49223521176951" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.1110707064744" stroke="none" text-anchor="end" x="490.595086577851" y="251.703750842447">Gemmatimonas</text>
+	<text fill="black" font-family="Arial" font-size="7.1110707064744" stroke="none" text-anchor="end" x="490.595086577851" y="258.814821548921">2.711%,13.70%</text>
+	<circle cx="499.642857142857" cy="310" fill="olive" r="6.08747269777933" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.97101482741327" stroke="none" text-anchor="end" x="490.069877031371" y="301.867149368018">Sphingomonas</text>
+	<text fill="black" font-family="Arial" font-size="6.97101482741327" stroke="none" text-anchor="end" x="490.069877031371" y="308.838164195431">7.426%,37.52%</text>
+	<circle cx="499.642857142857" cy="370" fill="olive" r="5.33933904878715" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.14704627423496" stroke="none" text-anchor="end" x="490.729994956953" y="361.661779346726">Burkholderia</text>
+	<text fill="black" font-family="Arial" font-size="7.14704627423496" stroke="none" text-anchor="end" x="490.729994956953" y="368.808825620961">2.093%,10.57%</text>
+	<circle cx="499.642857142857" cy="450" fill="olive" r="5.54124864427712" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.09953813411967" stroke="none" text-anchor="end" x="490.55183943152" y="441.717205510194">Massilia</text>
+	<text fill="black" font-family="Arial" font-size="7.09953813411967" stroke="none" text-anchor="end" x="490.55183943152" y="448.816743644313">2.946%,14.88%</text>
+	<circle cx="499.642857142857" cy="590" fill="olive" r="3.76033207902185" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="7.98848840881597" stroke="none" text-anchor="end" x="491.888280859427" y="580.680096856381">Pseudomonas</text>
+	<text fill="black" font-family="Arial" font-size="7.98848840881597" stroke="none" text-anchor="end" x="491.888280859427" y="588.668585265197">0.145%,0.73%</text>
+	<circle cx="571.071428571429" cy="70" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="4.33131313131313" stroke="none" text-anchor="start" x="573.770418470419" y="69.5187429854096">Arthrobacter crystallopoietes</text>
+	<text fill="red" font-family="Arial" font-size="4.33131313131313" stroke="none" text-anchor="start" x="573.770418470419" y="74.3313131313131">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="90" fill="crimson" r="0.666666666666667" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.09523809523809" stroke="none" text-anchor="start" x="574.285714285714" y="89.4338624338624">Arthrobacter gandavensis</text>
+	<text fill="black" font-family="Arial" font-size="5.09523809523809" stroke="none" text-anchor="start" x="574.285714285714" y="95.0952380952381">0.001%,0.00%</text>
+	<circle cx="571.071428571429" cy="110" fill="crimson" r="1.61751505539581" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.02732035318601" stroke="none" text-anchor="start" x="575.202603803417" y="109.441408849646">Arthrobacter globiformis</text>
+	<text fill="black" font-family="Arial" font-size="5.02732035318601" stroke="none" text-anchor="start" x="575.202603803417" y="115.027320353186">0.004%,0.02%</text>
+	<circle cx="571.071428571429" cy="130" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="5.4974358974359" stroke="none" text-anchor="start" x="574.35347985348" y="129.389173789174">Arthrobacter sp. AB_18</text>
+	<text fill="red" font-family="Arial" font-size="5.4974358974359" stroke="none" text-anchor="start" x="574.35347985348" y="135.497435897436">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="150" fill="crimson" r="0.666666666666667" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.28395061728395" stroke="none" text-anchor="start" x="574.380070546737" y="149.412894375857">Arthrobacter woluwensis</text>
+	<text fill="black" font-family="Arial" font-size="5.28395061728395" stroke="none" text-anchor="start" x="574.380070546737" y="155.283950617284">0.001%,0.00%</text>
+	<circle cx="571.071428571429" cy="170" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="4.46666666666667" stroke="none" text-anchor="start" x="573.838095238095" y="169.503703703704">Flavobacterium denitrificans</text>
+	<text fill="red" font-family="Arial" font-size="4.46666666666667" stroke="none" text-anchor="start" x="573.838095238095" y="174.466666666667">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="190" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="4.92873563218391" stroke="none" text-anchor="start" x="574.069129720854" y="189.452362707535">Flavobacterium sp. EM1308</text>
+	<text fill="red" font-family="Arial" font-size="4.92873563218391" stroke="none" text-anchor="start" x="574.069129720854" y="194.928735632184">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="210" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="4.92873563218391" stroke="none" text-anchor="start" x="574.069129720854" y="209.452362707535">Flavobacterium sp. EM1321</text>
+	<text fill="red" font-family="Arial" font-size="4.92873563218391" stroke="none" text-anchor="start" x="574.069129720854" y="214.928735632184">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="230" fill="crimson" r="1.07617477797416" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="4.43273907637662" stroke="none" text-anchor="start" x="574.363972887591" y="229.507473435958">Flavisolibacter ginsengisoli</text>
+	<text fill="black" font-family="Arial" font-size="4.43273907637662" stroke="none" text-anchor="start" x="574.363972887591" y="234.432739076377">0.002%,0.01%</text>
+	<circle cx="571.071428571429" cy="250" fill="crimson" r="1.07617477797416" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.16728914974138" stroke="none" text-anchor="start" x="575.231247924274" y="249.314745650029">bacterium Ellin5290</text>
+	<text fill="black" font-family="Arial" font-size="6.16728914974138" stroke="none" text-anchor="start" x="575.231247924274" y="256.167289149741">0.002%,0.01%</text>
+	<circle cx="571.071428571429" cy="270" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="3.04113475177305" stroke="none" text-anchor="start" x="573.125329280649" y="269.662096138692">bacterium enrichment culture clone auto9_4W</text>
+	<text fill="red" font-family="Arial" font-size="3.04113475177305" stroke="none" text-anchor="start" x="573.125329280649" y="273.041134751773">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="290" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="4.61075268817204" stroke="none" text-anchor="start" x="573.910138248848" y="289.487694145759">Kaistobacter sp. IMER-A2-13</text>
+	<text fill="red" font-family="Arial" font-size="4.61075268817204" stroke="none" text-anchor="start" x="573.910138248848" y="294.610752688172">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="310" fill="crimson" r="1.31572166683019" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="4.71228522221132" stroke="none" text-anchor="start" x="574.743292849364" y="309.476412753088">Sphingomonas changbaiensis</text>
+	<text fill="black" font-family="Arial" font-size="4.71228522221132" stroke="none" text-anchor="start" x="574.743292849364" y="314.712285222211">0.002%,0.01%</text>
+	<circle cx="571.071428571429" cy="330" fill="crimson" r="1.07617477797416" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="3.54619126110129" stroke="none" text-anchor="start" x="573.920698979953" y="329.605978748767">unidentified marine bacterioplankton</text>
+	<text fill="black" font-family="Arial" font-size="3.54619126110129" stroke="none" text-anchor="start" x="573.920698979953" y="333.546191261101">0.002%,0.01%</text>
+	<circle cx="571.071428571429" cy="350" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="5.95555555555556" stroke="none" text-anchor="start" x="574.58253968254" y="349.338271604938">Burkholderia cepacia</text>
+	<text fill="red" font-family="Arial" font-size="5.95555555555556" stroke="none" text-anchor="start" x="574.58253968254" y="355.955555555556">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="370" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="5.10476190476191" stroke="none" text-anchor="start" x="574.157142857143" y="369.432804232804">Burkholderia multivorans</text>
+	<text fill="red" font-family="Arial" font-size="5.10476190476191" stroke="none" text-anchor="start" x="574.157142857143" y="375.104761904762">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="390" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="5.71733333333333" stroke="none" text-anchor="start" x="574.463428571429" y="389.364740740741">Burkholderia sacchari</text>
+	<text fill="red" font-family="Arial" font-size="5.71733333333333" stroke="none" text-anchor="start" x="574.463428571429" y="395.717333333333">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="410" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="7.14666666666667" stroke="none" text-anchor="start" x="575.178095238095" y="409.205925925926">Massilia sp. RK4</text>
+	<text fill="red" font-family="Arial" font-size="7.14666666666667" stroke="none" text-anchor="start" x="575.178095238095" y="417.146666666667">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="430" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="5.95555555555556" stroke="none" text-anchor="start" x="574.58253968254" y="429.338271604938">Massilia sp. Sco-D26</text>
+	<text fill="red" font-family="Arial" font-size="5.95555555555556" stroke="none" text-anchor="start" x="574.58253968254" y="435.955555555556">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="450" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="7.14666666666667" stroke="none" text-anchor="start" x="575.178095238095" y="449.205925925926">Massilia timonae</text>
+	<text fill="red" font-family="Arial" font-size="7.14666666666667" stroke="none" text-anchor="start" x="575.178095238095" y="457.146666666667">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="470" fill="crimson" r="1.07617477797416" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.91031876850215" stroke="none" text-anchor="start" x="575.102762733654" y="469.343297914611">Tripterygion delaisi</text>
+	<text fill="black" font-family="Arial" font-size="5.91031876850215" stroke="none" text-anchor="start" x="575.102762733654" y="475.910318768502">0.002%,0.01%</text>
+	<circle cx="571.071428571429" cy="490" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="5.29382716049383" stroke="none" text-anchor="start" x="574.251675485009" y="489.411796982167">beta proteobacterium 51</text>
+	<text fill="red" font-family="Arial" font-size="5.29382716049383" stroke="none" text-anchor="start" x="574.251675485009" y="495.293827160494">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="510" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="5.29382716049383" stroke="none" text-anchor="start" x="574.251675485009" y="509.411796982167">Pseudomonas fluorescens</text>
+	<text fill="red" font-family="Arial" font-size="5.29382716049383" stroke="none" text-anchor="start" x="574.251675485009" y="515.293827160494">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="530" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="5.95555555555556" stroke="none" text-anchor="start" x="574.58253968254" y="529.338271604938">Pseudomonas mandelii</text>
+	<text fill="red" font-family="Arial" font-size="5.95555555555556" stroke="none" text-anchor="start" x="574.58253968254" y="535.955555555556">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="550" fill="crimson" r="2.34051585482667" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.57275873161387" stroke="none" text-anchor="start" x="576.198323792062" y="549.380804585376">Pseudomonas monteilii</text>
+	<text fill="black" font-family="Arial" font-size="5.57275873161387" stroke="none" text-anchor="start" x="576.198323792062" y="555.572758731614">0.013%,0.07%</text>
+	<circle cx="571.071428571429" cy="570" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="4.61075268817204" stroke="none" text-anchor="start" x="573.910138248848" y="569.487694145759">Pseudomonas plecoglossicida</text>
+	<text fill="red" font-family="Arial" font-size="4.61075268817204" stroke="none" text-anchor="start" x="573.910138248848" y="574.610752688172">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="590" fill="crimson" r="1.96477666699372" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="6.36683848481875" stroke="none" text-anchor="start" x="576.219624480832" y="589.292573501687">Pseudomonas putida</text>
+	<text fill="black" font-family="Arial" font-size="6.36683848481875" stroke="none" text-anchor="start" x="576.219624480832" y="596.366838484819">0.007%,0.03%</text>
+	<circle cx="571.071428571429" cy="610" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="5.71733333333333" stroke="none" text-anchor="start" x="574.463428571429" y="609.364740740741">Pseudomonas sp. B-5-1</text>
+	<text fill="red" font-family="Arial" font-size="5.71733333333333" stroke="none" text-anchor="start" x="574.463428571429" y="615.717333333333">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="630" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="5.71733333333333" stroke="none" text-anchor="start" x="574.463428571429" y="629.364740740741">Pseudomonas sp. N6-12</text>
+	<text fill="red" font-family="Arial" font-size="5.71733333333333" stroke="none" text-anchor="start" x="574.463428571429" y="635.717333333333">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="650" fill="white" r="0.533333333333333" stroke="red" />
+	<text fill="red" font-family="Arial" font-size="5.95555555555556" stroke="none" text-anchor="start" x="574.58253968254" y="649.338271604938">Pseudomonas stutzeri</text>
+	<text fill="red" font-family="Arial" font-size="5.95555555555556" stroke="none" text-anchor="start" x="574.58253968254" y="655.955555555556">0.000%,0.00%</text>
+	<circle cx="571.071428571429" cy="670" fill="crimson" r="1.07617477797416" stroke="black" />
+	<text fill="black" font-family="Arial" font-size="5.91031876850215" stroke="none" text-anchor="start" x="575.102762733654" y="669.343297914611">Pseudomonas syringae</text>
+	<text fill="black" font-family="Arial" font-size="5.91031876850215" stroke="none" text-anchor="start" x="575.102762733654" y="675.910318768502">0.002%,0.01%</text>
+	<!-- 
+	Generated using the Perl SVG Module V2.64
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+ -->
+</svg>
